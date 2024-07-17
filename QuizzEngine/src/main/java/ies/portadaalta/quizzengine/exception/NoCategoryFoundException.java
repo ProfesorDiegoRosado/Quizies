@@ -1,10 +1,10 @@
-package ies.portadaalta.engine.exception;
+package ies.portadaalta.quizzengine.exception;
 
-import ies.portadaalta.engine.model.Category;
+import ies.portadaalta.quizzengine.model.Category;
 
 public class NoCategoryFoundException extends RuntimeException {
 
-    private Category category;
+    private final Category category;
 
     public NoCategoryFoundException(Category category) {
         super("The category " + category + " was not found in the Deck Engine.");

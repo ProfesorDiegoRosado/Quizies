@@ -1,12 +1,12 @@
-package ies.portadaalta.engine.model;
+package ies.portadaalta.quizzengine.model;
 
-import ies.portadaalta.engine.exception.NoCategoryFoundException;
+import ies.portadaalta.quizzengine.exception.NoCategoryFoundException;
 
 import java.util.*;
 
 public class Deck {
 
-    private String name;
+    private final String name;
     private Map<Category, List<Question>> categoryQuestionsMap = new HashMap<>();
     private Random random = new Random();
 
@@ -46,6 +46,10 @@ public class Deck {
         return categoryQuestionsMap.keySet();
     }
 
+    public String getName() {
+        return name;
+    }
+
     public Question getNextQuestion(Category category) {
         assertCategoryExists(category);
         List<Question> questions = categoryQuestionsMap.get(category);
@@ -55,7 +59,7 @@ public class Deck {
     }
 
     private void assertCategoryExists(Category category) {
-        if (!categoryQuestionsMap.keySet().contains(category)) {
+        if (!categoryQuestionsMap.containsKey(category)) {
             throw new NoCategoryFoundException(category);
         }
     }

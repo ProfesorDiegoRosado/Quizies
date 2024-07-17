@@ -1,14 +1,14 @@
-package ies.portadaalta.engine.model;
+package ies.portadaalta.quizzengine.model;
 
-import ies.portadaalta.engine.exception.InvalidRightAnswerException;
+import ies.portadaalta.quizzengine.exception.InvalidRightAnswerException;
 
 import java.util.List;
 
 public class Question {
 
-    private String question;
-    private List<String> answers;
-    private int rightAnswer;
+    private final String question;
+    private final List<String> answers;
+    private final int rightAnswer;
 
     public Question(String question, List<String> answers, int rightAnswer) {
         if (rightAnswer>=answers.size()) {

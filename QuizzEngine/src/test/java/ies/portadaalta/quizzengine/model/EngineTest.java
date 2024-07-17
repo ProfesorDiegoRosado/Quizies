@@ -1,12 +1,12 @@
-package ies.portadaalta.engine.model;
+package ies.portadaalta.quizzengine.model;
 
-import ies.portadaalta.engine.exception.NoCategoryFoundException;
+import ies.portadaalta.quizzengine.exception.NoCategoryFoundException;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static ies.portadaalta.engine.model.Color.*;
+import static ies.portadaalta.quizzengine.model.Color.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class EngineTest {

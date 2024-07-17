@@ -1,4 +1,4 @@
-package ies.portadaalta.engine.model;
+package ies.portadaalta.quizzengine.model;
 
 public class Color {
 
@@ -26,7 +26,7 @@ public class Color {
     /**
      * Color constructor from RGB hexadecimal string.
      * The String MUST start with # character. The size of the string MUST be 7 (# and 6 for hex RGB colors)
-     * @param hexColorString
+     * @param hexColorString String of color in hex RGB format (e.g.: #FFFFFF)
      */
     public Color(String hexColorString) {
         assert hexColorString.startsWith("#");

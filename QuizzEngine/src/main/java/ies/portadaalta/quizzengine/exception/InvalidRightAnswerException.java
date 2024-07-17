@@ -1,9 +1,9 @@
-package ies.portadaalta.engine.exception;
+package ies.portadaalta.quizzengine.exception;
 
 public class InvalidRightAnswerException extends RuntimeException {
 
-    private int rightAnswer;
-    private int answersSize;
+    private final int rightAnswer;
+    private final int answersSize;
 
     public InvalidRightAnswerException(int rightAnswer, int answersSize) {
         this.rightAnswer = rightAnswer;

@@ -1,4 +1,4 @@
-package ies.portadaalta.engine.model;
+package ies.portadaalta.quizzengine.model;
 
 import java.util.Set;
 
