@@ -50,12 +50,23 @@ public class Deck {
         return name;
     }
 
+    public Category getNextCagetory() {
+        List<Category> categories = getCategories().stream().toList();
+        int categoryPosition = random.nextInt(categories.size());
+        Category category = categories.get(categoryPosition);
+        return category;
+    }
+
     public Question getNextQuestion(Category category) {
         assertCategoryExists(category);
         List<Question> questions = categoryQuestionsMap.get(category);
         int questionPosition = random.nextInt(questions.size());
         Question question = questions.get(questionPosition);
         return question;
+    }
+
+    public Question getNextRandomQuestion() {
+        return getNextQuestion(getNextCagetory());
     }
 
     private void assertCategoryExists(Category category) {

@@ -6,14 +6,16 @@ import java.util.List;
 
 public class Question {
 
+    private final Category category;
     private final String question;
     private final List<String> answers;
     private final int rightAnswer;
 
-    public Question(String question, List<String> answers, int rightAnswer) {
+    public Question(Category category, String question, List<String> answers, int rightAnswer) {
         if (rightAnswer>=answers.size()) {
             throw new InvalidRightAnswerException(rightAnswer, answers.size());
         }
+        this.category = category;
         this.question = question;
         this.answers = answers;
         this.rightAnswer = rightAnswer;

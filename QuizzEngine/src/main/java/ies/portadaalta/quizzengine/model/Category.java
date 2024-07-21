@@ -1,5 +1,7 @@
 package ies.portadaalta.quizzengine.model;
 
+import java.util.Objects;
+
 public class Category {
 
     private final String name;
@@ -31,5 +33,18 @@ public class Category {
                 ", Description='" + Description + '\'' +
                 ", color=" + color +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Category category = (Category) o;
+        return Objects.equals(name, category.name) && Objects.equals(Description, category.Description) && Objects.equals(color, category.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, Description, color);
     }
 }

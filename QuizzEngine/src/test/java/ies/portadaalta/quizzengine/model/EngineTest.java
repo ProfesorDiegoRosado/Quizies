@@ -123,6 +123,7 @@ class EngineTest {
 
         // Geography
         Question questionGeography1 = new Question(
+                geographyCategory,
                 "What is the name of the tallest mountain in the world?",
                 List.of(
                         "Mount Everest",
@@ -133,6 +134,7 @@ class EngineTest {
         );
 
         Question questionGeography2 = new Question(
+                geographyCategory,
                 "Which country has the largest population in the world?",
                 List.of(
                         "Rusia",
@@ -146,6 +148,7 @@ class EngineTest {
 
         // Arts
         Question questionArts1 = new Question(
+                artCategory,
                 "'The Phantom of the Opera' is set in which city?",
                 List.of(
                         "Malaga",
@@ -156,6 +159,7 @@ class EngineTest {
         );
 
         Question questionArts2 = new Question(
+                artCategory,
                 "Which famous artist is known for creating the 'Campbell's Soup Cans' artwork?",
                 List.of(
                         "Vincent Van Gogh",
@@ -169,6 +173,7 @@ class EngineTest {
 
         // History
         Question questionHistory1 = new Question(
+                historyCategory,
                 "How many years did the 100 years war last?",
                 List.of(
                         "100 years",
@@ -179,6 +184,7 @@ class EngineTest {
         );
 
         Question questionHistory2 = new Question(
+                historyCategory,
                 "which year Second World War started?",
                 List.of(
                         "1942",
@@ -192,6 +198,7 @@ class EngineTest {
 
         // Entertainment
         Question questionEntertainment1 = new Question(
+                entertainmentCategory,
                 "What was the first feature-length animated movie ever released?",
                 List.of(
                         "Toy Story",
@@ -202,6 +209,7 @@ class EngineTest {
         );
 
         Question questionEntertainment2 = new Question(
+                entertainmentCategory,
                 "In The Matrix, what color is the pill Neo take?",
                 List.of(
                         "Blue",
@@ -215,6 +223,7 @@ class EngineTest {
 
         // Science
         Question questionScience1 = new Question(
+                scienceCategory,
                 "True or False? Electrons are smaller than atoms.",
                 List.of(
                         "False",
@@ -223,6 +232,7 @@ class EngineTest {
         );
 
         Question questionScience2 = new Question(
+                scienceCategory,
                 "Which is the most abundant element in the universe?",
                 List.of(
                         "Oxigen",
@@ -236,6 +246,7 @@ class EngineTest {
 
         // Sports
         Question questionSport1 = new Question(
+                sportsCategory,
                 "What sport is best known as the ‘king of sports’?",
                 List.of(
                         "Basketball",
@@ -246,6 +257,7 @@ class EngineTest {
         );
 
         Question questionSport2 = new Question(
+                sportsCategory,
                 "The Olympics are held every how many years?",
                 List.of(
                         "Every year",
