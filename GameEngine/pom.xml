@@ -27,6 +27,14 @@
   </build>
 
   <dependencies>
+    <!-- project dependencies -->
+    <dependency>
+      <groupId>org.example</groupId>
+      <artifactId>QuizzEngine</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+
+    <!-- Tests dependencies -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
