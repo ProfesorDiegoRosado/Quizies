@@ -48,5 +48,9 @@ public class Color {
         return blue;
     }
 
+    public String getHexString() {
+        return String.format("#%02x%02x%02x", red, green, blue);
+    }
+
 
 }
