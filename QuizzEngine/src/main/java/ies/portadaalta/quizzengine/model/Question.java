@@ -33,6 +33,10 @@ public class Question {
         return rightAnswer;
     }
 
+    public Category getCategory() {
+        return category;
+    }
+
     public boolean isValidAnswer(int guess) {
         return this.rightAnswer == guess;
     }
