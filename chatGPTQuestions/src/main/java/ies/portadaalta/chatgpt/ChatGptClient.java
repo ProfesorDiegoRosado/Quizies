@@ -44,6 +44,8 @@ public class ChatGptClient {
 
         // Custom for this example where I want to optimize chat context (messages history).
         JSONObject jsonResponseObject = new JSONObject(chatGptresponse.getResponse());
+        //System.out.println("----- chatGptresponse.getResponse() -----");
+        //System.out.println(chatGptresponse.getResponse());
         String question = jsonResponseObject.getJSONObject("question").getString("question");
 
         addMessageToContext(ASISTANT_ROLE, question);
