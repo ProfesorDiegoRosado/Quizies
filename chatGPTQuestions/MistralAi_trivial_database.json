@@ -1,0 +1,2012 @@
+[
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la montaña más alta del mundo?",
+        "answers": [
+          "Monte Everest",
+          "K2",
+          "Kilimanjaro",
+          "Aconcagua"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el río más largo del mundo?",
+        "answers": [
+          "Río Nilo",
+          "Río Amazonas",
+          "Río Yangtsé",
+          "Río Misisipi"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de Argentina?",
+        "answers": [
+          "Buenos Aires",
+          "Santiago",
+          "Montevideo",
+          "Brasilia"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el país más grande de América del Sur?",
+        "answers": [
+          "Brasil",
+          "Argentina",
+          "Chile",
+          "Perú"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el océano más grande del mundo?",
+        "answers": [
+          "Océano Atlántico",
+          "Océano Índico",
+          "Océano Ártico",
+          "Océano Pacífico"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de España?",
+        "answers": [
+          "Madrid",
+          "Barcelona",
+          "Sevilla",
+          "Valencia"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el desierto más grande del mundo?",
+        "answers": [
+          "Desierto del Sahara",
+          "Desierto de Gobi",
+          "Desierto de Atacama",
+          "Desierto de Mojave"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la ciudad más poblada del mundo?",
+        "answers": [
+          "Tokio",
+          "Nueva York",
+          "México D.F.",
+          "Shanghái"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más pequeño del mundo?",
+        "answers": [
+          "Mónaco",
+          "Vaticano",
+          "San Marino",
+          "Liechtenstein"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la capital de Francia?",
+        "answers": [
+          "Madrid",
+          "París",
+          "Londres",
+          "Berlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el país más grande del mundo?",
+        "answers": [
+          "Rusia",
+          "China",
+          "Estados Unidos",
+          "Canadá"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el lago más grande del mundo?",
+        "answers": [
+          "Lago Baikal",
+          "Lago Superior",
+          "Mar Caspio",
+          "Lago Victoria"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el país más poblado del mundo?",
+        "answers": [
+          "India",
+          "Estados Unidos",
+          "China",
+          "Indonesia"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de México?",
+        "answers": [
+          "Ciudad de México",
+          "Guadalajara",
+          "Monterrey",
+          "Cancún"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el país más pequeño de Europa?",
+        "answers": [
+          "Liechtenstein",
+          "Mónaco",
+          "San Marino",
+          "Vaticano"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es la capital de Australia?",
+        "answers": [
+          "Sídney",
+          "Melbourne",
+          "Canberra",
+          "Brisbane"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el país más grande de África?",
+        "answers": [
+          "Nigeria",
+          "Sudáfrica",
+          "Argelia",
+          "Egipto"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es la capital de Brasil?",
+        "answers": [
+          "Río de Janeiro",
+          "São Paulo",
+          "Brasilia",
+          "Salvador"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el país más grande de Oceanía?",
+        "answers": [
+          "Australia",
+          "Nueva Zelanda",
+          "Papúa Nueva Guinea",
+          "Fiyi"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de Europa?",
+        "answers": [
+          "Alemania",
+          "Rusia",
+          "Francia",
+          "España"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de América del Norte?",
+        "answers": [
+          "Canadá",
+          "Estados Unidos",
+          "México",
+          "Groenlandia"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Nicaragua",
+          "Guatemala",
+          "El Salvador",
+          "Honduras"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de América del Norte?",
+        "answers": [
+          "México",
+          "Estados Unidos",
+          "Canadá",
+          "Guatemala"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Guatemala",
+          "El Salvador",
+          "Nicaragua",
+          "Costa Rica"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el país más grande de América del Sur?",
+        "answers": [
+          "Brasil",
+          "Argentina",
+          "Chile",
+          "Perú"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el país más grande de América del Sur?",
+        "answers": [
+          "Brasil",
+          "Argentina",
+          "Chile",
+          "Perú"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Guatemala",
+          "El Salvador",
+          "Nicaragua",
+          "Costa Rica"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Guatemala",
+          "Nicaragua",
+          "Honduras",
+          "El Salvador"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Nicaragua",
+          "Guatemala",
+          "El Salvador",
+          "Honduras"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Nicaragua",
+          "Guatemala",
+          "El Salvador",
+          "Honduras"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Guatemala",
+          "El Salvador",
+          "Nicaragua",
+          "Costa Rica"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el país más grande de América Central?",
+        "answers": [
+          "Nicaragua",
+          "Guatemala",
+          "Honduras",
+          "El Salvador"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de Italia?",
+        "answers": [
+          "Roma",
+          "Milán",
+          "Florencia",
+          "Venecia"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de Japón?",
+        "answers": [
+          "Tokio",
+          "Kioto",
+          "Osaka",
+          "Hiroshima"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la capital de Canadá?",
+        "answers": [
+          "Toronto",
+          "Ottawa",
+          "Montreal",
+          "Vancouver"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de Alemania?",
+        "answers": [
+          "Berlín",
+          "Múnich",
+          "Fráncfort",
+          "Hamburgo"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la capital de Rusia?",
+        "answers": [
+          "San Petersburgo",
+          "Moscú",
+          "Kiev",
+          "Minsk"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de China?",
+        "answers": [
+          "Pekín",
+          "Tokio",
+          "Seúl",
+          "Bangkok"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de India?",
+        "answers": [
+          "Nueva Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Chennai"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la capital de Egipto?",
+        "answers": [
+          "El Cairo",
+          "Alejandría",
+          "Luxor",
+          "Aswan"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es la capital de Australia?",
+        "answers": [
+          "Sídney",
+          "Melbourne",
+          "Canberra",
+          "Brisbane"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es la capital de Australia?",
+        "answers": [
+          "Sídney",
+          "Melbourne",
+          "Canberra",
+          "Brisbane"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la capital de Portugal?",
+        "answers": [
+          "Madrid",
+          "Lisboa",
+          "Barcelona",
+          "Oporto"
+        ]
+      }}
+    ],
+    "category": "Geografía"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del actor que interpreta a Iron Man en el Universo Cinematográfico de Marvel?",
+        "answers": [
+          "Chris Evans",
+          "Robert Downey Jr.",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del actor que interpreta a Iron Man en el Universo Cinematográfico de Marvel?",
+        "answers": [
+          "Chris Evans",
+          "Robert Downey Jr.",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Dumbledore",
+          "Merlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del actor que interpreta a Iron Man en el Universo Cinematográfico de Marvel?",
+        "answers": [
+          "Chris Evans",
+          "Robert Downey Jr.",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Dumbledore",
+          "Merlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Dumbledore",
+          "Merlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Dumbledore",
+          "Merlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Dumbledore",
+          "Merlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Dumbledore",
+          "Merlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Harry Potter",
+          "Gandalf",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Dumbledore",
+          "Merlín"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del famoso mago creado por J.K. Rowling?",
+        "answers": [
+          "Gandalf",
+          "Harry Potter",
+          "Merlín",
+          "Dumbledore"
+        ]
+      }}
+    ],
+    "category": "Entretenimiento"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año comenzó la Guerra Civil Española?",
+        "answers": [
+          "1936",
+          "1945",
+          "1918",
+          "1929"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Quién fue el primer presidente de México?",
+        "answers": [
+          "Benito Juárez",
+          "Porfirio Díaz",
+          "Guadalupe Victoria",
+          "Vicente Guerrero"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año descubrió Cristóbal Colón América?",
+        "answers": [
+          "1492",
+          "1500",
+          "1450",
+          "1600"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "answers": [
+          "1776",
+          "1789",
+          "1804",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién fue el líder de la Revolución Cubana?",
+        "answers": [
+          "Fidel Castro",
+          "Che Guevara",
+          "Raúl Castro",
+          "Hugo Chávez"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿En qué año se firmó la Constitución de Cádiz?",
+        "answers": [
+          "1808",
+          "1812",
+          "1820",
+          "1830"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién fue el primer emperador del Imperio Romano?",
+        "answers": [
+          "Julio César",
+          "Augusto",
+          "Nerón",
+          "Calígula"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿En qué año se fundó la ciudad de Buenos Aires?",
+        "answers": [
+          "1536",
+          "1580",
+          "1602",
+          "1650"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "answers": [
+          "Thomas Jefferson",
+          "George Washington",
+          "John Adams",
+          "Benjamin Franklin"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿En qué año se firmó el Tratado de Tordesillas?",
+        "answers": [
+          "1492",
+          "1494",
+          "1496",
+          "1498"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año tuvo lugar la Revolución Francesa?",
+        "answers": [
+          "1789",
+          "1804",
+          "1776",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién fue el líder de la Revolución Mexicana?",
+        "answers": [
+          "Benito Juárez",
+          "Pancho Villa",
+          "Emiliano Zapata",
+          "Porfirio Díaz"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "answers": [
+          "1776",
+          "1789",
+          "1800",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿En qué año se firmó el Tratado de Versalles?",
+        "answers": [
+          "1918",
+          "1919",
+          "1920",
+          "1921"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+        "answers": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "León Trotsky",
+          "Nikolai Bukharin"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se produjo la caída del Muro de Berlín?",
+        "answers": [
+          "1989",
+          "1991",
+          "1985",
+          "1995"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién fue el primer presidente de Argentina?",
+        "answers": [
+          "Juan Domingo Perón",
+          "Bernardino Rivadavia",
+          "José de San Martín",
+          "Manuel Belgrano"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se produjo la Revolución Industrial?",
+        "answers": [
+          "1760",
+          "1800",
+          "1850",
+          "1900"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "answers": [
+          "1776",
+          "1789",
+          "1800",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién fue el líder de la Revolución Cubana?",
+        "answers": [
+          "Fidel Castro",
+          "Che Guevara",
+          "Raúl Castro",
+          "Camilo Cienfuegos"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se firmó la Carta Magna?",
+        "answers": [
+          "1215",
+          "1300",
+          "1492",
+          "1600"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "answers": [
+          "1914",
+          "1918",
+          "1939",
+          "1945"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién fue el primer emperador del Imperio Romano?",
+        "answers": [
+          "Julio César",
+          "Augusto",
+          "Nerón",
+          "Calígula"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿En qué año se firmó el Tratado de Tordesillas?",
+        "answers": [
+          "1492",
+          "1494",
+          "1500",
+          "1510"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se produjo la Revolución Industrial?",
+        "answers": [
+          "1760",
+          "1800",
+          "1850",
+          "1900"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "answers": [
+          "1776",
+          "1800",
+          "1789",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Quién fue el líder de la Revolución Mexicana?",
+        "answers": [
+          "Benito Juárez",
+          "Pancho Villa",
+          "Emiliano Zapata",
+          "Porfirio Díaz"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿En qué año se firmó la Constitución de los Estados Unidos?",
+        "answers": [
+          "1776",
+          "1787",
+          "1800",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se produjo la Revolución Francesa?",
+        "answers": [
+          "1789",
+          "1804",
+          "1776",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+        "answers": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "León Trotsky",
+          "Nikolai Bukharin"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se produjo la caída del Muro de Berlín?",
+        "answers": [
+          "1989",
+          "1991",
+          "1985",
+          "1995"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se firmó la Paz de Westfalia?",
+        "answers": [
+          "1648",
+          "1789",
+          "1815",
+          "1919"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se produjo la Revolución Industrial?",
+        "answers": [
+          "1760",
+          "1800",
+          "1850",
+          "1900"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "answers": [
+          "1776",
+          "1789",
+          "1804",
+          "1812"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se produjo la Revolución Rusa de 1917?",
+        "answers": [
+          "1917",
+          "1918",
+          "1916",
+          "1919"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿En qué año se produjo la caída del Imperio Romano de Occidente?",
+        "answers": [
+          "395 d.C.",
+          "476 d.C.",
+          "500 d.C.",
+          "600 d.C."
+        ]
+      }}
+    ],
+    "category": "Historia"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "answers": [
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Pablo Neruda",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién pintó 'Guernica'?",
+        "answers": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Frida Kahlo",
+          "Vincent van Gogh"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'Cien años de soledad'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Pablo Neruda",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'La casa de los espíritus'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Isabel Allende",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'Rayuela'?",
+        "answers": [
+          "Julio Cortázar",
+          "Gabriel García Márquez",
+          "Pablo Neruda",
+          "Mario Vargas Llosa"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El laberinto de la soledad'?",
+        "answers": [
+          "Octavio Paz",
+          "Gabriel García Márquez",
+          "Jorge Luis Borges",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'Pedro Páramo'?",
+        "answers": [
+          "Juan Rulfo",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'La sombra del viento'?",
+        "answers": [
+          "Carlos Ruiz Zafón",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Julio Cortázar"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'La ciudad y los perros'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Julio Cortázar",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El amor en los tiempos del cólera'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Julio Cortázar",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El Aleph'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Jorge Luis Borges",
+          "Mario Vargas Llosa",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'La tía Julia y el escribidor'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Julio Cortázar",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'La metamorfosis'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Franz Kafka",
+          "Jorge Luis Borges",
+          "Mario Vargas Llosa"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El principito'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Antoine de Saint-Exupéry",
+          "Jorge Luis Borges",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién pintó 'La noche estrellada'?",
+        "answers": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Claude Monet"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El Quijote'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Miguel de Cervantes",
+          "Pablo Neruda",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El juego del ángel'?",
+        "answers": [
+          "Carlos Ruiz Zafón",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El alquimista'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Paulo Coelho",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El retrato de Dorian Gray'?",
+        "answers": [
+          "Oscar Wilde",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'La casa de Bernarda Alba'?",
+        "answers": [
+          "Federico García Lorca",
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'La vida es sueño'?",
+        "answers": [
+          "Miguel de Cervantes",
+          "Pedro Calderón de la Barca",
+          "Lope de Vega",
+          "Federico García Lorca"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'La colmena'?",
+        "answers": [
+          "Camilo José Cela",
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'La fiesta del chivo'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Julio Cortázar",
+          "Isabel Allende"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'La vorágine'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "José Eustasio Rivera",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El otoño del patriarca'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges",
+          "Pablo Neruda"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El túnel'?",
+        "answers": [
+          "Ernesto Sabato",
+          "Jorge Luis Borges",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El extranjero'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Albert Camus",
+          "Jorge Luis Borges",
+          "Mario Vargas Llosa"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El guardián entre el centeno'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "J.D. Salinger",
+          "Ernest Hemingway",
+          "F. Scott Fitzgerald"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El nombre de la rosa'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Umberto Eco",
+          "Jorge Luis Borges",
+          "Mario Vargas Llosa"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El perfume'?",
+        "answers": [
+          "Gabriel García Márquez",
+          "Patrick Süskind",
+          "Mario Vargas Llosa",
+          "Julio Cortázar"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El señor de los anillos'?",
+        "answers": [
+          "J.K. Rowling",
+          "J.R.R. Tolkien",
+          "George R.R. Martin",
+          "C.S. Lewis"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El lobo estepario'?",
+        "answers": [
+          "Hermann Hesse",
+          "Franz Kafka",
+          "Gabriel García Márquez",
+          "Jorge Luis Borges"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Quién es el autor de 'El lazarillo de Tormes'?",
+        "answers": [
+          "Miguel de Cervantes",
+          "Anónimo",
+          "Lope de Vega",
+          "García Márquez"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Quién es el autor de 'El conde Lucanor'?",
+        "answers": [
+          "Don Juan Manuel",
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Jorge Luis Borges"
+        ]
+      }}
+    ],
+    "category": "Arte y Literatura"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el planeta más grande del sistema solar?",
+        "answers": [
+          "Tierra",
+          "Júpiter",
+          "Marte",
+          "Venus"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el elemento químico más abundante en el universo?",
+        "answers": [
+          "Oxígeno",
+          "Hidrógeno",
+          "Carbono",
+          "Helio"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el gas responsable del efecto invernadero?",
+        "answers": [
+          "Oxígeno",
+          "Dióxido de carbono",
+          "Nitrógeno",
+          "Helio"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "answers": [
+          "El corazón",
+          "El hígado",
+          "La piel",
+          "El cerebro"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el animal terrestre más grande del mundo?",
+        "answers": [
+          "Elefante africano",
+          "Jirafa",
+          "Hipopótamo",
+          "Rinoceronte"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "answers": [
+          "Respiración",
+          "Fotosíntesis",
+          "Transpiración",
+          "Fermentación"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el elemento químico con el símbolo 'O'?",
+        "answers": [
+          "Oxígeno",
+          "Oro",
+          "Osmio",
+          "Oganesón"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el ave más grande del mundo?",
+        "answers": [
+          "El cóndor andino",
+          "El avestruz",
+          "El albatros",
+          "El pingüino emperador"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el planeta más cercano al Sol?",
+        "answers": [
+          "Mercurio",
+          "Venus",
+          "Tierra",
+          "Marte"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el océano más grande del mundo?",
+        "answers": [
+          "Océano Atlántico",
+          "Océano Índico",
+          "Océano Ártico",
+          "Océano Pacífico"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el elemento químico más reactivo?",
+        "answers": [
+          "Hidrógeno",
+          "Oxígeno",
+          "Flúor",
+          "Carbono"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el elemento químico con el símbolo 'Au'?",
+        "answers": [
+          "Oro",
+          "Plata",
+          "Cobre",
+          "Hierro"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el animal más rápido del mundo?",
+        "answers": [
+          "El guepardo",
+          "El león",
+          "El tigre",
+          "El leopardo"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el planeta conocido como el 'Planeta Rojo'?",
+        "answers": [
+          "Venus",
+          "Marte",
+          "Júpiter",
+          "Saturno"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "answers": [
+          "Respiración",
+          "Fotosíntesis",
+          "Fermentación",
+          "Digestión"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el elemento químico con el símbolo 'Fe'?",
+        "answers": [
+          "Hierro",
+          "Oro",
+          "Plata",
+          "Cobre"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el animal más venenoso del mundo?",
+        "answers": [
+          "La serpiente de cascabel",
+          "La medusa de caja",
+          "El escorpión",
+          "La araña viuda negra"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el planeta más pequeño del sistema solar?",
+        "answers": [
+          "Mercurio",
+          "Venus",
+          "Marte",
+          "Plutón"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el elemento químico más abundante en la corteza terrestre?",
+        "answers": [
+          "Oxígeno",
+          "Hidrógeno",
+          "Carbono",
+          "Nitrógeno"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el planeta más grande del sistema solar?",
+        "answers": [
+          "Marte",
+          "Júpiter",
+          "Saturno",
+          "Venus"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el elemento químico con el símbolo 'H'?",
+        "answers": [
+          "Helio",
+          "Hidrógeno",
+          "Hierro",
+          "Hafnio"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el animal más grande que ha existido en la Tierra?",
+        "answers": [
+          "Dinosaurio Tiranosaurio Rex",
+          "Ballena Azul",
+          "Elefante Africano",
+          "Tiburón Blanco"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el planeta más cercano al Sol?",
+        "answers": [
+          "Mercurio",
+          "Venus",
+          "Tierra",
+          "Marte"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "answers": [
+          "Fotosíntesis",
+          "Respiración",
+          "Fermentación",
+          "Digestión"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el elemento químico más abundante en el cuerpo humano?",
+        "answers": [
+          "Oxígeno",
+          "Hidrógeno",
+          "Carbono",
+          "Nitrógeno"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el planeta más grande del sistema solar?",
+        "answers": [
+          "Marte",
+          "Júpiter",
+          "Saturno",
+          "Venus"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el elemento químico con el símbolo 'Ag'?",
+        "answers": [
+          "Oro",
+          "Plata",
+          "Cobre",
+          "Hierro"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el animal más longevo conocido?",
+        "answers": [
+          "La tortuga gigante",
+          "El tiburón de Groenlandia",
+          "El albatros",
+          "El elefante"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el planeta conocido como el 'Planeta Azul'?",
+        "answers": [
+          "Marte",
+          "Tierra",
+          "Venus",
+          "Júpiter"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "answers": [
+          "Respiración",
+          "Fotosíntesis",
+          "Fermentación",
+          "Digestión"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el elemento químico con el símbolo 'C'?",
+        "answers": [
+          "Carbono",
+          "Calcio",
+          "Cobre",
+          "Cloro"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el animal más grande del mundo?",
+        "answers": [
+          "El elefante africano",
+          "La ballena azul",
+          "El oso polar",
+          "El rinoceronte"
+        ]
+      }}
+    ],
+    "category": "Ciencia y Naturaleza"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte más popular en España?",
+        "answers": [
+          "Fútbol",
+          "Baloncesto",
+          "Tenis",
+          "Ciclismo"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué país se originó el fútbol?",
+        "answers": [
+          "Inglaterra",
+          "Brasil",
+          "España",
+          "Italia"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el equipo de baloncesto más laureado de la NBA?",
+        "answers": [
+          "Los Angeles Lakers",
+          "Boston Celtics",
+          "Chicago Bulls",
+          "Golden State Warriors"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Quién es considerado el mejor futbolista de todos los tiempos?",
+        "answers": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Pelé",
+          "Diego Maradona"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+        "answers": [
+          "1896",
+          "1900",
+          "1924",
+          "1936"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte nacional de Canadá?",
+        "answers": [
+          "Hockey sobre hielo",
+          "Fútbol",
+          "Baloncesto",
+          "Béisbol"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué deporte se juega en la cancha de Wimbledon?",
+        "answers": [
+          "Tenis",
+          "Fútbol",
+          "Baloncesto",
+          "Golf"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se practica en una pista de hielo y utiliza un disco?",
+        "answers": [
+          "Hockey sobre hielo",
+          "Patinaje artístico",
+          "Curling",
+          "Esquí alpino"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el deporte que se juega con una pelota y una red en una cancha dividida en dos mitades?",
+        "answers": [
+          "Fútbol",
+          "Baloncesto",
+          "Voleibol",
+          "Tenis"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el deporte que se practica en una piscina y requiere nadar diferentes estilos?",
+        "answers": [
+          "Waterpolo",
+          "Natación sincronizada",
+          "Natación",
+          "Clavados"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿En qué país se originó el béisbol?",
+        "answers": [
+          "Estados Unidos",
+          "Canadá",
+          "México",
+          "Cuba"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Estados Unidos?",
+        "answers": [
+          "Fútbol",
+          "Baloncesto",
+          "Béisbol",
+          "Hockey"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se juega con una pelota y una red, y es muy popular en playas?",
+        "answers": [
+          "Voleibol",
+          "Fútbol",
+          "Baloncesto",
+          "Tenis"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se juega con una pelota y una red, y es muy popular en playas?",
+        "answers": [
+          "Voleibol",
+          "Fútbol",
+          "Baloncesto",
+          "Tenis"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Béisbol",
+          "Cricket",
+          "Golf",
+          "Rugby"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Fútbol",
+          "Béisbol",
+          "Tenis",
+          "Baloncesto"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se practica en una pista de hielo y utiliza un disco?",
+        "answers": [
+          "Hockey sobre hielo",
+          "Patinaje artístico",
+          "Curling",
+          "Esquí alpino"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Fútbol",
+          "Béisbol",
+          "Cricket",
+          "Hockey"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se practica en una pista de hielo y utiliza un disco?",
+        "answers": [
+          "Hockey sobre hielo",
+          "Patinaje artístico",
+          "Curling",
+          "Esquí"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Fútbol",
+          "Béisbol",
+          "Cricket",
+          "Hockey"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Béisbol",
+          "Cricket",
+          "Golf",
+          "Tenis"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se practica en una pista de hielo y utiliza un disco?",
+        "answers": [
+          "Hockey sobre hielo",
+          "Patinaje artístico",
+          "Curling",
+          "Esquí"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Fútbol",
+          "Béisbol",
+          "Baloncesto",
+          "Tenis"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Béisbol",
+          "Cricket",
+          "Golf",
+          "Tenis"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se juega con una pelota y un bate, y es muy popular en Japón?",
+        "answers": [
+          "Béisbol",
+          "Cricket",
+          "Golf",
+          "Fútbol"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el deporte que se practica en una pista de hielo y utiliza un disco?",
+        "answers": [
+          "Hockey sobre hielo",
+          "Patinaje artístico",
+          "Curling",
+          "Esquí"
+        ]
+      }}
+    ],
+    "category": "Deportes y Ocio"
+  }
+]
