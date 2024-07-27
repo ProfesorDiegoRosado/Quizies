@@ -28,7 +28,7 @@ public class Main {
         System.out.println("JSON generado:");
         System.out.println(jsonQuestionsArray.toString(spacesToIndentEachLevel));
 
-        String jsonFilename = "trivial_database.json";
+        String jsonFilename = "ChatGPT_trivial_database.json";
         try (FileWriter fileWriter = new FileWriter(jsonFilename)) {
             fileWriter.write(jsonQuestionsArray.toString(spacesToIndentEachLevel));
             fileWriter.flush();
