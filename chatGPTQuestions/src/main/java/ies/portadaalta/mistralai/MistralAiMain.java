@@ -1,4 +1,4 @@
-package ies.portadaalta;
+package ies.portadaalta.mistralai;
 
 
 import org.json.JSONArray;
@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-public class Main {
+public class MistralAiMain {
 
     private static final List<String> DEFAULT_CATEGORIES = List.of(
             "Geografía",
@@ -19,16 +19,16 @@ public class Main {
 
     public static void main( String[] args ) {
 
-        ChatGptQuestionGenerator chatGptQuestionGenerator = new ChatGptQuestionGenerator(DEFAULT_CATEGORIES);
+        MistralAiQuestionGenerator mistralAiQuestionGenerator = new MistralAiQuestionGenerator(DEFAULT_CATEGORIES);
 
-        System.out.println("Generando datos con ChatGPT ...");
-        JSONArray jsonQuestionsArray = chatGptQuestionGenerator.generateJsonQuestions();
+        System.out.println("Generando datos con MistralAi ...");
+        JSONArray jsonQuestionsArray = mistralAiQuestionGenerator.generateJsonQuestions();
 
         int spacesToIndentEachLevel = 2;
         System.out.println("JSON generado:");
         System.out.println(jsonQuestionsArray.toString(spacesToIndentEachLevel));
 
-        String jsonFilename = "ChatGPT_trivial_database.json";
+        String jsonFilename = "MistralAi_trivial_database.json";
         try (FileWriter fileWriter = new FileWriter(jsonFilename)) {
             fileWriter.write(jsonQuestionsArray.toString(spacesToIndentEachLevel));
             fileWriter.flush();

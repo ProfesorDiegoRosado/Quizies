@@ -1,17 +1,15 @@
-package ies.portadaalta;
+package ies.portadaalta.mistralai;
 
-import ies.portadaalta.chatgpt.ChatGptClient;
-import ies.portadaalta.chatgpt.ChatGptResponse;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.List;
 
-public class ChatGptQuestionGenerator {
+public class MistralAiQuestionGenerator {
 
-    //private static final int TURBO_3_5_TOKEN_CONTENT_MAX_LENGTH = 18385;
-    private static final int TURBO_3_5_TOKEN_CONTENT_MAX_LENGTH = 1000;
+    //private static final int MISTRALAI_TOKEN_CONTENT_MAX_LENGTH = 128000;
+    private static final int MISTRALAI_TOKEN_CONTENT_MAX_LENGTH = 1000;
 
     private static final String PROMPT = """
             I'm working on a Trivial software project. The main language of the project is going to be Spanish. I would like you to help me to generate some questions in Spanish but the source code and the json fields are going to be in English.
@@ -31,7 +29,7 @@ public class ChatGptQuestionGenerator {
 
     private List<String> categories;
 
-    public ChatGptQuestionGenerator(List<String> categories) {
+    public MistralAiQuestionGenerator(List<String> categories) {
         this.categories = categories;
     }
 
@@ -55,7 +53,7 @@ public class ChatGptQuestionGenerator {
 
     private JSONArray getAllQuestionsFor(String category) {
 
-       ChatGptClient client = new ChatGptClient();
+       MistralAiClient client = new MistralAiClient();
 
        JSONArray jsonQuestionsArray = new JSONArray();
 
@@ -70,18 +68,30 @@ public class ChatGptQuestionGenerator {
                 } else {
                     prompt = "another one";
                 }
-                ChatGptResponse chatGptResponse = client.query(prompt);
-                String response = chatGptResponse.getResponse();
 
-                //System.out.println(response);
-                //System.out.println("Token context size: %d".formatted(chatGptResponse.getTotalTokens()));
+                MistralAiResponse mistralAiResponse = client.query(prompt);
+                if (mistralAiResponse!=null) {
+                    String response = mistralAiResponse.getResponse();
 
-                JSONObject jsonQuestionObject = extractJsonQuestionObject(response);
+                    System.out.println("Categoria: %s".formatted(category));
+                    System.out.println(response);
+                    System.out.println("Token context size: %d".formatted(mistralAiResponse.getTotalTokens()));
 
-                jsonQuestionsArray.put(jsonQuestionObject);
+                    JSONObject jsonQuestionObject = extractJsonQuestionObject(response);
 
-                if (chatGptResponse.getTotalTokens()>TURBO_3_5_TOKEN_CONTENT_MAX_LENGTH) {
-                    end = true;
+                    jsonQuestionsArray.put(jsonQuestionObject);
+
+                    if (mistralAiResponse.getTotalTokens()>MISTRALAI_TOKEN_CONTENT_MAX_LENGTH) {
+                        end = true;
+                    }
+                } else {
+                    System.out.println("Skipping invalid json response");
+                }
+
+                try {
+                    Thread.sleep(2000);  // sleep 1 second. Trial period restriction.
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
                 }
 
             }
