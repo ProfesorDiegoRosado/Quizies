@@ -15,7 +15,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  build_QuizzEngine:
 
     runs-on: ubuntu-latest
 
