@@ -1,7 +1,5 @@
 package ies.portadaalta.chatgpt;
 
-import ies.portadaalta.chatgpt.ChatGptClient;
-import ies.portadaalta.chatgpt.ChatGptResponse;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
