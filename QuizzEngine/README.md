@@ -31,7 +31,31 @@ class Category {
     Color color
 }
 
+class Question {
+    Category category
+    String question
+    List<String> answers
+    int rightAnswer
+}
+
+class Deck {
+    String name 
+    String description 
+    Color color 
+}
+
+class Engine {
+    Deck deck 
+}
+
 Category --> Color
+
+Question --> Category
+
+Deck --> Question
+Deck --> Category
+
+Engine --> Deck
 ``` 
 
 ## Loaders
