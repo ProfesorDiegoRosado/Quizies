@@ -44,6 +44,9 @@ jobs:
           distribution: 'temurin'
           architecture: x64
           cache: maven
+      - name: Install QuizzEngine dependency into the local repo
+        run: mvn install
+        working-directory: ./QuizzEngine
       - name: Build with Maven
         run: mvn -B package --file pom.xml
         working-directory: ./GameEngine
