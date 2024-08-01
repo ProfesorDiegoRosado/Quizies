@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
+  <groupId>ies.portadaalta</groupId>
   <artifactId>GameEngine</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
@@ -29,7 +29,7 @@
   <dependencies>
     <!-- project dependencies -->
     <dependency>
-      <groupId>org.example</groupId>
+      <groupId>ies.portadaalta</groupId>
       <artifactId>QuizzEngine</artifactId>
       <version>0.0.1</version>
     </dependency>
