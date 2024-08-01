@@ -16,6 +16,8 @@ This library can be used for any purpose though it was created initially for a t
 
 ## Data Model
 
+Below you can find the UML class diagram of the data model of this project.
+
 ```mermaid
 classDiagram
 
@@ -58,9 +60,16 @@ Deck --> Category
 Engine --> Deck
 ``` 
 
-## Loaders
+## Data Loaders
 
-As part of this p
+As part of this project we will include `DataLoaders` which are class that will load the data from several storage backends.
+The following data storage backends are planned:
+
+ - [ ] json files
+ - [ ] csv files
+ - [ ] xml files
+ - [ ] SQL database files
+ - [ ] API REST service
 
 ## Getting Started
 
