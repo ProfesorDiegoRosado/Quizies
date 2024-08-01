@@ -14,6 +14,30 @@ A `Question` is an object with the questions, with several posible answers and i
 
 This library can be used for any purpose though it was created initially for a trivial game.
 
+## Data Model
+
+```mermaid
+classDiagram
+
+class Color {
+    int red
+    int green
+    int blue
+} 
+
+class Category {
+    String name
+    String description
+    Color color
+}
+
+Category --> Color
+``` 
+
+## Loaders
+
+As part of this p
+
 ## Getting Started
 
 
