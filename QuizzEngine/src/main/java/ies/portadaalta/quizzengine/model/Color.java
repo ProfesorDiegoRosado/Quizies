@@ -52,5 +52,13 @@ public class Color {
         return String.format("#%02x%02x%02x", red, green, blue);
     }
 
-
+    @Override
+    public String toString() {
+        return "Color{" +
+                "red=" + red +
+                ", green=" + green +
+                ", blue=" + blue +
+                "," + getHexString() +
+                '}';
+    }
 }
