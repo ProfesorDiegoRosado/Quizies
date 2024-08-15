@@ -65,7 +65,7 @@ Engine --> Deck
 As part of this project we will include `DataLoaders` which are class that will load the data from several storage backends.
 The following data storage backends are planned:
 
- - [ ] json files
+ - [x] json files
  - [ ] csv files
  - [ ] xml files
  - [ ] SQL database files
