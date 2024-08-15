@@ -7,11 +7,14 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.util.List;
 import java.util.Set;
+import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class DeckJsonLoaderTest {
 
+
+    private static final String JSON_FILENAME = "json/ChatGPT_trivial_database.json";
     private static final String JSON_STRING_EXAMPLE = """
             [
               {
@@ -92,8 +95,31 @@ class DeckJsonLoaderTest {
     }
 
 
-    //@Test
-    void loadFromFile() {
+    @Test
+    void loadFromFile() throws IOException {
+        DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
+        String jsonFileAbsolutePath = getFileFromResources(JSON_FILENAME).getAbsolutePath();
+        Deck deck = deckJsonLoader.loadFromFile("Dummy test deck", jsonFileAbsolutePath);
+
+        Set<Category> categories = deck.getCategories();
+
+        assertTrue(!categories.isEmpty());
+        assertTrue(categories.size()==6);
+        List<String> categoryNames = categories.stream().map(c -> c.getName()).toList();
+        categoryNames.containsAll(
+                List.of("Geografía",
+                        "Entretenimiento",
+                        "Historia",
+                        "Ciencia y Naturaleza",
+                        "Deportes y Ocio",
+                        "Arte y Literatura")
+        );
+    }
+
+    private File getFileFromResources(String filename) {
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(classLoader.getResource(filename).getFile());
+        return file;
     }
 
 }

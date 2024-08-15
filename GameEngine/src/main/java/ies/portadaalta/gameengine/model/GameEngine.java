@@ -11,13 +11,11 @@ public class GameEngine {
     private String name;
     private Deck deck;
     private List<Player> players;
-    //private GameStats gameStats;
 
     public GameEngine(String name, Deck deck, List<Player> players) {
         this.name = name;
         this.deck = deck;
         this.players = players;
-        //this.gameStats = new GameStats();
     }
 
     public String getName() {

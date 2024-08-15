@@ -9,6 +9,8 @@ import ies.portadaalta.quizzengine.model.Question;
 import java.io.IOException;
 import java.io.File;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -23,18 +25,17 @@ public class DeckJsonLoader {
     }
 
     public Deck loadFrom(String deckName, URL url) throws IOException {
-        Deck deck = mapper.readValue(url, Deck.class);
-        return deck;
+        // TODO: to be implemented
+        return null;
     }
 
     public Deck loadFrom(String deckName, File file) throws IOException {
-        Deck deck = mapper.readValue(file, Deck.class);
-        return deck;
+        return loadFromFile(deckName, file.getAbsolutePath().toString());
     }
 
     public Deck loadFromFile(String deckName, String filename) throws IOException {
-        File file = new File(filename);
-        return loadFrom(deckName, file);
+        String fileContent = Files.readString(Paths.get(filename));
+        return loadFrom(deckName, fileContent);
     }
 
     public Deck loadFrom(String deckName, String jsonString) throws IOException {
@@ -65,6 +66,7 @@ public class DeckJsonLoader {
         for (JsonNode jsonCurrentQuestionNode: jsonQuestionsArrayNode) {
             JsonNode jsonQuestionNode = jsonCurrentQuestionNode.get("question");
             String question = jsonQuestionNode.get("question").asText();
+            System.out.println("Question: " + question);
             int rightAnswer = jsonQuestionNode.get("rightAnswer").asInt();
             JsonNode jsonAnswersNode = jsonQuestionNode.get("answers");
             List<String> answers = loadAnswersFrom(jsonAnswersNode);
