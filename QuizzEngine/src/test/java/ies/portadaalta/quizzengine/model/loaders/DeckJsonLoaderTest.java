@@ -82,7 +82,7 @@ class DeckJsonLoaderTest {
     void loadFromString() throws IOException {
 
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
-        Deck deck = deckJsonLoader.loadFrom("Dummy test deck", JSON_STRING_EXAMPLE);
+        Deck deck = deckJsonLoader.loadFromString("Dummy test deck", JSON_STRING_EXAMPLE);
 
         Set<Category> categories = deck.getCategories();
 
@@ -99,7 +99,7 @@ class DeckJsonLoaderTest {
     void loadFromFile() throws IOException {
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
         String jsonFileAbsolutePath = getFileFromResources(JSON_FILENAME).getAbsolutePath();
-        Deck deck = deckJsonLoader.loadFromFile("Dummy test deck", jsonFileAbsolutePath);
+        Deck deck = deckJsonLoader.loadFromFilename("Dummy test deck", jsonFileAbsolutePath);
 
         Set<Category> categories = deck.getCategories();
 

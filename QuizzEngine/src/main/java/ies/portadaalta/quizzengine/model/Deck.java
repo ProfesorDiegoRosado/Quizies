@@ -65,6 +65,19 @@ public class Deck {
         return question;
     }
 
+    public void addQuestion(Question question) {
+        categoryQuestionsMap.get(question.getCategory()).add(question);
+    }
+
+    public Category getCategoryWithName(String categoryName) {
+        Optional<Category> optCategory = categoryQuestionsMap.keySet().stream().filter(c -> c.getName().equalsIgnoreCase(categoryName) ).findFirst();
+        if (optCategory.isEmpty()) {
+            throw new RuntimeException("Category " + categoryName + " not found");
+        } else {
+            return optCategory.get();
+        }
+    }
+
     public Question getNextRandomQuestion() {
         return getNextQuestion(getNextCagetory());
     }
@@ -73,6 +86,10 @@ public class Deck {
         if (!categoryQuestionsMap.containsKey(category)) {
             throw new NoCategoryFoundException(category);
         }
+    }
+
+    public List<Question> getQuestionsForCategory(Category category) {
+        return categoryQuestionsMap.get(category);
     }
 
 }

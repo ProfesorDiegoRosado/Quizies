@@ -66,7 +66,7 @@ As part of this project we will include `DataLoaders` which are class that will 
 The following data storage backends are planned:
 
  - [x] json files
- - [ ] csv files
+ - [x] csv files
  - [ ] xml files
  - [ ] SQL database files
  - [ ] API REST service

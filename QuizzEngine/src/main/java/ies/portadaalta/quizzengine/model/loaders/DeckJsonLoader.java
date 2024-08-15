@@ -24,21 +24,21 @@ public class DeckJsonLoader {
         this.mapper = new ObjectMapper();
     }
 
-    public Deck loadFrom(String deckName, URL url) throws IOException {
+    public Deck loadFromUrl(String deckName, URL url) throws IOException {
         // TODO: to be implemented
         return null;
     }
 
-    public Deck loadFrom(String deckName, File file) throws IOException {
-        return loadFromFile(deckName, file.getAbsolutePath().toString());
+    public Deck loadFromFile(String deckName, File file) throws IOException {
+        return loadFromFilename(deckName, file.getAbsolutePath().toString());
     }
 
-    public Deck loadFromFile(String deckName, String filename) throws IOException {
+    public Deck loadFromFilename(String deckName, String filename) throws IOException {
         String fileContent = Files.readString(Paths.get(filename));
-        return loadFrom(deckName, fileContent);
+        return loadFromString(deckName, fileContent);
     }
 
-    public Deck loadFrom(String deckName, String jsonString) throws IOException {
+    public Deck loadFromString(String deckName, String jsonString) throws IOException {
         JsonNode jsonRootNode = mapper.readTree(jsonString);
 
         Map<Category, List<Question>> categoryQuestionsMap = new HashMap<>();
