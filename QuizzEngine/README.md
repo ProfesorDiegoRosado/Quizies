@@ -76,7 +76,10 @@ The following data storage backends are planned:
 
 ### Dependencies
 
-* No dependencies so far.
+Dependencies so far:
+ - [Jackson](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core/2.17.2) -> to deal with json
+ - [JDOM2](https://mvnrepository.com/artifact/org.jdom/jdom2/2.0.6) -> to deal with xml
+ - [VARV](https://mvnrepository.com/artifact/io.vavr/vavr/0.10.4) -> to use Tuples in the source code
 
 ### Installing
 
@@ -105,6 +108,3 @@ Contributors names and contact info
 
 This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details
 
-## Acknowledgments
-
-Inspiration, code snippets, etc.
