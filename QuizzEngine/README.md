@@ -67,7 +67,7 @@ The following data storage backends are planned:
 
  - [x] json files
  - [x] csv files
- - [ ] xml files
+ - [x] xml files
  - [ ] SQL database files
  - [ ] API REST service
 

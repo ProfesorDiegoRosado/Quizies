@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quizies>
+    <category name="Entretenimiento">
+        <questions>
+            <question question="¿Cuál de las siguientes películas de Pixar se estrenó primero?">
+                <answers>
+                    <answer rightAnswer="true">Toy Story</answer>
+                    <answer>Buscando a Nemo</answer>
+                    <answer>Los Increíbles</answer>
+                    <answer>Up</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el protagonista de la serie de TV 'Breaking Bad'?">
+                <answers>
+                    <answer rightAnswer="true">Walter White</answer>
+                    <answer>Jesse Pinkman</answer>
+                    <answer>Saul Goodman</answer>
+                    <answer>Skyler White</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?">
+                <answers>
+                    <answer rightAnswer="true">Johnny Depp</answer>
+                    <answer>Orlando Bloom</answer>
+                    <answer>Brad Pitt</answer>
+                    <answer>Tom Cruise</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se estrenó la película 'Titanic'?">
+                <answers>
+                    <answer rightAnswer="true">1997</answer>
+                    <answer>1995</answer>
+                    <answer>1999</answer>
+                    <answer>2001</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se estrenó la primera película de la saga 'Star Wars'?">
+                <answers>
+                    <answer rightAnswer="true">1977</answer>
+                    <answer>1983</answer>
+                    <answer>1991</answer>
+                    <answer>2002</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del actor que interpreta a Iron Man en las películas de Marvel?">
+                <answers>
+                    <answer>Chris Evans</answer>
+                    <answer>Chris Hemsworth</answer>
+                    <answer rightAnswer="true">Robert Downey Jr.</answer>
+                    <answer>Mark Ruffalo</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del director de la película 'El Laberinto del Fauno'?">
+                <answers>
+                    <answer rightAnswer="true">Guillermo del Toro</answer>
+                    <answer>Alfonso Cuarón</answer>
+                    <answer>Alejandro González Iñárritu</answer>
+                    <answer>Pedro Almodóvar</answer>
+                </answers>
+            </question>
+            <question question="¿En qué película de Disney aparece el personaje Simba?">
+                <answers>
+                    <answer>La Sirenita</answer>
+                    <answer rightAnswer="true">El Rey León</answer>
+                    <answer>La Bella y la Bestia</answer>
+                    <answer>Aladdín</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el creador de la serie de TV 'Friends'?">
+                <answers>
+                    <answer>Steven Spielberg</answer>
+                    <answer>J.J. Abrams</answer>
+                    <answer rightAnswer="true">David Crane</answer>
+                    <answer>Jerry Seinfeld</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál de las siguientes películas ganó el premio Óscar a Mejor Película en 2019?">
+                <answers>
+                    <answer rightAnswer="true">Parasite</answer>
+                    <answer>Joker</answer>
+                    <answer>1917</answer>
+                    <answer>Once Upon a Time in Hollywood</answer>
+                </answers>
+            </question>
+            <question question="¿Quién interpretó el papel de Hermione Granger en las películas de Harry Potter?">
+                <answers>
+                    <answer rightAnswer="true">Emma Watson</answer>
+                    <answer>Emma Stone</answer>
+                    <answer>Emma Roberts</answer>
+                    <answer>Emma Thompson</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se estrenó la película 'El Rey León' de Disney?">
+                <answers>
+                    <answer rightAnswer="true">1994</answer>
+                    <answer>1997</answer>
+                    <answer>2001</answer>
+                    <answer>2004</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del director de la película 'El Padrino'?">
+                <answers>
+                    <answer rightAnswer="true">Francis Ford Coppola</answer>
+                    <answer>Martin Scorsese</answer>
+                    <answer>Steven Spielberg</answer>
+                    <answer>Quentin Tarantino</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el director de la película 'El Señor de los Anillos: La Comunidad del Anillo'?">
+                <answers>
+                    <answer rightAnswer="true">Peter Jackson</answer>
+                    <answer>Christopher Nolan</answer>
+                    <answer>Steven Spielberg</answer>
+                    <answer>Quentin Tarantino</answer>
+                </answers>
+            </question>
+            <question question="¿En qué película de Quentin Tarantino aparece el personaje de Jules Winnfield?">
+                <answers>
+                    <answer rightAnswer="true">Pulp Fiction</answer>
+                    <answer>Kill Bill</answer>
+                    <answer>Django Unchained</answer>
+                    <answer>Reservoir Dogs</answer>
+                </answers>
+            </question>
+            <question question="¿Quién interpretó el personaje de Katniss Everdeen en la saga de 'Los Juegos del Hambre'?">
+                <answers>
+                    <answer rightAnswer="true">Jennifer Lawrence</answer>
+                    <answer>Emma Stone</answer>
+                    <answer>Scarlett Johansson</answer>
+                    <answer>Natalie Portman</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el protagonista de la serie de TV 'Breaking Bad'?">
+                <answers>
+                    <answer rightAnswer="true">Walter White</answer>
+                    <answer>Jesse Pinkman</answer>
+                    <answer>Saul Goodman</answer>
+                    <answer>Hank Schrader</answer>
+                </answers>
+            </question>
+            <question question="¿Cómo se llama la actriz que interpreta a Daenerys Targaryen en la serie 'Juego de Tronos'?">
+                <answers>
+                    <answer rightAnswer="true">Emilia Clarke</answer>
+                    <answer>Sophie Turner</answer>
+                    <answer>Maisie Williams</answer>
+                    <answer>Kit Harington</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del actor que interpreta a Tony Stark en las películas de Marvel?">
+                <answers>
+                    <answer rightAnswer="true">Robert Downey Jr.</answer>
+                    <answer>Chris Hemsworth</answer>
+                    <answer>Chris Evans</answer>
+                    <answer>Mark Ruffalo</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se estrenó la película 'El Rey León' de Disney?">
+                <answers>
+                    <answer rightAnswer="true">1994</answer>
+                    <answer>1996</answer>
+                    <answer>1998</answer>
+                    <answer>2000</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál de las siguientes series de TV fue creada por Matt Groening?">
+                <answers>
+                    <answer rightAnswer="true">Los Simpson</answer>
+                    <answer>Padre de Familia</answer>
+                    <answer>Bob Esponja</answer>
+                    <answer>South Park</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del protagonista de la serie de TV 'The Walking Dead'?">
+                <answers>
+                    <answer rightAnswer="true">Rick Grimes</answer>
+                    <answer>Negan</answer>
+                    <answer>Daryl Dixon</answer>
+                    <answer>Glenn Rhee</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?">
+                <answers>
+                    <answer rightAnswer="true">Johnny Depp</answer>
+                    <answer>Orlando Bloom</answer>
+                    <answer>Keanu Reeves</answer>
+                    <answer>Brad Pitt</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se estrenó la película 'Titanic'?">
+                <answers>
+                    <answer rightAnswer="true">1997</answer>
+                    <answer>1995</answer>
+                    <answer>1999</answer>
+                    <answer>1996</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál de las siguientes películas de Pixar se estrenó primero?">
+                <answers>
+                    <answer rightAnswer="true">Toy Story</answer>
+                    <answer>Buscando a Nemo</answer>
+                    <answer>Los Increíbles</answer>
+                    <answer>Monsters, Inc.</answer>
+                </answers>
+            </question>
+            <question question="¿En qué serie de TV aparece el personaje de Walter White?">
+                <answers>
+                    <answer rightAnswer="true">Breaking Bad</answer>
+                    <answer>Friends</answer>
+                    <answer>Juego de Tronos</answer>
+                    <answer>Stranger Things</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?">
+                <answers>
+                    <answer rightAnswer="true">Johnny Depp</answer>
+                    <answer>Orlando Bloom</answer>
+                    <answer>Geoffrey Rush</answer>
+                    <answer>Keira Knightley</answer>
+                </answers>
+            </question>
+        </questions>
+    </category>
+    <category name="Geografía">
+        <questions>
+            <question question="¿Cuál es la capital de España?">
+                <answers>
+                    <answer>Barcelona</answer>
+                    <answer rightAnswer="true">Madrid</answer>
+                    <answer>Valencia</answer>
+                    <answer>Sevilla</answer>
+                </answers>
+            </question>
+            <question question="¿En qué continente se encuentra Brasil?">
+                <answers>
+                    <answer rightAnswer="true">América del Sur</answer>
+                    <answer>Europa</answer>
+                    <answer>África</answer>
+                    <answer>Asia</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el río más largo del mundo?">
+                <answers>
+                    <answer rightAnswer="true">Amazonas</answer>
+                    <answer>Nilo</answer>
+                    <answer>Yangtsé</answer>
+                    <answer>Mississippi</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la montaña más alta del mundo?">
+                <answers>
+                    <answer rightAnswer="true">Everest</answer>
+                    <answer>K2</answer>
+                    <answer>Kangchenjunga</answer>
+                    <answer>Lhotse</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el país más grande del mundo en extensión territorial?">
+                <answers>
+                    <answer rightAnswer="true">Rusia</answer>
+                    <answer>Canadá</answer>
+                    <answer>China</answer>
+                    <answer>Estados Unidos</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el punto más bajo de la Tierra?">
+                <answers>
+                    <answer rightAnswer="true">Mar Muerto</answer>
+                    <answer>Valle de la Muerte</answer>
+                    <answer>Fosa de las Marianas</answer>
+                    <answer>Desierto del Sahara</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la ciudad más poblada del mundo?">
+                <answers>
+                    <answer rightAnswer="true">Tokio</answer>
+                    <answer>Shanghai</answer>
+                    <answer>Ciudad de México</answer>
+                    <answer>Nueva Delhi</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la Gran Muralla China?">
+                <answers>
+                    <answer>Japón</answer>
+                    <answer rightAnswer="true">China</answer>
+                    <answer>Corea del Sur</answer>
+                    <answer>India</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el océano más grande del mundo?">
+                <answers>
+                    <answer rightAnswer="true">Océano Pacífico</answer>
+                    <answer>Océano Atlántico</answer>
+                    <answer>Océano Índico</answer>
+                    <answer>Océano Ártico</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la Torre Eiffel?">
+                <answers>
+                    <answer>Italia</answer>
+                    <answer rightAnswer="true">Francia</answer>
+                    <answer>Alemania</answer>
+                    <answer>España</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el desierto más grande del mundo?">
+                <answers>
+                    <answer rightAnswer="true">Sahara</answer>
+                    <answer>Gobi</answer>
+                    <answer>Kalahari</answer>
+                    <answer>Antártico</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Japón?">
+                <answers>
+                    <answer>Pekín</answer>
+                    <answer>Seúl</answer>
+                    <answer rightAnswer="true">Tokio</answer>
+                    <answer>Bangkok</answer>
+                </answers>
+            </question>
+            <question question="¿Dónde se encuentra la famosa estatua del Cristo Redentor?">
+                <answers>
+                    <answer rightAnswer="true">Río de Janeiro, Brasil</answer>
+                    <answer>Buenos Aires, Argentina</answer>
+                    <answer>Ciudad de México, México</answer>
+                    <answer>Santiago, Chile</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra el Taj Mahal?">
+                <answers>
+                    <answer rightAnswer="true">India</answer>
+                    <answer>China</answer>
+                    <answer>Japón</answer>
+                    <answer>Rusia</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el país más grande de Sudamérica?">
+                <answers>
+                    <answer rightAnswer="true">Brasil</answer>
+                    <answer>Argentina</answer>
+                    <answer>Perú</answer>
+                    <answer>Colombia</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra el Canal de Panamá?">
+                <answers>
+                    <answer>Costa Rica</answer>
+                    <answer rightAnswer="true">Panamá</answer>
+                    <answer>Colombia</answer>
+                    <answer>Nicaragua</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la cascada más alta del mundo?">
+                <answers>
+                    <answer rightAnswer="true">Angel Falls</answer>
+                    <answer>Niagara Falls</answer>
+                    <answer>Iguazu Falls</answer>
+                    <answer>Victoria Falls</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la Gran Barrera de Coral?">
+                <answers>
+                    <answer rightAnswer="true">Australia</answer>
+                    <answer>Brasil</answer>
+                    <answer>México</answer>
+                    <answer>Canadá</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la moneda oficial de Japón?">
+                <answers>
+                    <answer rightAnswer="true">Yen</answer>
+                    <answer>Euro</answer>
+                    <answer>Dólar</answer>
+                    <answer>Peso</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la ciudad más alta del mundo?">
+                <answers>
+                    <answer rightAnswer="true">La Paz</answer>
+                    <answer>Kathmandu</answer>
+                    <answer>Lhasa</answer>
+                    <answer>Quito</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra el Monte Everest?">
+                <answers>
+                    <answer>India</answer>
+                    <answer rightAnswer="true">Nepal</answer>
+                    <answer>China</answer>
+                    <answer>Tíbet</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Italia?">
+                <answers>
+                    <answer rightAnswer="true">Roma</answer>
+                    <answer>París</answer>
+                    <answer>Londres</answer>
+                    <answer>Madrid</answer>
+                </answers>
+            </question>
+            <question question="¿En qué ciudad se encuentra la Torre de Pisa?">
+                <answers>
+                    <answer>Roma</answer>
+                    <answer>Venecia</answer>
+                    <answer>Florencia</answer>
+                    <answer rightAnswer="true">Pisa</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Alemania?">
+                <answers>
+                    <answer>Madrid</answer>
+                    <answer>Roma</answer>
+                    <answer rightAnswer="true">Berlín</answer>
+                    <answer>París</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la Gran Muralla China?">
+                <answers>
+                    <answer>Japón</answer>
+                    <answer rightAnswer="true">China</answer>
+                    <answer>India</answer>
+                    <answer>Corea del Sur</answer>
+                </answers>
+            </question>
+            <question question="¿En qué continente se encuentra Australia?">
+                <answers>
+                    <answer>Europa</answer>
+                    <answer>Asia</answer>
+                    <answer rightAnswer="true">Oceanía</answer>
+                    <answer>África</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Francia?">
+                <answers>
+                    <answer>Londres</answer>
+                    <answer rightAnswer="true">París</answer>
+                    <answer>Madrid</answer>
+                    <answer>Roma</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la ciudad de Machu Picchu?">
+                <answers>
+                    <answer rightAnswer="true">Perú</answer>
+                    <answer>Chile</answer>
+                    <answer>Argentina</answer>
+                    <answer>Bolivia</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el país más grande de Europa?">
+                <answers>
+                    <answer rightAnswer="true">Rusia</answer>
+                    <answer>Francia</answer>
+                    <answer>España</answer>
+                    <answer>Alemania</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la ciudad de Machu Picchu?">
+                <answers>
+                    <answer rightAnswer="true">Perú</answer>
+                    <answer>Chile</answer>
+                    <answer>Argentina</answer>
+                    <answer>Brasil</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la ciudad de Machu Picchu?">
+                <answers>
+                    <answer rightAnswer="true">Perú</answer>
+                    <answer>Chile</answer>
+                    <answer>Argentina</answer>
+                    <answer>Brasil</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Canadá?">
+                <answers>
+                    <answer>Toronto</answer>
+                    <answer>Montreal</answer>
+                    <answer rightAnswer="true">Ottawa</answer>
+                    <answer>Vancouver</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Colombia?">
+                <answers>
+                    <answer rightAnswer="true">Bogotá</answer>
+                    <answer>Lima</answer>
+                    <answer>Buenos Aires</answer>
+                    <answer>Santiago</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Argentina?">
+                <answers>
+                    <answer rightAnswer="true">Buenos Aires</answer>
+                    <answer>Santiago</answer>
+                    <answer>Lima</answer>
+                    <answer>Caracas</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se encuentra la Torre Eiffel?">
+                <answers>
+                    <answer rightAnswer="true">Francia</answer>
+                    <answer>Italia</answer>
+                    <answer>España</answer>
+                    <answer>Alemania</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de Estados Unidos?">
+                <answers>
+                    <answer rightAnswer="true">Washington D.C.</answer>
+                    <answer>Nueva York</answer>
+                    <answer>Los Ángeles</answer>
+                    <answer>Miami</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el país más poblado del mundo?">
+                <answers>
+                    <answer rightAnswer="true">China</answer>
+                    <answer>India</answer>
+                    <answer>Estados Unidos</answer>
+                    <answer>Indonesia</answer>
+                </answers>
+            </question>
+        </questions>
+    </category>
+    <category name="Deportes y Ocio">
+        <questions>
+            <question question="¿En qué deporte se utiliza una raqueta para golpear una pelota?">
+                <answers>
+                    <answer rightAnswer="true">Tenis</answer>
+                    <answer>Fútbol</answer>
+                    <answer>Baloncesto</answer>
+                    <answer>Golf</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es considerado el mejor jugador de baloncesto de todos los tiempos?">
+                <answers>
+                    <answer rightAnswer="true">Michael Jordan</answer>
+                    <answer>LeBron James</answer>
+                    <answer>Kobe Bryant</answer>
+                    <answer>Magic Johnson</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se celebraron los primeros Juegos Olímpicos modernos?">
+                <answers>
+                    <answer rightAnswer="true">1896</answer>
+                    <answer>1900</answer>
+                    <answer>1920</answer>
+                    <answer>1860</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se originó el tango, un baile tradicional latinoamericano?">
+                <answers>
+                    <answer rightAnswer="true">Argentina</answer>
+                    <answer>Brasil</answer>
+                    <answer>México</answer>
+                    <answer>Colombia</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se originó el fútbol, el deporte más popular del mundo?">
+                <answers>
+                    <answer>Brasil</answer>
+                    <answer rightAnswer="true">Inglaterra</answer>
+                    <answer>Argentina</answer>
+                    <answer>España</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del principal personaje de la serie de televisión 'Breaking Bad'?">
+                <answers>
+                    <answer rightAnswer="true">Walter White</answer>
+                    <answer>Jesse Pinkman</answer>
+                    <answer>Saul Goodman</answer>
+                    <answer>Skyler White</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del famoso mago creado por la escritora J.K. Rowling?">
+                <answers>
+                    <answer rightAnswer="true">Harry Potter</answer>
+                    <answer>Ron Weasley</answer>
+                    <answer>Hermione Granger</answer>
+                    <answer>Severus Snape</answer>
+                </answers>
+            </question>
+            <question question="¿Quién escribió la obra 'Cien años de soledad'?">
+                <answers>
+                    <answer rightAnswer="true">Gabriel García Márquez</answer>
+                    <answer>Mario Vargas Llosa</answer>
+                    <answer>Carlos Fuentes</answer>
+                    <answer>Julio Cortázar</answer>
+                </answers>
+            </question>
+            <question question="¿En qué ciudad se encuentra el famoso estadio de fútbol Santiago Bernabéu?">
+                <answers>
+                    <answer rightAnswer="true">Madrid</answer>
+                    <answer>Barcelona</answer>
+                    <answer>Buenos Aires</answer>
+                    <answer>Roma</answer>
+                </answers>
+            </question>
+            <question question="¿En qué deporte se enfrentan dos luchadores en un ring?">
+                <answers>
+                    <answer rightAnswer="true">Boxeo</answer>
+                    <answer>Tenis</answer>
+                    <answer>Baloncesto</answer>
+                    <answer>Natación</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país se originó el famoso baile de salsa?">
+                <answers>
+                    <answer rightAnswer="true">Cuba</answer>
+                    <answer>Colombia</answer>
+                    <answer>Puerto Rico</answer>
+                    <answer>República Dominicana</answer>
+                </answers>
+            </question>
+            <question question="¿En qué deporte se utiliza un bate para golpear una pelota?">
+                <answers>
+                    <answer rightAnswer="true">Béisbol</answer>
+                    <answer>Fútbol</answer>
+                    <answer>Baloncesto</answer>
+                    <answer>Tenis</answer>
+                </answers>
+            </question>
+            <question question="¿En qué ciudad se celebran los famosos carnavales de Río de Janeiro?">
+                <answers>
+                    <answer rightAnswer="true">Río de Janeiro</answer>
+                    <answer>São Paulo</answer>
+                    <answer>Buenos Aires</answer>
+                    <answer>Madrid</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el autor de la famosa novela 'Don Quijote de la Mancha'?">
+                <answers>
+                    <answer rightAnswer="true">Miguel de Cervantes</answer>
+                    <answer>William Shakespeare</answer>
+                    <answer>Gabriel García Márquez</answer>
+                    <answer>Friedrich Nietzsche</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del personaje principal de la serie 'Stranger Things'?">
+                <answers>
+                    <answer rightAnswer="true">Eleven</answer>
+                    <answer>Mike</answer>
+                    <answer>Will</answer>
+                    <answer>Dustin</answer>
+                </answers>
+            </question>
+            <question question="¿En qué deporte se utiliza un palo y una pelota para golpearla en un hoyo?">
+                <answers>
+                    <answer rightAnswer="true">Golf</answer>
+                    <answer>Tenis</answer>
+                    <answer>Fútbol</answer>
+                    <answer>Baloncesto</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del famoso pintor español conocido por su estilo surrealista?">
+                <answers>
+                    <answer>Pablo Picasso</answer>
+                    <answer rightAnswer="true">Salvador Dalí</answer>
+                    <answer>Vincent van Gogh</answer>
+                    <answer>Leonardo Da Vinci</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se inauguraron los primeros Juegos Olímpicos de la era moderna?">
+                <answers>
+                    <answer rightAnswer="true">1896</answer>
+                    <answer>1900</answer>
+                    <answer>1920</answer>
+                    <answer>1940</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre de la famosa cantante colombiana conocida por canciones como 'Hips Don't Lie' y 'La Tortura'?">
+                <answers>
+                    <answer rightAnswer="true">Shakira</answer>
+                    <answer>Beyoncé</answer>
+                    <answer>Rihanna</answer>
+                    <answer>Adele</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se inauguraron los primeros Juegos Olímpicos de la era moderna?">
+                <answers>
+                    <answer rightAnswer="true">1896</answer>
+                    <answer>1900</answer>
+                    <answer>1912</answer>
+                    <answer>1924</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del personaje principal de la serie de televisión 'The Simpsons'?">
+                <answers>
+                    <answer rightAnswer="true">Homer</answer>
+                    <answer>Bart</answer>
+                    <answer>Lisa</answer>
+                    <answer>Marge</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el apellido del presidente de Estados Unidos que fue conocido por su famosa frase 'Sí, podemos'?">
+                <answers>
+                    <answer rightAnswer="true">Obama</answer>
+                    <answer>Trump</answer>
+                    <answer>Clinton</answer>
+                    <answer>Bush</answer>
+                </answers>
+            </question>
+            <question question="¿En qué deporte se utiliza una raqueta para golpear una pelota?">
+                <answers>
+                    <answer rightAnswer="true">Tenis</answer>
+                    <answer>Fútbol</answer>
+                    <answer>Baloncesto</answer>
+                    <answer>Golf</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre del pintor español conocido por su cuadro 'Guernica'?">
+                <answers>
+                    <answer rightAnswer="true">Pablo Picasso</answer>
+                    <answer>Vincent van Gogh</answer>
+                    <answer>Leonardo da Vinci</answer>
+                    <answer>Frida Kahlo</answer>
+                </answers>
+            </question>
+            <question question="¿En qué ciudad se encuentra la famosa torre inclinada de Pisa?">
+                <answers>
+                    <answer>Roma</answer>
+                    <answer>Florencia</answer>
+                    <answer rightAnswer="true">Pisa</answer>
+                    <answer>Milán</answer>
+                </answers>
+            </question>
+            <question question="¿En qué deporte se utilizan guantes y un casco protector?">
+                <answers>
+                    <answer rightAnswer="true">Boxeo</answer>
+                    <answer>Natación</answer>
+                    <answer>Tenis</answer>
+                    <answer>Fútbol</answer>
+                </answers>
+            </question>
+            <question question="¿En qué deporte se utiliza un casco protector y guantes?">
+                <answers>
+                    <answer>Fútbol</answer>
+                    <answer rightAnswer="true">Boxeo</answer>
+                    <answer>Tenis</answer>
+                    <answer>Natación</answer>
+                </answers>
+            </question>
+        </questions>
+    </category>
+    <category name="Arte y Literatura">
+        <questions>
+            <question question="¿Quién pintó el famoso cuadro 'La noche estrellada'?">
+                <answers>
+                    <answer rightAnswer="true">Vincent van Gogh</answer>
+                    <answer>Pablo Picasso</answer>
+                    <answer>Leonardo da Vinci</answer>
+                    <answer>Salvador Dalí</answer>
+                </answers>
+            </question>
+            <question question="¿Qué escritor colombiano ganó el Premio Nobel de Literatura en 1982?">
+                <answers>
+                    <answer rightAnswer="true">Gabriel García Márquez</answer>
+                    <answer>Julio Cortázar</answer>
+                    <answer>Mario Vargas Llosa</answer>
+                    <answer>Pablo Neruda</answer>
+                </answers>
+            </question>
+            <question question="¿Qué pintor español es conocido por su obra 'Guernica'?">
+                <answers>
+                    <answer rightAnswer="true">Pablo Picasso</answer>
+                    <answer>Diego Rivera</answer>
+                    <answer>Salvador Dalí</answer>
+                    <answer>Joan Miró</answer>
+                </answers>
+            </question>
+            <question question="¿Quién escribió 'Cien años de soledad'?">
+                <answers>
+                    <answer rightAnswer="true">Gabriel García Márquez</answer>
+                    <answer>Mario Vargas Llosa</answer>
+                    <answer>Isabel Allende</answer>
+                    <answer>Julio Cortázar</answer>
+                </answers>
+            </question>
+            <question question="¿En qué ciudad se encuentra el Museo del Louvre?">
+                <answers>
+                    <answer rightAnswer="true">París</answer>
+                    <answer>Londres</answer>
+                    <answer>Nueva York</answer>
+                    <answer>Madrid</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el autor de la famosa obra 'Don Quijote de la Mancha'?">
+                <answers>
+                    <answer rightAnswer="true">Miguel de Cervantes</answer>
+                    <answer>Gabriel García Márquez</answer>
+                    <answer>Pablo Picasso</answer>
+                    <answer>Frida Kahlo</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el famoso arquitecto catalán conocido por su estilo modernista?">
+                <answers>
+                    <answer rightAnswer="true">Antoni Gaudí</answer>
+                    <answer>Pablo Picasso</answer>
+                    <answer>Diego Rivera</answer>
+                    <answer>Salvador Dalí</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la famosa novela de Gabriel García Márquez que narra la historia de la familia Buendía en Macondo?">
+                <answers>
+                    <answer rightAnswer="true">Cien años de soledad</answer>
+                    <answer>El amor en los tiempos del cólera</answer>
+                    <answer>Crónica de una muerte anunciada</answer>
+                    <answer>El coronel no tiene quien le escriba</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el pintor español conocido por su serie de pinturas 'Las meninas'?">
+                <answers>
+                    <answer>Pablo Picasso</answer>
+                    <answer rightAnswer="true">Diego Velázquez</answer>
+                    <answer>Salvador Dalí</answer>
+                    <answer>Francisco de Goya</answer>
+                </answers>
+            </question>
+            <question question="En la obra 'La casa de Bernarda Alba', ¿quién es el personaje principal?">
+                <answers>
+                    <answer rightAnswer="true">Bernarda Alba</answer>
+                    <answer>Adela</answer>
+                    <answer>Poncia</answer>
+                    <answer>María Josefa</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la novela más conocida de Miguel de Cervantes?">
+                <answers>
+                    <answer rightAnswer="true">Don Quijote de la Mancha</answer>
+                    <answer>La Celestina</answer>
+                    <answer>La Regenta</answer>
+                    <answer>El Lazarillo de Tormes</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre completo del famoso pintor conocido como Picasso?">
+                <answers>
+                    <answer rightAnswer="true">Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso</answer>
+                    <answer>Pablo Diego José Francisco de Paula Juan Nepomuceno de Jesús María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso</answer>
+                    <answer>Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz</answer>
+                    <answer>Pablo Diego José Francisco de Paula de Jesús María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso</answer>
+                </answers>
+            </question>
+            <question question="¿Qué escritor español ganó el Premio Nobel de Literatura en 1977?">
+                <answers>
+                    <answer>Gabriel García Márquez</answer>
+                    <answer>Pablo Neruda</answer>
+                    <answer>Miguel Delibes</answer>
+                    <answer rightAnswer="true">Mario Vargas Llosa</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el autor de la famosa obra 'La metamorfosis'?">
+                <answers>
+                    <answer rightAnswer="true">Franz Kafka</answer>
+                    <answer>Gabriel García Márquez</answer>
+                    <answer>Virginia Woolf</answer>
+                    <answer>Eduardo Galeano</answer>
+                </answers>
+            </question>
+            <question question="¿Quién escribió el poema épico 'La Ilíada'?">
+                <answers>
+                    <answer rightAnswer="true">Homero</answer>
+                    <answer>Virgilio</answer>
+                    <answer>Ovidio</answer>
+                    <answer>Dante Alighieri</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el autor de 'El retrato de Dorian Gray'?">
+                <answers>
+                    <answer rightAnswer="true">Oscar Wilde</answer>
+                    <answer>William Shakespeare</answer>
+                    <answer>Friedrich Nietzsche</answer>
+                    <answer>Jane Austen</answer>
+                </answers>
+            </question>
+            <question question="¿Qué escritor y dramaturgo español es conocido por su obra 'La casa de Bernarda Alba'?">
+                <answers>
+                    <answer rightAnswer="true">Federico García Lorca</answer>
+                    <answer>Miguel de Cervantes</answer>
+                    <answer>Gabriel García Márquez</answer>
+                    <answer>Marcel Proust</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el autor de 'El principito'?">
+                <answers>
+                    <answer rightAnswer="true">Antoine de Saint-Exupéry</answer>
+                    <answer>Julio Cortázar</answer>
+                    <answer>Gabriel García Márquez</answer>
+                    <answer>Mario Vargas Llosa</answer>
+                </answers>
+            </question>
+            <question question="¿Quién pintó 'Las Meninas'?">
+                <answers>
+                    <answer>Pablo Picasso</answer>
+                    <answer rightAnswer="true">Diego Velázquez</answer>
+                    <answer>Salvador Dalí</answer>
+                    <answer>Francisco de Goya</answer>
+                </answers>
+            </question>
+            <question question="¿Qué pintor neerlandés es conocido por su serie de autorretratos?">
+                <answers>
+                    <answer>Vincent van Gogh</answer>
+                    <answer>Johannes Vermeer</answer>
+                    <answer rightAnswer="true">Rembrandt</answer>
+                    <answer>Pablo Picasso</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la obra más famosa del pintor italiano Leonardo da Vinci?">
+                <answers>
+                    <answer rightAnswer="true">La Mona Lisa</answer>
+                    <answer>La Última Cena</answer>
+                    <answer>La Primavera</answer>
+                    <answer>David</answer>
+                </answers>
+            </question>
+            <question question="¿Quién escribió la obra 'La Odisea'?">
+                <answers>
+                    <answer rightAnswer="true">Homero</answer>
+                    <answer>Platón</answer>
+                    <answer>Aristóteles</answer>
+                    <answer>Sófocles</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el autor de 'La noche estrellada'?">
+                <answers>
+                    <answer rightAnswer="true">Vincent van Gogh</answer>
+                    <answer>Pablo Picasso</answer>
+                    <answer>Leonardo da Vinci</answer>
+                    <answer>Salvador Dalí</answer>
+                </answers>
+            </question>
+            <question question="¿Quién es el autor de 'La divina comedia'?">
+                <answers>
+                    <answer>Miguel de Cervantes</answer>
+                    <answer rightAnswer="true">Dante Alighieri</answer>
+                    <answer>William Shakespeare</answer>
+                    <answer>Julio Cortázar</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el autor de 'El jardín de las delicias'?">
+                <answers>
+                    <answer>Pablo Picasso</answer>
+                    <answer rightAnswer="true">Hieronymus Bosch</answer>
+                    <answer>Vincent van Gogh</answer>
+                    <answer>Salvador Dalí</answer>
+                </answers>
+            </question>
+            <question question="¿Quién escribió el famoso libro 'Don Quijote de la Mancha'?">
+                <answers>
+                    <answer rightAnswer="true">Miguel de Cervantes</answer>
+                    <answer>Gabriel García Márquez</answer>
+                    <answer>Pablo Picasso</answer>
+                    <answer>Leonardo da Vinci</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país nació el pintor Salvador Dalí?">
+                <answers>
+                    <answer rightAnswer="true">España</answer>
+                    <answer>Francia</answer>
+                    <answer>Italia</answer>
+                    <answer>México</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el autor del 'Guernica'?">
+                <answers>
+                    <answer rightAnswer="true">Pablo Picasso</answer>
+                    <answer>Salvador Dalí</answer>
+                    <answer>Diego Rivera</answer>
+                    <answer>Vincent van Gogh</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el compositor de la famosa obra 'Las Cuatro Estaciones'?">
+                <answers>
+                    <answer rightAnswer="true">Antonio Vivaldi</answer>
+                    <answer>Ludwig van Beethoven</answer>
+                    <answer>Wolfgang Amadeus Mozart</answer>
+                    <answer>Johann Sebastian Bach</answer>
+                </answers>
+            </question>
+        </questions>
+    </category>
+    <category name="Ciencia y Naturaleza">
+        <questions>
+            <question question="¿Qué planeta es conocido como el planeta rojo?">
+                <answers>
+                    <answer rightAnswer="true">Marte</answer>
+                    <answer>Júpiter</answer>
+                    <answer>Venus</answer>
+                    <answer>Mercurio</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la parte del cuerpo humano encargada de bombear la sangre?">
+                <answers>
+                    <answer>Cerebro</answer>
+                    <answer>Pulmón</answer>
+                    <answer rightAnswer="true">Corazón</answer>
+                    <answer>Estómago</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el elemento más abundante en la corteza terrestre?">
+                <answers>
+                    <answer>Oxígeno</answer>
+                    <answer>Hierro</answer>
+                    <answer rightAnswer="true">Silicio</answer>
+                    <answer>Aluminio</answer>
+                </answers>
+            </question>
+            <question question="¿Quién descubrió la gravedad al observar una manzana caer de un árbol?">
+                <answers>
+                    <answer rightAnswer="true">Isaac Newton</answer>
+                    <answer>Albert Einstein</answer>
+                    <answer>Galileo Galilei</answer>
+                    <answer>Nikola Tesla</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el animal terrestre más grande del mundo?">
+                <answers>
+                    <answer>Elefante</answer>
+                    <answer>Rinoceronte</answer>
+                    <answer rightAnswer="true">Jirafa</answer>
+                    <answer>Oso polar</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el proceso mediante el cual las plantas producen su propia comida?">
+                <answers>
+                    <answer rightAnswer="true">Fotosíntesis</answer>
+                    <answer>Respiración</answer>
+                    <answer>Digestión</answer>
+                    <answer>Fermentación</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el nombre de la galaxia en la que se encuentra la Tierra?">
+                <answers>
+                    <answer rightAnswer="true">Vía Láctea</answer>
+                    <answer>Andrómeda</answer>
+                    <answer>Centauro</answer>
+                    <answer>Sombrero</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la velocidad de la luz en el vacío?">
+                <answers>
+                    <answer rightAnswer="true">299,792,458 m/s</answer>
+                    <answer>300,000,000 m/s</answer>
+                    <answer>200,000,000 m/s</answer>
+                    <answer>250,000,000 m/s</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la temperatura en la que el agua hierve?">
+                <answers>
+                    <answer rightAnswer="true">100 grados Celsius</answer>
+                    <answer>50 grados Celsius</answer>
+                    <answer>0 grados Celsius</answer>
+                    <answer>200 grados Celsius</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el órgano más grande del cuerpo humano?">
+                <answers>
+                    <answer>El hígado</answer>
+                    <answer rightAnswer="true">La piel</answer>
+                    <answer>El corazón</answer>
+                    <answer>Los pulmones</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la capital de España?">
+                <answers>
+                    <answer rightAnswer="true">Madrid</answer>
+                    <answer>Barcelona</answer>
+                    <answer>Valencia</answer>
+                    <answer>Sevilla</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el primer ser humano en llegar a la Luna?">
+                <answers>
+                    <answer rightAnswer="true">Neil Armstrong</answer>
+                    <answer>Buzz Aldrin</answer>
+                    <answer>Michael Collins</answer>
+                    <answer>Yuri Gagarin</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la fórmula química del agua?">
+                <answers>
+                    <answer rightAnswer="true">H2O</answer>
+                    <answer>CO2</answer>
+                    <answer>NaCl</answer>
+                    <answer>O2</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el ave nacional de Estados Unidos?">
+                <answers>
+                    <answer rightAnswer="true">El águila calva</answer>
+                    <answer>El cóndor</answer>
+                    <answer>El búho</answer>
+                    <answer>El pelícano</answer>
+                </answers>
+            </question>
+            <question question="¿Dónde se encuentra el ADN en las células?">
+                <answers>
+                    <answer rightAnswer="true">En el núcleo</answer>
+                    <answer>En el citoplasma</answer>
+                    <answer>En la membrana celular</answer>
+                    <answer>En las mitocondrias</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el animal más grande del mundo?">
+                <answers>
+                    <answer rightAnswer="true">Ballena azul</answer>
+                    <answer>Elefante africano</answer>
+                    <answer>Abeja reina</answer>
+                    <answer>León</answer>
+                </answers>
+            </question>
+            <question question="¿Qué científico propuso la teoría de la relatividad?">
+                <answers>
+                    <answer>Isaac Newton</answer>
+                    <answer rightAnswer="true">Albert Einstein</answer>
+                    <answer>Galileo Galilei</answer>
+                    <answer>Stephen Hawking</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la principal causa del cambio climático en la actualidad?">
+                <answers>
+                    <answer rightAnswer="true">La emisión de gases de efecto invernadero</answer>
+                    <answer>La actividad volcánica</answer>
+                    <answer>El deshielo de los polos</answer>
+                    <answer>La deforestación</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el gas más abundante en la atmósfera terrestre?">
+                <answers>
+                    <answer rightAnswer="true">Nitrógeno</answer>
+                    <answer>Oxígeno</answer>
+                    <answer>Dióxido de carbono</answer>
+                    <answer>Argón</answer>
+                </answers>
+            </question>
+            <question question="¿Dónde se encuentra el Monte Everest, la montaña más alta del mundo?">
+                <answers>
+                    <answer rightAnswer="true">En Nepal y China</answer>
+                    <answer>En Argentina</answer>
+                    <answer>En Australia</answer>
+                    <answer>En Estados Unidos</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el proceso mediante el cual las plantas producen su propia comida?">
+                <answers>
+                    <answer rightAnswer="true">Fotosíntesis</answer>
+                    <answer>Respiración</answer>
+                    <answer>Digestión</answer>
+                    <answer>Evasión</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el proceso mediante el cual las plantas producen su propia comida?">
+                <answers>
+                    <answer rightAnswer="true">Fotosíntesis</answer>
+                    <answer>Respiración</answer>
+                    <answer>Digestión</answer>
+                    <answer>Excreción</answer>
+                </answers>
+            </question>
+            <question question="¿Qué científico propuso la teoría de la relatividad?">
+                <answers>
+                    <answer>Isaac Newton</answer>
+                    <answer rightAnswer="true">Albert Einstein</answer>
+                    <answer>Galileo Galilei</answer>
+                    <answer>Marie Curie</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el proceso mediante el cual las plantas producen su propia comida?">
+                <answers>
+                    <answer rightAnswer="true">Fotosíntesis</answer>
+                    <answer>Respiración</answer>
+                    <answer>Digestión</answer>
+                    <answer>Transpiración</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el proceso mediante el cual las plantas producen su propia comida?">
+                <answers>
+                    <answer rightAnswer="true">Fotosíntesis</answer>
+                    <answer>Respiración</answer>
+                    <answer>Digestión</answer>
+                    <answer>Transpiración</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es la principal causa del cambio climático en la actualidad?">
+                <answers>
+                    <answer rightAnswer="true">Emisiones de gases de efecto invernadero</answer>
+                    <answer>Deforestación</answer>
+                    <answer>Contaminación del aire</answer>
+                    <answer>Uso de combustibles fósiles</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el ave nacional de Estados Unidos?">
+                <answers>
+                    <answer rightAnswer="true">Águila calva</answer>
+                    <answer>Colibrí</answer>
+                    <answer>Loro</answer>
+                    <answer>Buitre</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el ave nacional de Estados Unidos?">
+                <answers>
+                    <answer rightAnswer="true">Águila calva</answer>
+                    <answer>Colibrí</answer>
+                    <answer>Búho</answer>
+                    <answer>Pavo real</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el ave nacional de Estados Unidos?">
+                <answers>
+                    <answer rightAnswer="true">Águila calva</answer>
+                    <answer>Colibrí</answer>
+                    <answer>Búho</answer>
+                    <answer>Pavo</answer>
+                </answers>
+            </question>
+            <question question="¿Dónde se encuentra el río Amazonas, el río más caudaloso del mundo?">
+                <answers>
+                    <answer rightAnswer="true">América del Sur</answer>
+                    <answer>África</answer>
+                    <answer>Asia</answer>
+                    <answer>Europa</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál es el ave nacional de Estados Unidos?">
+                <answers>
+                    <answer rightAnswer="true">Águila calva</answer>
+                    <answer>Búho real</answer>
+                    <answer>Colibrí</answer>
+                    <answer>Cóndor</answer>
+                </answers>
+            </question>
+        </questions>
+    </category>
+    <category name="Historia">
+        <questions>
+            <question question="¿Quién fue el primer presidente de los Estados Unidos?">
+                <answers>
+                    <answer>Thomas Jefferson</answer>
+                    <answer>Benjamin Franklin</answer>
+                    <answer rightAnswer="true">George Washington</answer>
+                    <answer>John Adams</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año comenzó la Revolución Francesa?">
+                <answers>
+                    <answer>1776</answer>
+                    <answer rightAnswer="true">1789</answer>
+                    <answer>1812</answer>
+                    <answer>1799</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál fue la capital del Imperio Romano?">
+                <answers>
+                    <answer rightAnswer="true">Roma</answer>
+                    <answer>Atenas</answer>
+                    <answer>Cartago</answer>
+                    <answer>Constantinopla</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Cubana?">
+                <answers>
+                    <answer rightAnswer="true">Fidel Castro</answer>
+                    <answer>Che Guevara</answer>
+                    <answer>José Martí</answer>
+                    <answer>Camilo Cienfuegos</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el primer emperador romano?">
+                <answers>
+                    <answer>Julio César</answer>
+                    <answer>Nerón</answer>
+                    <answer rightAnswer="true">Augusto</answer>
+                    <answer>Constantino</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?">
+                <answers>
+                    <answer rightAnswer="true">1919</answer>
+                    <answer>1921</answer>
+                    <answer>1914</answer>
+                    <answer>1923</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál fue la fecha de la Declaración de Independencia de los Estados Unidos?">
+                <answers>
+                    <answer rightAnswer="true">4 de julio de 1776</answer>
+                    <answer>5 de septiembre de 1781</answer>
+                    <answer>12 de junio de 1799</answer>
+                    <answer>2 de agosto de 1805</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el emperador de Francia durante el siglo XIX?">
+                <answers>
+                    <answer>Napoleón Bonaparte</answer>
+                    <answer rightAnswer="true">Napoleón III</answer>
+                    <answer>Luis XVIII</answer>
+                    <answer>Carlos X</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se produjo la caída del Muro de Berlín?">
+                <answers>
+                    <answer rightAnswer="true">1989</answer>
+                    <answer>1991</answer>
+                    <answer>1993</answer>
+                    <answer>1985</answer>
+                </answers>
+            </question>
+            <question question="¿Qué famoso líder político argentino fue conocido como 'El Che'?">
+                <answers>
+                    <answer>Eva Perón</answer>
+                    <answer>Juan Domingo Perón</answer>
+                    <answer rightAnswer="true">Che Guevara</answer>
+                    <answer>Mauricio Macri</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Mexicana?">
+                <answers>
+                    <answer>Emiliano Zapata</answer>
+                    <answer>Porfirio Díaz</answer>
+                    <answer>Pancho Villa</answer>
+                    <answer rightAnswer="true">Francisco Madero</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año comenzó la Guerra de Independencia de México?">
+                <answers>
+                    <answer rightAnswer="true">1810</answer>
+                    <answer>1821</answer>
+                    <answer>1836</answer>
+                    <answer>1848</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál fue el nombre de la primera civilización de la historia?">
+                <answers>
+                    <answer>Egipto</answer>
+                    <answer rightAnswer="true">Mesopotamia</answer>
+                    <answer>China</answer>
+                    <answer>Grecia</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se promulgó la Constitución de los Estados Unidos?">
+                <answers>
+                    <answer>1776</answer>
+                    <answer>1789</answer>
+                    <answer>1791</answer>
+                    <answer rightAnswer="true">1787</answer>
+                </answers>
+            </question>
+            <question question="¿En qué país nació Simón Bolívar?">
+                <answers>
+                    <answer rightAnswer="true">Venezuela</answer>
+                    <answer>Colombia</answer>
+                    <answer>Argentina</answer>
+                    <answer>Ecuador</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Rusa de 1917?">
+                <answers>
+                    <answer rightAnswer="true">Lenin</answer>
+                    <answer>Stalin</answer>
+                    <answer>Trotsky</answer>
+                    <answer>Kerensky</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se firmó el Tratado de Tordesillas?">
+                <answers>
+                    <answer rightAnswer="true">1494</answer>
+                    <answer>1521</answer>
+                    <answer>1556</answer>
+                    <answer>1610</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el conquistador español que lideró la expedición que resultó en la conquista de México?">
+                <answers>
+                    <answer rightAnswer="true">Hernán Cortés</answer>
+                    <answer>Francisco Pizarro</answer>
+                    <answer>Pedro de Alvarado</answer>
+                    <answer>Diego de Almagro</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se proclamó la independencia de Argentina?">
+                <answers>
+                    <answer rightAnswer="true">1816</answer>
+                    <answer>1821</answer>
+                    <answer>1835</answer>
+                    <answer>1843</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue la primera mujer en recibir el Premio Nobel de la Paz?">
+                <answers>
+                    <answer>Marie Curie</answer>
+                    <answer>Rigoberta Menchú</answer>
+                    <answer>Mother Teresa</answer>
+                    <answer rightAnswer="true">Jane Addams</answer>
+                </answers>
+            </question>
+            <question question="¿Qué presidente de Estados Unidos fue conocido como 'el padre de la patria'?">
+                <answers>
+                    <answer rightAnswer="true">George Washington</answer>
+                    <answer>Abraham Lincoln</answer>
+                    <answer>Thomas Jefferson</answer>
+                    <answer>John F. Kennedy</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Cubana?">
+                <answers>
+                    <answer rightAnswer="true">Fidel Castro</answer>
+                    <answer>Che Guevara</answer>
+                    <answer>Camilo Cienfuegos</answer>
+                    <answer>Raul Castro</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Mexicana?">
+                <answers>
+                    <answer>Emiliano Zapata</answer>
+                    <answer>Francisco Villa</answer>
+                    <answer>Miguel Hidalgo</answer>
+                    <answer rightAnswer="true">Francisco Madero</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se produjo la caída del Muro de Berlín?">
+                <answers>
+                    <answer rightAnswer="true">1989</answer>
+                    <answer>1991</answer>
+                    <answer>1978</answer>
+                    <answer>2000</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se produjo la caída del Muro de Berlín?">
+                <answers>
+                    <answer rightAnswer="true">1989</answer>
+                    <answer>1991</answer>
+                    <answer>1979</answer>
+                    <answer>2001</answer>
+                </answers>
+            </question>
+            <question question="¿Cuál fue el nombre de la primera civilización de la historia?">
+                <answers>
+                    <answer rightAnswer="true">Mesopotamia</answer>
+                    <answer>Egipto</answer>
+                    <answer>China</answer>
+                    <answer>India</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se proclamó la independencia de Argentina?">
+                <answers>
+                    <answer>1806</answer>
+                    <answer rightAnswer="true">1816</answer>
+                    <answer>1826</answer>
+                    <answer>1836</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Mexicana?">
+                <answers>
+                    <answer>Emiliano Zapata</answer>
+                    <answer>Pancho Villa</answer>
+                    <answer rightAnswer="true">Venustiano Carranza</answer>
+                    <answer>Porfirio Díaz</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Mexicana?">
+                <answers>
+                    <answer>Emiliano Zapata</answer>
+                    <answer>Francisco Villa</answer>
+                    <answer rightAnswer="true">Venustiano Carranza</answer>
+                    <answer>Porfirio Díaz</answer>
+                </answers>
+            </question>
+            <question question="¿Quién fue el líder de la Revolución Mexicana?">
+                <answers>
+                    <answer>Emiliano Zapata</answer>
+                    <answer rightAnswer="true">Pancho Villa</answer>
+                    <answer>Porfirio Díaz</answer>
+                    <answer>Francisco Madero</answer>
+                </answers>
+            </question>
+            <question question="¿En qué año se proclamó la independencia de Argentina?">
+                <answers>
+                    <answer rightAnswer="true">1816</answer>
+                    <answer>1821</answer>
+                    <answer>1830</answer>
+                    <answer>1845</answer>
+                </answers>
+            </question>
+        </questions>
+    </category>
+</quizies>

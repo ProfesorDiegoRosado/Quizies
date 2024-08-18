@@ -1,28 +1,24 @@
 package ies.portadaalta.quizzengine.model.converters;
 
+
 import ies.portadaalta.quizzengine.model.Deck;
 import ies.portadaalta.quizzengine.model.loaders.DeckJsonLoader;
 
 import java.io.IOException;
 
-
-/*
- Create a csv file questions database from json input file.
- */
-public class MainJson2CsvConverter {
+public class MainJson2XmlConverter {
 
     public static void main( String[] args ) throws IOException {
 
-        String jsonFilename = "src/main/resources/ChatGPT_trivial_database.json"; //"ChatGPT_trivial_database.json";
-        String csvFilename = "ChatGPT_trivial_database.csv";
+        String jsonFilename = "src/main/resources/ChatGPT_trivial_database.json";
+        String xmlFilename = "ChatGPT_trivial_database.xml";
 
         DeckJsonLoader jsonLoader = new DeckJsonLoader();
         Deck deck = jsonLoader.loadFromFilename("Dummy Deck", jsonFilename);
 
         DeckJsonConverter deckJsonConverter = new DeckJsonConverter();
-        deckJsonConverter.writeDeck2Csv(deck, csvFilename);
-
+        deckJsonConverter.write2Xml(deck, xmlFilename);
     }
 
-
 }
+

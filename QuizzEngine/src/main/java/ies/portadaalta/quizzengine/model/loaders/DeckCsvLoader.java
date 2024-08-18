@@ -18,6 +18,9 @@ import java.util.Map;
 
 public class DeckCsvLoader {
 
+    public final static String CSV_HEADER = """
+            category, question, rightAnswer, answers (variable column size)""";
+
     private final CsvMapper mapper;
 
     public DeckCsvLoader() {

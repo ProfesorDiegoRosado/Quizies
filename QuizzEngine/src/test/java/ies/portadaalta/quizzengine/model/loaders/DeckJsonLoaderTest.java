@@ -1,5 +1,6 @@
 package ies.portadaalta.quizzengine.model.loaders;
 
+import ies.portadaalta.quizzengine.TestUtils;
 import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Deck;
 import org.junit.jupiter.api.Test;
@@ -96,9 +97,9 @@ class DeckJsonLoaderTest {
 
 
     @Test
-    void loadFromFile() throws IOException {
+    void loadFromFilename() throws IOException {
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
-        String jsonFileAbsolutePath = getFileFromResources(JSON_FILENAME).getAbsolutePath();
+        String jsonFileAbsolutePath = new TestUtils().getFileFromResources(JSON_FILENAME).getAbsolutePath();
         Deck deck = deckJsonLoader.loadFromFilename("Dummy test deck", jsonFileAbsolutePath);
 
         Set<Category> categories = deck.getCategories();
@@ -116,10 +117,6 @@ class DeckJsonLoaderTest {
         );
     }
 
-    private File getFileFromResources(String filename) {
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(filename).getFile());
-        return file;
-    }
+
 
 }

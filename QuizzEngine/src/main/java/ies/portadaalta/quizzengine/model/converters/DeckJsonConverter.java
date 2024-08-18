@@ -3,30 +3,32 @@ package ies.portadaalta.quizzengine.model.converters;
 import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Deck;
 import ies.portadaalta.quizzengine.model.Question;
-import ies.portadaalta.quizzengine.model.loaders.DeckJsonLoader;
 
-import java.io.IOException;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.output.Format;
+import org.jdom2.output.XMLOutputter;
+
+
+import static ies.portadaalta.quizzengine.model.loaders.DeckCsvLoader.CSV_HEADER;
+import static ies.portadaalta.quizzengine.model.loaders.DeckXmlLoader.*;
+
 
 public class DeckJsonConverter {
 
-    private final static String CSV_HEADER = """
-            category, question, rightAnswer, answers (variable column size)""";
 
     public DeckJsonConverter() { }
 
-    public void convertoJson2Csv(String jsonFilename, String csvFilename) throws IOException {
-        DeckJsonLoader jsonLoader = new DeckJsonLoader();
-        Deck deck = jsonLoader.loadFromFilename("Dummy Deck", jsonFilename);
-        writeDeck2Csv(deck, csvFilename);
-    }
 
-    private void writeDeck2Csv(Deck deck, String csvFilename) throws IOException {
+    // CSV converter
+    public void writeDeck2Csv(Deck deck, String csvFilename) throws IOException {
         List<String> csvLines = conver2Csv(deck);
         write2CsvFilename(csvLines, csvFilename);
     }
@@ -99,4 +101,90 @@ public class DeckJsonConverter {
         }
     }
 
+    // Xml converter
+
+    public void write2Xml(Deck deck, String xmlFilename) throws IOException {
+        Document doc = getDomDocument(deck);
+
+        File file = new File(xmlFilename);
+        FileOutputStream fileOutputStream = new FileOutputStream(file);
+
+        writeDoc2OutputStream(doc, fileOutputStream);
+    }
+
+    private void writeDoc2OutputStream(Document doc, OutputStream outputStream) throws IOException {
+        XMLOutputter xmlOutputter = new XMLOutputter();
+        xmlOutputter.setFormat(Format.getPrettyFormat());
+
+        xmlOutputter.output(doc, outputStream);
+    }
+
+    private Document getDomDocument(Deck deck) {
+        Document doc = new Document();
+
+        Element quiziesElement = new Element(ROOT_ELEMENT_TAG);
+        doc.setRootElement(quiziesElement);
+
+        Set<Category> categories = deck.getCategories();
+
+        for (Category category : categories) {
+
+            Element categoryElement = new Element(CATEGORY_ELEMENT_TAG);
+            categoryElement.setAttribute(CATEGORY_ELEMENT_NAME_ATTR, category.getName());
+
+            Element questionsElement = createQuestionsElement(deck, category);
+
+            categoryElement.addContent(questionsElement);
+
+            quiziesElement.addContent(categoryElement);
+        }
+        return doc;
+    }
+
+    private Element createQuestionsElement(Deck deck, Category category) {
+        Element questionsElement = new Element(QUESTIONS_ELEMENT_TAG);
+
+        List<Question> questionsForCategory = deck.getQuestionsForCategory(category);
+
+        for (Question question : questionsForCategory) {
+            String questionString = question.getQuestion();
+            int rightAnswer = question.getRightAnswer();
+            List<String> answers = question.getAnswers();
+
+            Element questionElement = createQuestionElement(questionString, answers, rightAnswer);
+
+            questionsElement.addContent(questionElement);
+        }
+        return questionsElement;
+    }
+
+    private Element createQuestionElement(String questionString, List<String> answers, int rightAnswer) {
+        Element questionElement = new Element(QUESTION_ELEMENT_TAG);
+        questionElement.setAttribute(QUESTION_ELEMENT_QUESTION_ATTR, questionString);
+
+        Element answersElement = createAnswersElement(answers, rightAnswer);
+        questionElement.addContent(answersElement);
+
+        return questionElement;
+    }
+
+    private Element createAnswersElement(List<String> answers, int rightAnswer) {
+        Element answersElement = new Element(ANSWERS_ELEMENT_TAG);
+
+        for (int i = 0; i < answers.size(); i++) {
+            Element answerElement = createAnswerElement(answers, rightAnswer, i);
+            answersElement.addContent(answerElement);
+        }
+        return answersElement;
+    }
+
+    private Element createAnswerElement(List<String> answers, int rightAnswer, int index) {
+        Element answerElement = new Element(ANSWER_ELEMENT_TAG);
+        answerElement.setText(answers.get(index));
+        if (index == rightAnswer) {
+            answerElement.setAttribute(ANSWER_ELEMENT_RIGHTANSWER_ATTR, "true");
+        }
+        return answerElement;
+    }
+    
 }
