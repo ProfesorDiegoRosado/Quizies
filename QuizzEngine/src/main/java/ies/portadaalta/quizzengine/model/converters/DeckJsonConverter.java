@@ -8,14 +8,18 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.sql.*;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.IntStream;
+
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
-
+import org.sqlite.SQLiteException;
 
 import static ies.portadaalta.quizzengine.model.loaders.DeckCsvLoader.CSV_HEADER;
 import static ies.portadaalta.quizzengine.model.loaders.DeckXmlLoader.*;
@@ -186,5 +190,160 @@ public class DeckJsonConverter {
         }
         return answerElement;
     }
-    
+
+    // SQLite converter
+    public void writeDeck2Sqlite(Deck deck, String dbName) throws SQLException {
+
+        String url = "jdbc:sqlite:" + dbName;
+
+        try (Connection conn = DriverManager.getConnection(url)) {
+            createSchema(conn);
+        }
+
+        try (Connection conn = DriverManager.getConnection(url)) {
+            saveData(conn, deck);
+        }
+    }
+
+    private void createSchema(Connection conn) throws SQLException {
+
+        String createTableCategory = """
+                CREATE TABLE IF NOT EXISTS Category(
+                    name text,
+                    description text,
+                    CONSTRAINT PK_Category PRIMARY KEY(name)
+                )
+                """;
+
+        String createTableQuestion = """
+                CREATE TABLE IF NOT EXISTS Question(
+                    category text,
+                    question text,
+                    CONSTRAINT PK_Question PRIMARY KEY(question),
+                    CONSTRAINT FK_Question_Category FOREIGN KEY(category) REFERENCES Category(name)
+                ) 
+                """;
+
+        String createTableAnswers = """
+                CREATE TABLE IF NOT EXISTS Answer(
+                    answer text,
+                    question text,
+                    rightAnswer integer,
+                    CONSTRAINT PK_Answer PRIMARY KEY(question, answer),
+                    CONSTRAINT FK_Answer_Question FOREIGN KEY(question) REFERENCES Question(question)
+                )
+                """;
+
+
+        Statement statement = conn.createStatement();
+        statement.executeUpdate(createTableCategory);
+        statement.executeUpdate(createTableQuestion);
+        statement.executeUpdate(createTableAnswers);
+    }
+
+    private void saveData(Connection conn, Deck deck) throws SQLException {
+
+        String name = deck.getName();
+
+        Set<Category> categories = deck.getCategories();
+        saveCategories(conn, categories);
+        saveQuestions(conn, deck);
+
+    }
+
+    private void saveQuestions(Connection conn, Deck deck) throws SQLException {
+
+        for (Category category: deck.getCategories()) {
+
+            List<Question> questions = deck.getQuestionsForCategory(category);
+
+            saveQuestionsForCategory(conn, questions, category);
+        }
+
+    }
+
+    private void saveQuestionsForCategory(Connection conn, List<Question> questions, Category category) throws SQLException {
+        String sql = "INSERT INTO Question(category, question) VALUES(?,?)";
+        PreparedStatement preStatement = conn.prepareStatement(sql);
+
+
+        questions.stream().forEach( question -> {
+            try {
+                preStatement.setString(1, question.getCategory().getName());
+                preStatement.setString(1, question.getQuestion());
+
+                preStatement.executeUpdate();
+
+                saveAnswers(conn, question);
+
+            } catch (SQLiteException sqliteException) {
+                if (sqliteException.getResultCode().message.contains("A PRIMARY KEY constraint failed")) { // Primary key already in use
+                    System.out.println("Primary key already in use for (" + question.getCategory().getName() + ", " + question.getQuestion() + ")");
+                } else {
+                    throw new RuntimeException(sqliteException);
+                }
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
+    private void saveAnswers(Connection conn, Question question) throws SQLException {
+        String questionString = question.getQuestion();
+        List<String> answers = question.getAnswers();
+        int rightAnswer = question.getRightAnswer();
+
+        String sql = "INSERT INTO Answer(answer, question, rightAnswer) VALUES(?,?,?)";
+        PreparedStatement preStatement = conn.prepareStatement(sql);
+
+        IntStream.range(0, answers.size()).forEach( i -> {
+            try {
+                String answer = answers.get(i);
+                preStatement.setString(1, answer);
+                preStatement.setString(2, questionString);
+                preStatement.setInt(3, (i==rightAnswer) ? 1 : 0);
+
+                preStatement.executeUpdate();
+
+            } catch (SQLiteException sqliteException) {
+                if (sqliteException.getResultCode().message.contains("A PRIMARY KEY constraint failed")) { // Primary key already in use
+                    System.out.println("Primary key already in use for (" + question.getCategory().getName() + ", " + question.getQuestion() + ")");
+                } else {
+                    throw new RuntimeException(sqliteException);
+                }
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+    }
+
+    private void saveCategories(Connection conn, Collection<Category> categories) throws SQLException {
+        for (Category category: categories) {
+
+            String sql = "INSERT INTO Category(name, description) VALUES(?,?)";
+            PreparedStatement preStatement = conn.prepareStatement(sql);
+
+            categories.stream().forEach( currentCategory -> {
+
+                try {
+                    preStatement.setString(1, currentCategory.getName());
+                    preStatement.setString(2, currentCategory.getName());
+
+                    preStatement.executeUpdate();
+
+                } catch (SQLiteException sqliteException) {
+                    if (sqliteException.getResultCode().message.contains("A PRIMARY KEY constraint failed")) { // Primary key already in use
+                        System.out.println("Primary key already in use for " + currentCategory.getName());
+                    } else {
+                        throw new RuntimeException(sqliteException);
+                    }
+                } catch (SQLException e) {
+                    throw new RuntimeException(e);
+                }
+
+            });
+        }
+    }
+
 }

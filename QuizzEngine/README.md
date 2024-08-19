@@ -68,7 +68,7 @@ The following data storage backends are planned:
  - [x] json files
  - [x] csv files
  - [x] xml files
- - [ ] SQL database files
+ - [x] SQL database files
  - [ ] API REST service
 
 ## Getting Started
@@ -80,6 +80,7 @@ Dependencies so far:
  - [Jackson](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core/2.17.2) -> to deal with json
  - [JDOM2](https://mvnrepository.com/artifact/org.jdom/jdom2/2.0.6) -> to deal with xml
  - [VARV](https://mvnrepository.com/artifact/io.vavr/vavr/0.10.4) -> to use Tuples in the source code
+ - [SQLite JDBC](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc/3.46.0.1) -> to deal with SQLite
 
 ### Installing
 
