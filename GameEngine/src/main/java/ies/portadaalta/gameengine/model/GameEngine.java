@@ -1,9 +1,12 @@
 package ies.portadaalta.gameengine.model;
 
+import ies.portadaalta.gameengine.model.stats.CategoryStats;
+import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Deck;
 import ies.portadaalta.quizzengine.model.Question;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 public class GameEngine {
@@ -47,6 +50,8 @@ public class GameEngine {
 
     private void playTurn(Player player) {
 
+        System.out.println("\n\n-----------------------------------------------------------------------");
+
         System.out.println( String.format("Turno de Jugador %s", player.getName()) );
 
         Question question = deck.getNextRandomQuestion();
@@ -59,7 +64,15 @@ public class GameEngine {
         printQuestion(question);
         int choice = getChoice();
 
+        if (question.isValidAnswer(choice-1)) {
+            System.out.println("    >>> Respuesta correcta");
+        } else {
+            System.out.println("    >>> Respuesta INcorrecta");
+        }
+
         player.updateStats(question, choice);
+
+        showStats(player);
 
     }
 
@@ -84,13 +97,31 @@ public class GameEngine {
         if (winners.size()>0) {
             end = true;
             String winnersString = String.join(",", winners.stream().map(Player::getName).toList());
-            System.out.println( String.format("Los ganadores son %s", winnersString) );
+            System.out.println( String.format("\n   ---> Los ganadores son %s", winnersString) );
         }
         return end;
     }
 
     public List<Player> getWinners() {
         return players.stream().filter( Player::isWinner ).toList();
+    }
+
+    private void showStats(Player player) {
+        Map<Category, CategoryStats> statsMap = player.getCategoryStats();
+        System.out.println(" -- Player '" + player.getName() + "' Stats --");
+        statsMap.entrySet().stream().forEach( entry -> {
+            Category category = entry.getKey();
+            CategoryStats categoryStats = entry.getValue();
+
+            int numberOfQuestions = categoryStats.getNumberOfQuestions();
+            int rightAnswered = categoryStats.getRightAnswered();
+            double successAnswerRate = categoryStats.getSuccessAnswerRate();
+
+            System.out.println("   -> Category " + category.getName());
+            System.out.println("      - Number of asked questions: " + numberOfQuestions);
+            System.out.println("      - Number of rightAnswered questions: " + rightAnswered);
+            System.out.println("      - Succesfully answered questions rate: " + (successAnswerRate*100) + "%");
+        });
     }
 
 

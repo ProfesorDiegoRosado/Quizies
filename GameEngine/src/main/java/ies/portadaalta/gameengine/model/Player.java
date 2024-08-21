@@ -39,7 +39,7 @@ public class Player {
         assert (categoryStats!=null);
 
         categoryStats.incNumberOfQuestions();
-        if (question.isValidAnswer(choice)) {
+        if (question.isValidAnswer(choice-1)) {
             categoryStats.incRightAnswered();
         }
     }

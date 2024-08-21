@@ -1,7 +1,5 @@
 package ies.portadaalta.gameengine.model.stats;
 
-import ies.portadaalta.quizzengine.model.Category;
-
 public class CategoryStats {
 
     private int numberOfQuestions = 0;
@@ -28,6 +26,14 @@ public class CategoryStats {
 
     public int getWrongAnswered() {
         return numberOfQuestions - rightAnswered;
+    }
+
+    public double getSuccessAnswerRate() {
+        double rate = 0;
+        if (numberOfQuestions != 0) {
+            rate = (rightAnswered / numberOfQuestions);
+        }
+        return rate;
     }
 
     @Override

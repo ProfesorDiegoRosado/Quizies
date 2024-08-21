@@ -66,7 +66,7 @@ public class DeckJsonLoader {
         for (JsonNode jsonCurrentQuestionNode: jsonQuestionsArrayNode) {
             JsonNode jsonQuestionNode = jsonCurrentQuestionNode.get("question");
             String question = jsonQuestionNode.get("question").asText();
-            System.out.println("Question: " + question);
+            //System.out.println("Question: " + question);
             int rightAnswer = jsonQuestionNode.get("rightAnswer").asInt();
             JsonNode jsonAnswersNode = jsonQuestionNode.get("answers");
             List<String> answers = loadAnswersFrom(jsonAnswersNode);
