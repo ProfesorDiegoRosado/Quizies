@@ -31,7 +31,7 @@ public class CategoryStats {
     public double getSuccessAnswerRate() {
         double rate = 0;
         if (numberOfQuestions != 0) {
-            rate = (rightAnswered / numberOfQuestions);
+            rate = (double)rightAnswered / numberOfQuestions;
         }
         return rate;
     }

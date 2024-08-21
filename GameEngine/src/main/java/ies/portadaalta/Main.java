@@ -2,6 +2,7 @@ package ies.portadaalta;
 
 
 import ies.portadaalta.gameengine.model.GameEngine;
+import ies.portadaalta.gameengine.model.GameEngineClient;
 import ies.portadaalta.gameengine.model.Player;
 import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Deck;
@@ -27,6 +28,9 @@ public class Main {
         Deck deck = createQuestionsDeck("Deck - GameEngine Main test");
         List<Player> players  = createPlayers(deck);
         GameEngine gameEngine = new GameEngine(gameName, deck, players);
+
+        GameEngineClient gameEngineClient = new GameEngineClient();
+        gameEngine.register(gameEngineClient);
 
         gameEngine.play();
     }
