@@ -54,7 +54,7 @@ public class GameEngineClient implements GameEngineObserver {
         if (question.isValidAnswer(choice)) {
             System.out.println("    >>> Respuesta correcta");
         } else {
-            System.out.println("    >>> Respuesta INcorrecta");
+            System.out.println("    >>> Respuesta IN-correcta");
         }
         System.out.println();
     }
@@ -70,11 +70,11 @@ public class GameEngineClient implements GameEngineObserver {
             int rightAnswered = categoryStats.getRightAnswered();
             double successAnswerRate = categoryStats.getSuccessAnswerRate();
 
-            System.out.println("   -> Category " + category.getName());
-            System.out.println("      - Number of asked questions: " + numberOfQuestions);
-            System.out.println("      - Number of rightAnswered questions: " + rightAnswered);
-
-            System.out.println("      - Successfully answered questions rate: " + RATE_DECIMAL_FORMAT.format(successAnswerRate*100) + "%");
+            System.out.println("   -> Categoria " + category.getName());
+            System.out.println("      - Número de preguntas realizadas: " + numberOfQuestions);
+            System.out.println("      - Número de preguntas contestadas correctamente: " + rightAnswered);
+            System.out.println("      - Porcentaje de preguntas contestadas correctamente: " +
+                    RATE_DECIMAL_FORMAT.format(successAnswerRate*100) + "%");
         });
     }
 
@@ -97,7 +97,7 @@ public class GameEngineClient implements GameEngineObserver {
         for (int i = 0; i < answers.size(); i++) {
             System.out.println( String.format("   %s) %s", i+1, answers.get(i)) );
         }
-        System.out.println("Choose option: ");
+        System.out.println("Elija opción: ");
     }
 
     @Override
