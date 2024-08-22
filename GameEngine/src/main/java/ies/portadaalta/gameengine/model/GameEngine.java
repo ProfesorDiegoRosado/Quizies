@@ -63,7 +63,8 @@ public class GameEngine extends GameEnginePublisher {
         notifyQuestion(question);
 
         // TODO change this to be a event from player as well
-        int choice = getChoice();
+        int choice = player.getChoice();
+        // int choice = getChoice();
 
         player.updateStats(question, choice);
 

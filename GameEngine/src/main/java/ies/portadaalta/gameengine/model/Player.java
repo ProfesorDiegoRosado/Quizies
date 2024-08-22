@@ -7,8 +7,9 @@ import ies.portadaalta.quizzengine.model.Question;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
-public class Player {
+public class Player implements ChoiceProvider {
 
     public final int RIGHT_ANSWER_PER_CATEGORY_FOR_WINNING = 1;
 
@@ -65,5 +66,13 @@ public class Player {
         return "Player{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    // from ChoiceProvider interface
+    @Override
+    public int getChoice() {
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        return i-1;
     }
 }
