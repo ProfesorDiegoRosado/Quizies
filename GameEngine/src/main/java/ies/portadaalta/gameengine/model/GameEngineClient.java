@@ -1,6 +1,5 @@
 package ies.portadaalta.gameengine.model;
 
-import ies.portadaalta.gameengine.model.Player;
 import ies.portadaalta.gameengine.model.observer.GameEngineObserver;
 import ies.portadaalta.gameengine.model.stats.CategoryStats;
 import ies.portadaalta.quizzengine.model.Category;

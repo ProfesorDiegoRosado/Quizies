@@ -62,19 +62,11 @@ public class GameEngine extends GameEnginePublisher {
         Question question = deck.getNextRandomQuestion();
         notifyQuestion(question);
 
-        // TODO change this to be a event from player as well
         int choice = player.getChoice();
-        // int choice = getChoice();
 
         player.updateStats(question, choice);
 
         notifyPlayerChoice(player, question, choice);
-    }
-
-    private int getChoice() {
-        Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
-        return i-1;
     }
 
     private boolean checkEnd() {
