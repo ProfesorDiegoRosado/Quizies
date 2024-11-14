@@ -1,9 +1,10 @@
   // Configuration variables
-  const categories = ["General", "Historia", "Ciencia", "Geografía", "Arte", "Deporte"];
+  //const categories = ["General", "Historia", "Ciencia", "Geografía", "Arte", "Deporte"];
+  let categories = [];
   const colors = ["cat-0", "cat-1", "cat-2", "cat-3", "cat-4", "cat-5"];
-  let currentCategory = 0;
+  let currentCategory = "";
   let round = 1;
-  let score = [0, 0, 0, 0, 0, 0];
+  let score = {};
   let currentQuestionIndex = 0;
 
   // Preguntas de ejemplo
@@ -20,53 +21,84 @@
   // Load año
   document.getElementById("year").innerText = new Date().getFullYear();
 
-  function loadQuestion() {
+  function loadQuestion(question) {
     // Retrieve current question
-    const question = questions[currentQuestionIndex];
+    //const question = questions[currentQuestionIndex];
 
-    // load current category
-    document.getElementById("current-category").innerText = categories[currentCategory];
-    
     // Update current category
-    currentCategory = question.category;
+    currentCategory = question.category.name;
+    document.getElementById("current-category").innerText = currentCategory;
 
     // Asigna pregunta a la categoría actual
     document.getElementById("question-text").innerText = question.question;
     document.getElementById("options").innerHTML = "";
     
     // Generate answer option buttons
-    question.options.forEach((option, index) => {
+    question.answers.forEach((answer, index) => {
       const button = document.createElement("button");
       button.classList.add("btn", "btn-secondary", "mb-2");
-      button.innerText = option;
-      button.onclick = () => checkAnswer(index);
+      button.innerText = answer;
+      button.onclick = () => checkAnswer(index, question);
       document.getElementById("options").appendChild(button);
     });
   }
 
-  function checkAnswer(selectedOption) {
-    const question = questions[currentQuestionIndex];
-    if (selectedOption === question.answer) {
+  function checkAnswer(selectedOption, question) {
+    //const question = questions[currentQuestionIndex];
+    if (selectedOption === question.rightAnswer) {
       score[currentCategory]++;
       updateScore();
       alert("¡Correcto!");
     } else {
       alert("Incorrecto.");
     }
-    nextQuestion();
+    nextQuestionServer();
   }
 
   function updateScore() {
+    Object.keys(score).forEach(category => {
+      points = score[category];
+      catIndex = categories.indexOf(category);
+      for (let i = 0; i < 3; i++) {
+        const box = document.querySelector(`#category-status-${catIndex} .score-box:nth-child(${i + 2})`);
+        box.className = "score-box";
+        if (i < points) {
+          box.classList.add(colors[catIndex]);
+        } else {
+          box.classList.add("unanswered");
+        }
+      }
+    });
+
+    Object.keys(score).forEach(category => {
+
+    });
+
+    /*
     score.forEach((points, catIndex) => {
       for (let i = 0; i < 3; i++) {
         const box = document.querySelector(`#category-status-${catIndex} .score-box:nth-child(${i + 2})`);
         box.className = "score-box";
-        if (i < points) box.classList.add(colors[catIndex]);
-        else box.classList.add("unanswered");
+        if (i < points) {
+          box.classList.add(colors[catIndex]);
+        } else {
+          box.classList.add("unanswered");
+        }
       }
     });
+     */
   }
 
+  function updateCategoryNames(categories) {
+    categories.forEach( (category, index) => {
+      // populate score category dict
+      score[category] = 0;
+      // show categories
+      $( ".category-title.cat-"+index).text(category);
+    })
+  }
+
+  /*
   function nextQuestion() {
     currentQuestionIndex++;
     if (score[currentCategory] < 3) {
@@ -77,7 +109,8 @@
       loadQuestion();
     }
   }
+   */
 
-  loadQuestion();
+  //loadQuestion();
 
 
