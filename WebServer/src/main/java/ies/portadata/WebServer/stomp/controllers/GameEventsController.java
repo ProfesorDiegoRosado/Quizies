@@ -27,18 +27,9 @@ public class GameEventsController {
     private Deck deck;
     private Random rand = new Random();
 
-    @MessageMapping("/question")
-    @SendTo("/topic/question")
-    public StringOutputMessage questioning(QuestionInputMessage questionInputMessage) throws Exception {
-        Thread.sleep(100);
-        System.out.println(questionInputMessage);
-        return new StringOutputMessage(HtmlUtils.htmlEscape(questionInputMessage.toString()));
-    }
-
     @MessageMapping("/gameevent")
     @SendTo("/topic/gameevent")
     public GameEventOutputMessage gameEvent(GameEventInputMessage gameEvent) throws Exception {
-        Thread.sleep(100);
         System.out.println("GameEvent -> " + gameEvent);
         switch (gameEvent.getEvent()) {
             case "StartGame" -> {
