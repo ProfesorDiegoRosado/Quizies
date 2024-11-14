@@ -65,6 +65,14 @@ public class Deck {
         return question;
     }
 
+    public Question getNextQuestion(String categoryName) {
+        Category category = getCategories().stream().
+                filter(
+                        c -> c.getName().equalsIgnoreCase(categoryName)
+                ).findFirst().get();
+        return getNextQuestion(category);
+    }
+
     public void addQuestion(Question question) {
         categoryQuestionsMap.get(question.getCategory()).add(question);
     }
