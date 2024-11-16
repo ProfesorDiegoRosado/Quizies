@@ -34,8 +34,9 @@ public class GameEventsController {
         switch (gameEvent.getEvent()) {
             case "StartGame" -> {
                 deck = gameEngine.getDeck();
-                Set<String> categoriesNames = deck.getCategories().stream().map(Category::getName).collect(Collectors.toSet());
-                return new GameEventOutputMessage("StartEvent", categoriesNames);
+                //Set<String> categoriesNames = deck.getCategories().stream().map(Category::getName).collect(Collectors.toSet());
+                Set<Category> categories = deck.getCategories();
+                return new GameEventOutputMessage("StartEvent", categories);
             }
             case "Question" -> {
                 List<String> categoriesNames = gameEvent.getArguments();

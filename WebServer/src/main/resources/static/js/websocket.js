@@ -60,9 +60,8 @@ function gameEvent(gameEvent) {
     let eventType = gameEvent.type;
     switch (eventType) {
         case "StartGame":
-            //gameEvent.categories;
             categories = gameEvent.categories;
-            updateCategoryNames(categories);
+            updateCategory(categories);
             nextQuestionServer();
             break;
         case "Question":

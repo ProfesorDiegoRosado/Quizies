@@ -1,19 +1,21 @@
 package ies.portadata.WebServer.stomp.messages;
 
+import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Question;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 
 public class GameEventOutputMessage {
 
     private String type;
-    private Collection<String> categories;
+    private Set<Category> categories;
     private Question question;
 
     public GameEventOutputMessage() {}
 
-    public GameEventOutputMessage(String type, Collection<String> categories) {
+    public GameEventOutputMessage(String type, Set<Category> categories) {
         this.type = "StartGame";
         this.categories = categories;
     }
@@ -31,11 +33,11 @@ public class GameEventOutputMessage {
         this.type = type;
     }
 
-    public Collection<String> getCategories() {
+    public Set<Category> getCategories() {
         return categories;
     }
 
-    public void setCategories(List<String> categories) {
+    public void setCategories(Set<Category> categories) {
         this.categories = categories;
     }
 

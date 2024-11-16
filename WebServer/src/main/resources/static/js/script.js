@@ -1,6 +1,7 @@
   // Variables
   let categories = [];
-  const colors = ["cat-0", "cat-1", "cat-2", "cat-3", "cat-4", "cat-5"];
+  //const colors = ["cat-0", "cat-1", "cat-2", "cat-3", "cat-4", "cat-5"];
+  let colorsByCategory = {};
   let currentCategory = "";
   let round = 0;
   let score = {};
@@ -39,14 +40,17 @@
   }
 
   function updateScore() {
-    Object.keys(score).forEach(category => {
-      points = score[category];
-      catIndex = categories.indexOf(category);
+    Object.keys(score).forEach(categoryName => {
+      points = score[categoryName];
+      let categoriesNames = categories.map( function(c) {
+        return c['name'];
+      })
+      catIndex = categoriesNames.indexOf(categoryName);
       for (let i = 0; i < 3; i++) {
         const box = document.querySelector(`#category-status-${catIndex} .score-box:nth-child(${i + 2})`);
         box.className = "score-box";
         if (i < points) {
-          box.classList.add(colors[catIndex]);
+          box.style.backgroundColor = colorsByCategory[categoryName];
         } else {
           box.classList.add("unanswered");
         }
@@ -58,12 +62,15 @@
     });
   }
 
-  function updateCategoryNames(categories) {
+  function updateCategory(categories) {
     categories.forEach( (category, index) => {
       // populate score category dict
-      score[category] = 0;
+      score[category.name] = 0;
       // show categories
-      $( ".category-title.cat-"+index).text(category);
+      $( ".category-title.cat-"+index).text(category.name);
+      // set color
+      $( ".category-title.cat-"+index).css('background-color',category.color.hexString);
+      colorsByCategory[category.name] = category.color.hexString;
     })
   }
 
