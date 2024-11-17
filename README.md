@@ -4,7 +4,7 @@ The goal of this whole project is to bhave a game where pupils can learn and hav
 It's been thought to be a Trivial like question game. It also has in mind to be a flexible tool to be adapted to other scenarios. This is why there are several projects so the whole project is built from pieces that can be reused or adapted to other scenarios.
 
 <div align='center'>
-  <img alt="QuizzEngine logo" src="readme/Quizies_logo.svg" width="250">
+  <img alt="Quizies logo" src="readme/Quizies_logo.svg" width="250">
 </div>
 
 ## Description
