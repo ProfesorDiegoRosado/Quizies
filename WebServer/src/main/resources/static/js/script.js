@@ -42,10 +42,7 @@
   function updateScore() {
     Object.keys(score).forEach(categoryName => {
       points = score[categoryName];
-      let categoriesNames = categories.map( function(c) {
-        return c['name'];
-      })
-      catIndex = categoriesNames.indexOf(categoryName);
+      catIndex = getIndexOfCategory(categoryName);
       for (let i = 0; i < 3; i++) {
         const box = document.querySelector(`#category-status-${catIndex} .score-box:nth-child(${i + 2})`);
         box.className = "score-box";
@@ -57,9 +54,14 @@
       }
     });
 
-    Object.keys(score).forEach(category => {
+  }
 
-    });
+  function getIndexOfCategory(categoryName) {
+    let categoriesNames = categories.map( function(c) {
+      return c['name'];
+    })
+    catIndex = categoriesNames.indexOf(categoryName);
+    return catIndex;
   }
 
   function updateCategory(categories) {

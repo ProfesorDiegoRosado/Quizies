@@ -79,7 +79,8 @@ function nextQuestionServer() {
     $("#round-number").text(round);
 
     if ((currentCategory in score) && (score[currentCategory] >= 3)) {
-        alert("Categoría completada");
+        catIndex = getIndexOfCategory(currentCategory);
+        $("#quesito-cat-" + catIndex + " > svg > path").css({ fill: colorsByCategory[currentCategory] })
         //currentCategory = (currentCategory + 1) % 6;
         requestQuestionEvent();
     } else {
