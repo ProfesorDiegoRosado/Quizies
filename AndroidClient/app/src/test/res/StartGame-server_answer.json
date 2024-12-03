@@ -1,0 +1,59 @@
+{
+  "type" : "StartGame",
+  "categories" : [ {
+    "name" : "Ciencia",
+    "description" : "Ciencia",
+    "color" : {
+      "red" : 142,
+      "green" : 195,
+      "blue" : 100,
+      "hexString" : "#8ec364"
+    }
+  }, {
+    "name" : "Entretenimiento",
+    "description" : "Entretenimiento",
+    "color" : {
+      "red" : 157,
+      "green" : 99,
+      "blue" : 211,
+      "hexString" : "#9d63d3"
+    }
+  }, {
+    "name" : "Deportes y Ocio",
+    "description" : "Deportes y Ocio",
+    "color" : {
+      "red" : 255,
+      "green" : 175,
+      "blue" : 69,
+      "hexString" : "#ffaf45"
+    }
+  }, {
+    "name" : "Geografía",
+    "description" : "Geografía",
+    "color" : {
+      "red" : 66,
+      "green" : 156,
+      "blue" : 226,
+      "hexString" : "#429ce2"
+    }
+  }, {
+    "name" : "Arte y Literatura",
+    "description" : "Arte y Literatura",
+    "color" : {
+      "red" : 255,
+      "green" : 63,
+      "blue" : 139,
+      "hexString" : "#ff3f8b"
+    }
+  }, {
+    "name" : "Historia",
+    "description" : "Historia",
+    "color" : {
+      "red" : 242,
+      "green" : 197,
+      "blue" : 55,
+      "hexString" : "#f2c537"
+    }
+  } ],
+  "question" : null
+}
