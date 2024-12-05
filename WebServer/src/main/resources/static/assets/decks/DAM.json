@@ -1,0 +1,1357 @@
+[
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál de las siguientes opciones es una declaración SQL utilizada para seleccionar datos de una base de datos?",
+        "answers": [
+          "UPDATE",
+          "INSERT",
+          "SELECT",
+          "DELETE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la declaración SQL utilizada para insertar un nuevo registro en una tabla?",
+        "answers": [
+          "SELECT",
+          "INSERT INTO",
+          "UPDATE",
+          "DELETE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál de las siguientes opciones es una cláusula SQL utilizada para filtrar registros en una consulta SELECT?",
+        "answers": [
+          "WHERE",
+          "FILTER",
+          "SELECT",
+          "INSERT"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la declaración SQL utilizada para eliminar una tabla de la base de datos?",
+        "answers": [
+          "DELETE TABLE",
+          "DROP TABLE",
+          "REMOVE TABLE",
+          "ERASE TABLE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué significa SQL en el contexto de bases de datos?",
+        "answers": [
+          "Structured Query Language",
+          "Standard Query Language",
+          "System Query Language",
+          "Sequential Query Language"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál de las siguientes opciones es una cláusula SQL utilizada para ordenar los resultados de una consulta SELECT?",
+        "answers": [
+          "GROUP BY",
+          "ORDER BY",
+          "HAVING",
+          "WHERE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál de las siguientes opciones es una declaración SQL utilizada para actualizar datos en una tabla?",
+        "answers": [
+          "SELECT",
+          "UPDATE",
+          "DELETE",
+          "INSERT"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando SQL utilizado para crear una nueva tabla en una base de datos?",
+        "answers": [
+          "CREATE TABLE",
+          "MAKE TABLE",
+          "NEW TABLE",
+          "INSERT TABLE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál de las siguientes opciones es una cláusula SQL utilizada para agrupar registros en una consulta SELECT?",
+        "answers": [
+          "ORDER BY",
+          "GROUP BY",
+          "WHERE",
+          "JOIN"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando SQL utilizado para borrar registros de una tabla?",
+        "answers": [
+          "DELETE",
+          "DROP",
+          "REMOVE",
+          "ERASE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál de las siguientes opciones es una declaración SQL utilizada para unir dos o más tablas en una consulta?",
+        "answers": [
+          "SELECT",
+          "JOIN",
+          "UNION",
+          "MERGE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál de las siguientes opciones es una cláusula SQL utilizada para limitar el número de registros devueltos por una consulta SELECT?",
+        "answers": [
+          "WHERE",
+          "LIMIT",
+          "ORDER BY",
+          "GROUP BY"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el comando SQL utilizado para cambiar el nombre de una tabla en una base de datos?",
+        "answers": [
+          "RENAME TABLE",
+          "ALTER TABLE",
+          "CHANGE TABLE",
+          "MODIFY TABLE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la declaración SQL utilizada para seleccionar todas las columnas de una tabla?",
+        "answers": [
+          "SELECT ALL",
+          "SELECT *",
+          "SELECT COLUMNS",
+          "SELECT TABLE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la declaración SQL utilizada para agregar una nueva columna a una tabla existente?",
+        "answers": [
+          "ALTER TABLE",
+          "ADD COLUMN",
+          "MODIFY COLUMN",
+          "DROP COLUMN"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la declaración SQL utilizada para eliminar una columna de una tabla existente?",
+        "answers": [
+          "ALTER TABLE tabla DROP COLUMN columna;",
+          "DELETE COLUMN columna FROM tabla;",
+          "REMOVE COLUMN columna FROM tabla;",
+          "DROP COLUMN columna;"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es la declaración SQL utilizada para cambiar el tipo de datos de una columna en una tabla existente?",
+        "answers": [
+          "ALTER TABLE",
+          "MODIFY COLUMN",
+          "CHANGE COLUMN",
+          "UPDATE COLUMN"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la declaración SQL utilizada para crear un índice en una tabla?",
+        "answers": [
+          "CREATE INDEX",
+          "CREATE TABLE",
+          "CREATE DATABASE",
+          "CREATE VIEW"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la declaración SQL utilizada para crear una vista en una base de datos?",
+        "answers": [
+          "CREATE INDEX",
+          "CREATE VIEW",
+          "CREATE TABLE",
+          "CREATE DATABASE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la declaración SQL utilizada para eliminar un índice de una tabla?",
+        "answers": [
+          "DROP INDEX",
+          "DELETE INDEX",
+          "REMOVE INDEX",
+          "ERASE INDEX"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la declaración SQL utilizada para realizar una copia de seguridad de una base de datos?",
+        "answers": [
+          "BACKUP DATABASE",
+          "SAVE DATABASE",
+          "RESTORE DATABASE",
+          "COPY DATABASE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la declaración SQL utilizada para restaurar una base de datos desde una copia de seguridad?",
+        "answers": [
+          "RESTORE DATABASE",
+          "BACKUP DATABASE",
+          "RECOVER DATABASE",
+          "SAVE DATABASE"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la declaración SQL utilizada para conceder permisos a un usuario en una base de datos?",
+        "answers": [
+          "REVOKE",
+          "GRANT",
+          "ALTER",
+          "DENY"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la declaración SQL utilizada para revocar permisos a un usuario en una base de datos?",
+        "answers": [
+          "REVOKE",
+          "GRANT",
+          "ALTER",
+          "DROP"
+        ]
+      }}
+    ],
+    "category": "Base de Datos SQL"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Qué es una clase en Java?",
+        "answers": [
+          "Una clase es una variable.",
+          "Una clase es un conjunto de objetos.",
+          "Una clase es una función.",
+          "Una clase es una estructura que define un tipo de objeto."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál de las siguientes es una característica del lenguaje de programación Java?",
+        "answers": [
+          "Java es un lenguaje de programación de alto nivel.",
+          "Java es un lenguaje de programación de bajo nivel.",
+          "Java no soporta la programación orientada a objetos.",
+          "Java solo se puede ejecutar en sistemas operativos Windows."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el método principal en una aplicación Java?",
+        "answers": [
+          "public static void main(String[] args)",
+          "public void start(String[] args)",
+          "public static void run(String[] args)",
+          "public void init(String[] args)"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué palabra clave se utiliza para heredar una clase en Java?",
+        "answers": [
+          "extends",
+          "inherit",
+          "implement",
+          "derive"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el operador utilizado para comparar dos objetos por su contenido en Java?",
+        "answers": [
+          "==",
+          ".equals()",
+          "!=",
+          "equalsIgnoreCase()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el tipo de dato que se utiliza para almacenar números decimales en Java?",
+        "answers": [
+          "int",
+          "float",
+          "char",
+          "boolean"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la diferencia entre `==` y `.equals()` en Java?",
+        "answers": [
+          "`==` compara referencias y `.equals()` compara contenido.",
+          "`==` compara contenido y `.equals()` compara referencias.",
+          "Ambos comparan contenido.",
+          "Ambos comparan referencias."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la palabra clave utilizada para declarar una constante en Java?",
+        "answers": [
+          "final",
+          "const",
+          "static",
+          "immutable"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué método se utiliza para convertir un objeto a una cadena de texto en Java?",
+        "answers": [
+          "toString()",
+          "toChar()",
+          "toText()",
+          "convertToString()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál de las siguientes opciones es una biblioteca estándar de Java para manejar colecciones?",
+        "answers": [
+          "java.util",
+          "java.lang",
+          "java.io",
+          "java.net"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la diferencia entre `int` y `Integer` en Java?",
+        "answers": [
+          "`int` es un tipo de dato primitivo y `Integer` es una clase.",
+          "`int` es una clase y `Integer` es un tipo de dato primitivo.",
+          "`int` y `Integer` son lo mismo.",
+          "`int` es una clase y `Integer` es una interfaz."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es la palabra clave utilizada para manejar excepciones en Java?",
+        "answers": [
+          "throw",
+          "catch",
+          "finally",
+          "try"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué método se utiliza para obtener la longitud de una cadena de texto en Java?",
+        "answers": [
+          "length()",
+          "size()",
+          "getLength()",
+          "count()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la salida del siguiente fragmento de código en Java?\n\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(5 + 2 + \"3\");\n    }\n}",
+        "answers": [
+          "73",
+          "10",
+          "523",
+          "8"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la diferencia entre un `array` y una `ArrayList` en Java?",
+        "answers": [
+          "Un `array` tiene un tamaño fijo, mientras que una `ArrayList` puede crecer dinámicamente.",
+          "Un `array` puede almacenar cualquier tipo de datos, mientras que una `ArrayList` solo puede almacenar objetos.",
+          "Un `array` es más rápido que una `ArrayList`.",
+          "Un `array` y una `ArrayList` son lo mismo."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué es un constructor en Java?",
+        "answers": [
+          "Un método que se llama cuando se crea un objeto.",
+          "Un bloque de código que se ejecuta cuando se destruye un objeto.",
+          "Una función que se utiliza para comparar dos objetos.",
+          "Una palabra clave que se utiliza para declarar una constante."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el operador utilizado para la concatenación de cadenas en Java?",
+        "answers": [
+          "+",
+          "*",
+          "-",
+          "/"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un `Stream` en Java?",
+        "answers": [
+          "Un tipo de dato primitivo.",
+          "Una secuencia de elementos que soporta operaciones de procesamiento de datos.",
+          "Una estructura de control de flujo.",
+          "Un método para manejar excepciones."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la diferencia entre `abstract class` y `interface` en Java?",
+        "answers": [
+          "Una `abstract class` puede tener métodos concretos, mientras que una `interface` no.",
+          "Una `interface` puede tener métodos concretos desde Java 8, mientras que una `abstract class` no.",
+          "Ambas pueden tener métodos concretos y abstractos.",
+          "Una `abstract class` no puede tener métodos abstractos."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el propósito de la palabra clave `static` en Java?",
+        "answers": [
+          "Definir una variable que puede cambiar de valor.",
+          "Permitir que un método sea llamado sin crear una instancia de la clase.",
+          "Crear una clase que no puede ser heredada.",
+          "Definir un método que puede ser sobrescrito."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un `Stream` en Java?",
+        "answers": [
+          "Una estructura de datos para almacenar información en forma de bytes.",
+          "Una clase que representa una secuencia de elementos que admite operaciones de procesamiento de datos.",
+          "Una interfaz que define un conjunto de métodos para manejar eventos.",
+          "Una herramienta para la serialización de objetos."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la diferencia entre `private`, `protected` y `public` en Java?",
+        "answers": [
+          "`private` permite el acceso solo dentro de la misma clase, `protected` permite el acceso dentro del mismo paquete y subclases, y `public` permite el acceso desde cualquier lugar.",
+          "`private` permite el acceso desde cualquier lugar, `protected` permite el acceso solo dentro de la misma clase, y `public` permite el acceso dentro del mismo paquete y subclases.",
+          "`private` permite el acceso dentro del mismo paquete, `protected` permite el acceso desde cualquier lugar, y `public` permite el acceso solo dentro de la misma clase.",
+          "`private` y `protected` permiten el acceso desde cualquier lugar, y `public` permite el acceso solo dentro de la misma clase."
+        ]
+      }}
+    ],
+    "category": "Programación Java"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el lenguaje de programación principal utilizado para desarrollar aplicaciones Android?",
+        "answers": [
+          "Java",
+          "Kotlin",
+          "Swift",
+          "Python"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el nombre del entorno de desarrollo oficial para Android?",
+        "answers": [
+          "Android Studio",
+          "Eclipse",
+          "Xcode",
+          "IntelliJ IDEA"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué componente se utiliza para crear una interfaz de usuario en Android?",
+        "answers": [
+          "Activity",
+          "Service",
+          "BroadcastReceiver",
+          "ContentProvider"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el nombre del archivo de manifiesto en una aplicación Android?",
+        "answers": [
+          "AndroidManifest.xml",
+          "MainActivity.java",
+          "build.gradle",
+          "res/layout/activity_main.xml"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el lenguaje de marcado utilizado para diseñar la interfaz de usuario en aplicaciones Android?",
+        "answers": [
+          "HTML",
+          "CSS",
+          "XML",
+          "JavaScript"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un Fragment en Android?",
+        "answers": [
+          "Una clase que maneja la base de datos",
+          "Un componente que permite dividir la interfaz de usuario en secciones modulares",
+          "Un tipo de archivo de recursos",
+          "Una herramienta para depurar la aplicación"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la herramienta utilizada para depurar aplicaciones Android en Android Studio?",
+        "answers": [
+          "Android Debug Bridge (ADB)",
+          "Logcat",
+          "Android Virtual Device (AVD)",
+          "Proguard"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué método se utiliza para iniciar una nueva actividad en Android?",
+        "answers": [
+          "startActivity()",
+          "initActivity()",
+          "launchActivity()",
+          "openActivity()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es la versión más reciente de Android a partir de 2023?",
+        "answers": [
+          "Android 10",
+          "Android 11",
+          "Android 12",
+          "Android 13"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué es un BroadcastReceiver en Android?",
+        "answers": [
+          "Un componente que permite a la aplicación recibir mensajes del sistema o de otras aplicaciones.",
+          "Una base de datos local.",
+          "Un componente de la interfaz de usuario.",
+          "Un servicio que se ejecuta en segundo plano."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del sistema de gestión de paquetes utilizado en Android?",
+        "answers": [
+          "APK Manager",
+          "Gradle",
+          "Maven",
+          "PackageMaster"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el componente utilizado para manejar la base de datos en Android?",
+        "answers": [
+          "SharedPreferences",
+          "ContentProvider",
+          "SQLiteDatabase",
+          "Room"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué es un Servicio en Android?",
+        "answers": [
+          "Un componente que realiza tareas en segundo plano",
+          "Un componente que maneja la interfaz de usuario",
+          "Un componente que recibe intenciones",
+          "Un componente que almacena datos"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el lenguaje de programación principal utilizado para desarrollar aplicaciones Android?",
+        "answers": [
+          "Java",
+          "Swift",
+          "Kotlin",
+          "Python"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Qué es un ContentProvider en Android?",
+        "answers": [
+          "Un componente que maneja la interfaz de usuario.",
+          "Un componente que maneja la comunicación entre aplicaciones.",
+          "Un componente que maneja el almacenamiento y compartición de datos.",
+          "Un componente que maneja la depuración de aplicaciones."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un AsyncTask en Android?",
+        "answers": [
+          "Un componente para manejar la base de datos",
+          "Una clase que permite ejecutar tareas en segundo plano",
+          "Un componente para crear interfaces de usuario",
+          "Un sistema de gestión de paquetes"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del archivo de configuración de dependencias en un proyecto Android?",
+        "answers": [
+          "build.xml",
+          "dependencies.json",
+          "build.gradle",
+          "project.config"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del componente utilizado para mostrar listas de elementos en Android?",
+        "answers": [
+          "ListView",
+          "GridView",
+          "RecyclerView",
+          "CardView"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un Activity en Android?",
+        "answers": [
+          "Una clase que maneja la lógica de negocio",
+          "Un componente que representa una pantalla única con una interfaz de usuario",
+          "Un servicio que se ejecuta en segundo plano",
+          "Un componente que maneja las notificaciones"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el componente utilizado para manejar notificaciones en Android?",
+        "answers": [
+          "NotificationManager",
+          "ActivityManager",
+          "BroadcastReceiver",
+          "ContentProvider"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el nombre del componente utilizado para manejar permisos en Android?",
+        "answers": [
+          "PermissionManager",
+          "PermissionHandler",
+          "PermissionController",
+          "PermissionService"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el formato de archivo utilizado para almacenar recursos en Android?",
+        "answers": [
+          "JSON",
+          "XML",
+          "YAML",
+          "CSV"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un Intent en Android?",
+        "answers": [
+          "Un componente de interfaz de usuario",
+          "Un mensaje que se utiliza para comunicarse entre componentes",
+          "Un servicio en segundo plano",
+          "Un archivo de configuración"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Qué es un ViewModel en Android?",
+        "answers": [
+          "Una vista que muestra datos",
+          "Un modelo de datos para una vista",
+          "Un controlador de eventos",
+          "Un componente que maneja la lógica de la interfaz de usuario"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del componente utilizado para manejar la navegación entre fragmentos en Android?",
+        "answers": [
+          "NavHostFragment",
+          "FragmentManager",
+          "NavigationController",
+          "NavController"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el nombre del componente utilizado para manejar la navegación entre actividades en Android?",
+        "answers": [
+          "NavigationComponent",
+          "ActivityManager",
+          "Intent",
+          "FragmentManager"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el componente utilizado para manejar el ciclo de vida de una aplicación en Android?",
+        "answers": [
+          "Activity",
+          "Service",
+          "LifecycleObserver",
+          "BroadcastReceiver"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el nombre del componente utilizado para manejar el almacenamiento en caché en Android?",
+        "answers": [
+          "SharedPreferences",
+          "SQLite",
+          "Room",
+          "CacheManager"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un LiveData en Android?",
+        "answers": [
+          "Un componente para manejar bases de datos",
+          "Un observador de datos que sigue el ciclo de vida",
+          "Un componente para manejar notificaciones",
+          "Un componente para manejar permisos"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el componente utilizado para manejar la autenticación en Android?",
+        "answers": [
+          "Firebase Authentication",
+          "Google Sign-In",
+          "OAuth 2.0",
+          "Todas las anteriores"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el componente utilizado para manejar la animación de transición entre fragmentos en Android?",
+        "answers": [
+          "Fragment",
+          "FragmentTransaction",
+          "Animation",
+          "TransitionManager"
+        ]
+      }}
+    ],
+    "category": "Programación Android"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el comando utilizado para listar archivos y directorios en Linux?",
+        "answers": [
+          "dir",
+          "ls",
+          "list",
+          "show"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para cambiar los permisos de un archivo en Linux?",
+        "answers": [
+          "chmod",
+          "chown",
+          "chgrp",
+          "chperm"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando utilizado para mostrar el espacio en disco disponible en Linux?",
+        "answers": [
+          "df",
+          "du",
+          "free",
+          "diskspace"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para actualizar la lista de paquetes disponibles en una distribución basada en Debian como Ubuntu?",
+        "answers": [
+          "sudo apt-get update",
+          "sudo apt-get upgrade",
+          "sudo apt-get install",
+          "sudo apt-get remove"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué es el kernel en Linux?",
+        "answers": [
+          "El núcleo del sistema operativo que maneja las operaciones de bajo nivel.",
+          "Un tipo de archivo de configuración.",
+          "Un entorno de desarrollo.",
+          "Una aplicación gráfica."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el comando utilizado para instalar un paquete en una distribución basada en Debian como Ubuntu?",
+        "answers": [
+          "yum install",
+          "apt-get install",
+          "pacman -S",
+          "dnf install"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para reiniciar el sistema en Linux?",
+        "answers": [
+          "reboot",
+          "shutdown",
+          "restart",
+          "exit"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el directorio principal de usuarios en Linux?",
+        "answers": [
+          "/home",
+          "/usr",
+          "/root",
+          "/etc"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para ver los procesos en ejecución en Linux?",
+        "answers": [
+          "ps",
+          "ls",
+          "top",
+          "mkdir"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para cambiar el directorio actual en Linux?",
+        "answers": [
+          "cd",
+          "mv",
+          "cp",
+          "ls"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando utilizado para ver el contenido de un archivo en Linux?",
+        "answers": [
+          "cat",
+          "echo",
+          "ls",
+          "pwd"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el comando utilizado para copiar un archivo en Linux?",
+        "answers": [
+          "mv",
+          "cp",
+          "rm",
+          "touch"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué comando se utiliza para mover o renombrar un archivo en Linux?",
+        "answers": [
+          "cp",
+          "mv",
+          "rm",
+          "touch"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para buscar archivos y directorios en Linux?",
+        "answers": [
+          "find",
+          "search",
+          "locate",
+          "seek"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el comando utilizado para mostrar información detallada sobre un archivo en Linux?",
+        "answers": [
+          "ls",
+          "info",
+          "stat",
+          "file"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando utilizado para eliminar un archivo en Linux?",
+        "answers": [
+          "rm",
+          "delete",
+          "remove",
+          "erase"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para mostrar el contenido de un directorio en Linux?",
+        "answers": [
+          "ls",
+          "dir",
+          "list",
+          "show"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué comando se utiliza para detener un proceso en ejecución en Linux?",
+        "answers": [
+          "stop",
+          "kill",
+          "halt",
+          "exit"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué comando se utiliza para cambiar la contraseña de un usuario en Linux?",
+        "answers": [
+          "passwd",
+          "chpasswd",
+          "setpasswd",
+          "changepasswd"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando utilizado para mostrar la fecha y hora actual en Linux?",
+        "answers": [
+          "date",
+          "time",
+          "cal",
+          "clock"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué comando se utiliza para montar un sistema de archivos en Linux?",
+        "answers": [
+          "umount",
+          "mount",
+          "format",
+          "unformat"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando utilizado para desmontar un sistema de archivos en Linux?",
+        "answers": [
+          "umount",
+          "unmount",
+          "dismount",
+          "remove"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando utilizado para verificar la conexión de red en Linux?",
+        "answers": [
+          "ping",
+          "netstat",
+          "ifconfig",
+          "route"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es el comando 'sudo' en Linux?",
+        "answers": [
+          "Es un comando para listar archivos y directorios.",
+          "Es un comando para ejecutar comandos con privilegios de superusuario.",
+          "Es un comando para cambiar el directorio actual.",
+          "Es un comando para ver el contenido de un archivo."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Qué es el archivo de configuración principal en Linux para el sistema de inicio systemd?",
+        "answers": [
+          "/etc/systemd/system.conf",
+          "/etc/systemd/system/default.target",
+          "/etc/systemd/system/multi-user.target",
+          "/etc/systemd/systemd.conf"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el comando utilizado para ver los últimos registros del sistema en Linux?",
+        "answers": [
+          "dmesg",
+          "log",
+          "tail -f /var/log/syslog",
+          "journalctl"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el comando utilizado para crear un nuevo archivo en Linux?",
+        "answers": [
+          "mkfile",
+          "touch",
+          "newfile",
+          "createfile"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el comando utilizado para cambiar los permisos de un archivo en Linux?",
+        "answers": [
+          "chown",
+          "chmod",
+          "chgrp",
+          "chroot"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el comando utilizado para cambiar el propietario de un archivo en Linux?",
+        "answers": [
+          "chown",
+          "chmod",
+          "chgrp",
+          "chdir"
+        ]
+      }}
+    ],
+    "category": "Sistema Operativo Linux"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el protocolo utilizado para enviar correos electrónicos desde un cliente de correo a un servidor de correo?",
+        "answers": [
+          "HTTP",
+          "SMTP",
+          "FTP",
+          "POP3"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué dispositivo se utiliza para conectar dos o más redes de computadoras?",
+        "answers": [
+          "Repetidor",
+          "Router",
+          "Switch",
+          "Módem"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el modelo de referencia más conocido para describir la funcionalidad de una red de computadoras?",
+        "answers": [
+          "Modelo TCP/IP",
+          "Modelo OSI",
+          "Modelo Client-Server",
+          "Modelo Peer-to-Peer"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué tipo de dirección IP se utiliza para identificar dispositivos en una red local?",
+        "answers": [
+          "Dirección IP pública",
+          "Dirección IP privada",
+          "Dirección MAC",
+          "Dirección de puerta de enlace"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué protocolo se utiliza para transferir archivos entre un cliente y un servidor?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "DNS"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el dispositivo que permite la conexión de múltiples computadoras en una red local?",
+        "answers": [
+          "Router",
+          "Switch",
+          "Modem",
+          "Hub"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el protocolo utilizado para enviar correos electrónicos desde un servidor de correo a otro servidor de correo?",
+        "answers": [
+          "SMTP",
+          "POP3",
+          "IMAP",
+          "FTP"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un switch en el contexto de redes de computadoras?",
+        "answers": [
+          "Un dispositivo que conecta una red local a Internet",
+          "Un dispositivo que permite la conexión de múltiples computadoras en una red local",
+          "Un dispositivo que traduce direcciones IP públicas a privadas",
+          "Un dispositivo que proporciona acceso inalámbrico a una red"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el propósito principal de un router en una red?",
+        "answers": [
+          "Proveer conexión inalámbrica",
+          "Distribuir direcciones IP",
+          "Enrutar paquetes de datos entre diferentes redes",
+          "Almacenar archivos compartidos"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el protocolo utilizado para asignar direcciones IP a dispositivos en una red?",
+        "answers": [
+          "DHCP",
+          "HTTP",
+          "FTP",
+          "SMTP"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es el protocolo utilizado para establecer una conexión segura entre un cliente y un servidor web?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "HTTPS"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un firewall en el contexto de redes de computadoras?",
+        "answers": [
+          "Un dispositivo que aumenta la velocidad de la red",
+          "Un software o hardware que protege la red de amenazas externas",
+          "Un protocolo para transferir archivos",
+          "Un tipo de cable de red"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el protocolo utilizado para traducir direcciones IP privadas a direcciones IP públicas?",
+        "answers": [
+          "DHCP",
+          "NAT",
+          "ARP",
+          "DNS"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el estándar que define las direcciones IPv6?",
+        "answers": [
+          "IPv4",
+          "IPv6",
+          "TCP",
+          "UDP"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el protocolo utilizado para transferir hipertexto en la web?",
+        "answers": [
+          "FTP",
+          "HTTP",
+          "SMTP",
+          "DNS"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un puerto en el contexto de redes de computadoras?",
+        "answers": [
+          "Un dispositivo que conecta múltiples redes",
+          "Un número que identifica una aplicación específica en un dispositivo",
+          "Un protocolo para transferir archivos",
+          "Una dirección IP"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el protocolo utilizado para la resolución de nombres de dominio en direcciones IP?",
+        "answers": [
+          "HTTP",
+          "DNS",
+          "FTP",
+          "SMTP"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un gateway en el contexto de redes de computadoras?",
+        "answers": [
+          "Un dispositivo que conecta dos segmentos de red dentro de la misma LAN.",
+          "Un dispositivo que conecta dos redes diferentes, permitiendo la comunicación entre ellas.",
+          "Un dispositivo que asigna direcciones IP a los dispositivos en la red.",
+          "Un dispositivo que almacena y distribuye archivos en una red."
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el protocolo utilizado para la transmisión de datos en tiempo real, como audio y video?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "RTP",
+          "SMTP"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el protocolo utilizado para la administración de redes?",
+        "answers": [
+          "HTTP",
+          "SNMP",
+          "FTP",
+          "DNS"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el protocolo utilizado para la transferencia de archivos entre servidores?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "DNS"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un proxy en el contexto de redes de computadoras?",
+        "answers": [
+          "Un dispositivo que amplifica la señal de red",
+          "Un servidor intermediario que actúa como intermediario entre un cliente y otro servidor",
+          "Un programa que comprueba la integridad de los datos",
+          "Un protocolo para la transferencia de archivos"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Qué es un DNS?",
+        "answers": [
+          "Un servidor de correo electrónico",
+          "Un servidor de nombres de dominio",
+          "Un servidor de archivos",
+          "Un servidor de impresión"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la función principal de un hub en una red?",
+        "answers": [
+          "Ampliar la señal de la red",
+          "Conectar dispositivos en una red local",
+          "Filtrar el tráfico de la red",
+          "Enrutar paquetes de datos entre redes"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué es un VPN?",
+        "answers": [
+          "Una red privada virtual",
+          "Un protocolo de transferencia de archivos",
+          "Un dispositivo de almacenamiento",
+          "Un sistema operativo"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el protocolo utilizado para la autenticación y autorización en redes?",
+        "answers": [
+          "TCP",
+          "HTTP",
+          "RADIUS",
+          "FTP"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Qué es un paquete en el contexto de redes de computadoras?",
+        "answers": [
+          "Una unidad de datos que se transmite a través de una red.",
+          "Un dispositivo que conecta múltiples redes.",
+          "Un software que protege la red de amenazas externas.",
+          "Un protocolo para la transferencia de archivos."
+        ]
+      }}
+    ],
+    "category": "Fundamentos de Redes"
+  }
+]
