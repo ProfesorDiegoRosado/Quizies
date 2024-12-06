@@ -22,6 +22,7 @@ To better understand the system architecture let's show a System Diagram.
 
 Dependencies so far:
 - [QuizzEngine](https://github.com/ProfesorDiegoRosado/Quizies/tree/master/QuizzEngine)
+- [GameEngine](https://github.com/ProfesorDiegoRosado/Quizies/tree/master/GameEngine)
 
 ### Running the server
 
