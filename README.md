@@ -21,6 +21,14 @@ There are several projects:
  * AndroidClient: Android client on kotlin an using jetpack compose for the UI.
 
 
+## System Diagram
+
+In order to better understand who the architecture of the system let's show a System Diagram.
+
+<div align='center'>
+  <img alt="Quizies logo" src="miscellaneous/diagram/system_diagram.png" >
+</div>
+
 ## Authors
 
 Contributors names and contact info
