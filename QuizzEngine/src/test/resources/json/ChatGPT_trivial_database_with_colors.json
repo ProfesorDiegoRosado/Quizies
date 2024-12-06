@@ -1,0 +1,2222 @@
+[
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Cuál es la capital de España?",
+          "answers": [
+            "Barcelona",
+            "Madrid",
+            "Valencia",
+            "Sevilla"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué continente se encuentra Brasil?",
+          "answers": [
+            "América del Sur",
+            "Europa",
+            "África",
+            "Asia"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el río más largo del mundo?",
+          "answers": [
+            "Amazonas",
+            "Nilo",
+            "Yangtsé",
+            "Mississippi"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la montaña más alta del mundo?",
+          "answers": [
+            "Everest",
+            "K2",
+            "Kangchenjunga",
+            "Lhotse"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el país más grande del mundo en extensión territorial?",
+          "answers": [
+            "Rusia",
+            "Canadá",
+            "China",
+            "Estados Unidos"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el punto más bajo de la Tierra?",
+          "answers": [
+            "Mar Muerto",
+            "Valle de la Muerte",
+            "Fosa de las Marianas",
+            "Desierto del Sahara"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la ciudad más poblada del mundo?",
+          "answers": [
+            "Tokio",
+            "Shanghai",
+            "Ciudad de México",
+            "Nueva Delhi"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué país se encuentra la Gran Muralla China?",
+          "answers": [
+            "Japón",
+            "China",
+            "Corea del Sur",
+            "India"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el océano más grande del mundo?",
+          "answers": [
+            "Océano Pacífico",
+            "Océano Atlántico",
+            "Océano Índico",
+            "Océano Ártico"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué país se encuentra la Torre Eiffel?",
+          "answers": [
+            "Italia",
+            "Francia",
+            "Alemania",
+            "España"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el desierto más grande del mundo?",
+          "answers": [
+            "Sahara",
+            "Gobi",
+            "Kalahari",
+            "Antártico"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Cuál es la capital de Japón?",
+          "answers": [
+            "Pekín",
+            "Seúl",
+            "Tokio",
+            "Bangkok"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Dónde se encuentra la famosa estatua del Cristo Redentor?",
+          "answers": [
+            "Río de Janeiro, Brasil",
+            "Buenos Aires, Argentina",
+            "Ciudad de México, México",
+            "Santiago, Chile"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se encuentra el Taj Mahal?",
+          "answers": [
+            "India",
+            "China",
+            "Japón",
+            "Rusia"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el país más grande de Sudamérica?",
+          "answers": [
+            "Brasil",
+            "Argentina",
+            "Perú",
+            "Colombia"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué país se encuentra el Canal de Panamá?",
+          "answers": [
+            "Costa Rica",
+            "Panamá",
+            "Colombia",
+            "Nicaragua"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la cascada más alta del mundo?",
+          "answers": [
+            "Angel Falls",
+            "Niagara Falls",
+            "Iguazu Falls",
+            "Victoria Falls"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se encuentra la Gran Barrera de Coral?",
+          "answers": [
+            "Australia",
+            "Brasil",
+            "México",
+            "Canadá"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la moneda oficial de Japón?",
+          "answers": [
+            "Yen",
+            "Euro",
+            "Dólar",
+            "Peso"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la ciudad más alta del mundo?",
+          "answers": [
+            "La Paz",
+            "Kathmandu",
+            "Lhasa",
+            "Quito"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué país se encuentra el Monte Everest?",
+          "answers": [
+            "India",
+            "Nepal",
+            "China",
+            "Tíbet"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la capital de Italia?",
+          "answers": [
+            "Roma",
+            "París",
+            "Londres",
+            "Madrid"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 3,
+          "question": "¿En qué ciudad se encuentra la Torre de Pisa?",
+          "answers": [
+            "Roma",
+            "Venecia",
+            "Florencia",
+            "Pisa"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Cuál es la capital de Alemania?",
+          "answers": [
+            "Madrid",
+            "Roma",
+            "Berlín",
+            "París"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué país se encuentra la Gran Muralla China?",
+          "answers": [
+            "Japón",
+            "China",
+            "India",
+            "Corea del Sur"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿En qué continente se encuentra Australia?",
+          "answers": [
+            "Europa",
+            "Asia",
+            "Oceanía",
+            "África"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Cuál es la capital de Francia?",
+          "answers": [
+            "Londres",
+            "París",
+            "Madrid",
+            "Roma"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
+          "answers": [
+            "Perú",
+            "Chile",
+            "Argentina",
+            "Bolivia"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el país más grande de Europa?",
+          "answers": [
+            "Rusia",
+            "Francia",
+            "España",
+            "Alemania"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
+          "answers": [
+            "Perú",
+            "Chile",
+            "Argentina",
+            "Brasil"
+          ]
+        }
+      },
+      {
+        "question": {
+          "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
+          "answers": [
+            "Perú",
+            "Chile",
+            "Argentina",
+            "Brasil"
+          ],
+          "rightAnswer": 0
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Cuál es la capital de Canadá?",
+          "answers": [
+            "Toronto",
+            "Montreal",
+            "Ottawa",
+            "Vancouver"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la capital de Colombia?",
+          "answers": [
+            "Bogotá",
+            "Lima",
+            "Buenos Aires",
+            "Santiago"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la capital de Argentina?",
+          "answers": [
+            "Buenos Aires",
+            "Santiago",
+            "Lima",
+            "Caracas"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se encuentra la Torre Eiffel?",
+          "answers": [
+            "Francia",
+            "Italia",
+            "España",
+            "Alemania"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la capital de Estados Unidos?",
+          "answers": [
+            "Washington D.C.",
+            "Nueva York",
+            "Los Ángeles",
+            "Miami"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el país más poblado del mundo?",
+          "answers": [
+            "China",
+            "India",
+            "Estados Unidos",
+            "Indonesia"
+          ]
+        }
+      }
+    ],
+    "category": "Geografía",
+    "color": "#CCE1F2"
+  },
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál de las siguientes películas de Pixar se estrenó primero?",
+          "answers": [
+            "Toy Story",
+            "Buscando a Nemo",
+            "Los Increíbles",
+            "Up"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién es el protagonista de la serie de TV 'Breaking Bad'?",
+          "answers": [
+            "Walter White",
+            "Jesse Pinkman",
+            "Saul Goodman",
+            "Skyler White"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?",
+          "answers": [
+            "Johnny Depp",
+            "Orlando Bloom",
+            "Brad Pitt",
+            "Tom Cruise"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se estrenó la película 'Titanic'?",
+          "answers": [
+            "1997",
+            "1995",
+            "1999",
+            "2001"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se estrenó la primera película de la saga 'Star Wars'?",
+          "answers": [
+            "1977",
+            "1983",
+            "1991",
+            "2002"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Cuál es el nombre del actor que interpreta a Iron Man en las películas de Marvel?",
+          "answers": [
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Robert Downey Jr.",
+            "Mark Ruffalo"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del director de la película 'El Laberinto del Fauno'?",
+          "answers": [
+            "Guillermo del Toro",
+            "Alfonso Cuarón",
+            "Alejandro González Iñárritu",
+            "Pedro Almodóvar"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué película de Disney aparece el personaje Simba?",
+          "answers": [
+            "La Sirenita",
+            "El Rey León",
+            "La Bella y la Bestia",
+            "Aladdín"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Quién es el creador de la serie de TV 'Friends'?",
+          "answers": [
+            "Steven Spielberg",
+            "J.J. Abrams",
+            "David Crane",
+            "Jerry Seinfeld"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál de las siguientes películas ganó el premio Óscar a Mejor Película en 2019?",
+          "answers": [
+            "Parasite",
+            "Joker",
+            "1917",
+            "Once Upon a Time in Hollywood"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién interpretó el papel de Hermione Granger en las películas de Harry Potter?",
+          "answers": [
+            "Emma Watson",
+            "Emma Stone",
+            "Emma Roberts",
+            "Emma Thompson"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se estrenó la película 'El Rey León' de Disney?",
+          "answers": [
+            "1994",
+            "1997",
+            "2001",
+            "2004"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del director de la película 'El Padrino'?",
+          "answers": [
+            "Francis Ford Coppola",
+            "Martin Scorsese",
+            "Steven Spielberg",
+            "Quentin Tarantino"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién es el director de la película 'El Señor de los Anillos: La Comunidad del Anillo'?",
+          "answers": [
+            "Peter Jackson",
+            "Christopher Nolan",
+            "Steven Spielberg",
+            "Quentin Tarantino"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué película de Quentin Tarantino aparece el personaje de Jules Winnfield?",
+          "answers": [
+            "Pulp Fiction",
+            "Kill Bill",
+            "Django Unchained",
+            "Reservoir Dogs"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién interpretó el personaje de Katniss Everdeen en la saga de 'Los Juegos del Hambre'?",
+          "answers": [
+            "Jennifer Lawrence",
+            "Emma Stone",
+            "Scarlett Johansson",
+            "Natalie Portman"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién es el protagonista de la serie de TV 'Breaking Bad'?",
+          "answers": [
+            "Walter White",
+            "Jesse Pinkman",
+            "Saul Goodman",
+            "Hank Schrader"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cómo se llama la actriz que interpreta a Daenerys Targaryen en la serie 'Juego de Tronos'?",
+          "answers": [
+            "Emilia Clarke",
+            "Sophie Turner",
+            "Maisie Williams",
+            "Kit Harington"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del actor que interpreta a Tony Stark en las películas de Marvel?",
+          "answers": [
+            "Robert Downey Jr.",
+            "Chris Hemsworth",
+            "Chris Evans",
+            "Mark Ruffalo"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se estrenó la película 'El Rey León' de Disney?",
+          "answers": [
+            "1994",
+            "1996",
+            "1998",
+            "2000"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál de las siguientes series de TV fue creada por Matt Groening?",
+          "answers": [
+            "Los Simpson",
+            "Padre de Familia",
+            "Bob Esponja",
+            "South Park"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del protagonista de la serie de TV 'The Walking Dead'?",
+          "answers": [
+            "Rick Grimes",
+            "Negan",
+            "Daryl Dixon",
+            "Glenn Rhee"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?",
+          "answers": [
+            "Johnny Depp",
+            "Orlando Bloom",
+            "Keanu Reeves",
+            "Brad Pitt"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se estrenó la película 'Titanic'?",
+          "answers": [
+            "1997",
+            "1995",
+            "1999",
+            "1996"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál de las siguientes películas de Pixar se estrenó primero?",
+          "answers": [
+            "Toy Story",
+            "Buscando a Nemo",
+            "Los Increíbles",
+            "Monsters, Inc."
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué serie de TV aparece el personaje de Walter White?",
+          "answers": [
+            "Breaking Bad",
+            "Friends",
+            "Juego de Tronos",
+            "Stranger Things"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?",
+          "answers": [
+            "Johnny Depp",
+            "Orlando Bloom",
+            "Geoffrey Rush",
+            "Keira Knightley"
+          ]
+        }
+      }
+    ],
+    "category": "Entretenimiento",
+    "color": "#C6F8E5"
+  },
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+          "answers": [
+            "Thomas Jefferson",
+            "Benjamin Franklin",
+            "George Washington",
+            "John Adams"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué año comenzó la Revolución Francesa?",
+          "answers": [
+            "1776",
+            "1789",
+            "1812",
+            "1799"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál fue la capital del Imperio Romano?",
+          "answers": [
+            "Roma",
+            "Atenas",
+            "Cartago",
+            "Constantinopla"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el líder de la Revolución Cubana?",
+          "answers": [
+            "Fidel Castro",
+            "Che Guevara",
+            "José Martí",
+            "Camilo Cienfuegos"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Quién fue el primer emperador romano?",
+          "answers": [
+            "Julio César",
+            "Nerón",
+            "Augusto",
+            "Constantino"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?",
+          "answers": [
+            "1919",
+            "1921",
+            "1914",
+            "1923"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál fue la fecha de la Declaración de Independencia de los Estados Unidos?",
+          "answers": [
+            "4 de julio de 1776",
+            "5 de septiembre de 1781",
+            "12 de junio de 1799",
+            "2 de agosto de 1805"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Quién fue el emperador de Francia durante el siglo XIX?",
+          "answers": [
+            "Napoleón Bonaparte",
+            "Napoleón III",
+            "Luis XVIII",
+            "Carlos X"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se produjo la caída del Muro de Berlín?",
+          "answers": [
+            "1989",
+            "1991",
+            "1993",
+            "1985"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Qué famoso líder político argentino fue conocido como 'El Che'?",
+          "answers": [
+            "Eva Perón",
+            "Juan Domingo Perón",
+            "Che Guevara",
+            "Mauricio Macri"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 3,
+          "question": "¿Quién fue el líder de la Revolución Mexicana?",
+          "answers": [
+            "Emiliano Zapata",
+            "Porfirio Díaz",
+            "Pancho Villa",
+            "Francisco Madero"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año comenzó la Guerra de Independencia de México?",
+          "answers": [
+            "1810",
+            "1821",
+            "1836",
+            "1848"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Cuál fue el nombre de la primera civilización de la historia?",
+          "answers": [
+            "Egipto",
+            "Mesopotamia",
+            "China",
+            "Grecia"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 3,
+          "question": "¿En qué año se promulgó la Constitución de los Estados Unidos?",
+          "answers": [
+            "1776",
+            "1789",
+            "1791",
+            "1787"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país nació Simón Bolívar?",
+          "answers": [
+            "Venezuela",
+            "Colombia",
+            "Argentina",
+            "Ecuador"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+          "answers": [
+            "Lenin",
+            "Stalin",
+            "Trotsky",
+            "Kerensky"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se firmó el Tratado de Tordesillas?",
+          "answers": [
+            "1494",
+            "1521",
+            "1556",
+            "1610"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el conquistador español que lideró la expedición que resultó en la conquista de México?",
+          "answers": [
+            "Hernán Cortés",
+            "Francisco Pizarro",
+            "Pedro de Alvarado",
+            "Diego de Almagro"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se proclamó la independencia de Argentina?",
+          "answers": [
+            "1816",
+            "1821",
+            "1835",
+            "1843"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 3,
+          "question": "¿Quién fue la primera mujer en recibir el Premio Nobel de la Paz?",
+          "answers": [
+            "Marie Curie",
+            "Rigoberta Menchú",
+            "Mother Teresa",
+            "Jane Addams"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Qué presidente de Estados Unidos fue conocido como 'el padre de la patria'?",
+          "answers": [
+            "George Washington",
+            "Abraham Lincoln",
+            "Thomas Jefferson",
+            "John F. Kennedy"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el líder de la Revolución Cubana?",
+          "answers": [
+            "Fidel Castro",
+            "Che Guevara",
+            "Camilo Cienfuegos",
+            "Raul Castro"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 3,
+          "question": "¿Quién fue el líder de la Revolución Mexicana?",
+          "answers": [
+            "Emiliano Zapata",
+            "Francisco Villa",
+            "Miguel Hidalgo",
+            "Francisco Madero"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se produjo la caída del Muro de Berlín?",
+          "answers": [
+            "1989",
+            "1991",
+            "1978",
+            "2000"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se produjo la caída del Muro de Berlín?",
+          "answers": [
+            "1989",
+            "1991",
+            "1979",
+            "2001"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál fue el nombre de la primera civilización de la historia?",
+          "answers": [
+            "Mesopotamia",
+            "Egipto",
+            "China",
+            "India"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué año se proclamó la independencia de Argentina?",
+          "answers": [
+            "1806",
+            "1816",
+            "1826",
+            "1836"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Quién fue el líder de la Revolución Mexicana?",
+          "answers": [
+            "Emiliano Zapata",
+            "Pancho Villa",
+            "Venustiano Carranza",
+            "Porfirio Díaz"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Quién fue el líder de la Revolución Mexicana?",
+          "answers": [
+            "Emiliano Zapata",
+            "Francisco Villa",
+            "Venustiano Carranza",
+            "Porfirio Díaz"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Quién fue el líder de la Revolución Mexicana?",
+          "answers": [
+            "Emiliano Zapata",
+            "Pancho Villa",
+            "Porfirio Díaz",
+            "Francisco Madero"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se proclamó la independencia de Argentina?",
+          "answers": [
+            "1816",
+            "1821",
+            "1830",
+            "1845"
+          ]
+        }
+      }
+    ],
+    "category": "Historia",
+    "color": "#FBF7D5"
+  },
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién pintó el famoso cuadro 'La noche estrellada'?",
+          "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Salvador Dalí"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Qué escritor colombiano ganó el Premio Nobel de Literatura en 1982?",
+          "answers": [
+            "Gabriel García Márquez",
+            "Julio Cortázar",
+            "Mario Vargas Llosa",
+            "Pablo Neruda"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Qué pintor español es conocido por su obra 'Guernica'?",
+          "answers": [
+            "Pablo Picasso",
+            "Diego Rivera",
+            "Salvador Dalí",
+            "Joan Miró"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién escribió 'Cien años de soledad'?",
+          "answers": [
+            "Gabriel García Márquez",
+            "Mario Vargas Llosa",
+            "Isabel Allende",
+            "Julio Cortázar"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué ciudad se encuentra el Museo del Louvre?",
+          "answers": [
+            "París",
+            "Londres",
+            "Nueva York",
+            "Madrid"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el autor de la famosa obra 'Don Quijote de la Mancha'?",
+          "answers": [
+            "Miguel de Cervantes",
+            "Gabriel García Márquez",
+            "Pablo Picasso",
+            "Frida Kahlo"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el famoso arquitecto catalán conocido por su estilo modernista?",
+          "answers": [
+            "Antoni Gaudí",
+            "Pablo Picasso",
+            "Diego Rivera",
+            "Salvador Dalí"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la famosa novela de Gabriel García Márquez que narra la historia de la familia Buendía en Macondo?",
+          "answers": [
+            "Cien años de soledad",
+            "El amor en los tiempos del cólera",
+            "Crónica de una muerte anunciada",
+            "El coronel no tiene quien le escriba"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Quién es el pintor español conocido por su serie de pinturas 'Las meninas'?",
+          "answers": [
+            "Pablo Picasso",
+            "Diego Velázquez",
+            "Salvador Dalí",
+            "Francisco de Goya"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "En la obra 'La casa de Bernarda Alba', ¿quién es el personaje principal?",
+          "answers": [
+            "Bernarda Alba",
+            "Adela",
+            "Poncia",
+            "María Josefa"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la novela más conocida de Miguel de Cervantes?",
+          "answers": [
+            "Don Quijote de la Mancha",
+            "La Celestina",
+            "La Regenta",
+            "El Lazarillo de Tormes"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre completo del famoso pintor conocido como Picasso?",
+          "answers": [
+            "Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso",
+            "Pablo Diego José Francisco de Paula Juan Nepomuceno de Jesús María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso",
+            "Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz",
+            "Pablo Diego José Francisco de Paula de Jesús María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 3,
+          "question": "¿Qué escritor español ganó el Premio Nobel de Literatura en 1977?",
+          "answers": [
+            "Gabriel García Márquez",
+            "Pablo Neruda",
+            "Miguel Delibes",
+            "Mario Vargas Llosa"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el autor de la famosa obra 'La metamorfosis'?",
+          "answers": [
+            "Franz Kafka",
+            "Gabriel García Márquez",
+            "Virginia Woolf",
+            "Eduardo Galeano"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién escribió el poema épico 'La Ilíada'?",
+          "answers": [
+            "Homero",
+            "Virgilio",
+            "Ovidio",
+            "Dante Alighieri"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el autor de 'El retrato de Dorian Gray'?",
+          "answers": [
+            "Oscar Wilde",
+            "William Shakespeare",
+            "Friedrich Nietzsche",
+            "Jane Austen"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Qué escritor y dramaturgo español es conocido por su obra 'La casa de Bernarda Alba'?",
+          "answers": [
+            "Federico García Lorca",
+            "Miguel de Cervantes",
+            "Gabriel García Márquez",
+            "Marcel Proust"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién es el autor de 'El principito'?",
+          "answers": [
+            "Antoine de Saint-Exupéry",
+            "Julio Cortázar",
+            "Gabriel García Márquez",
+            "Mario Vargas Llosa"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Quién pintó 'Las Meninas'?",
+          "answers": [
+            "Pablo Picasso",
+            "Diego Velázquez",
+            "Salvador Dalí",
+            "Francisco de Goya"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Qué pintor neerlandés es conocido por su serie de autorretratos?",
+          "answers": [
+            "Vincent van Gogh",
+            "Johannes Vermeer",
+            "Rembrandt",
+            "Pablo Picasso"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la obra más famosa del pintor italiano Leonardo da Vinci?",
+          "answers": [
+            "La Mona Lisa",
+            "La Última Cena",
+            "La Primavera",
+            "David"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién escribió la obra 'La Odisea'?",
+          "answers": [
+            "Homero",
+            "Platón",
+            "Aristóteles",
+            "Sófocles"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el autor de 'La noche estrellada'?",
+          "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Salvador Dalí"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Quién es el autor de 'La divina comedia'?",
+          "answers": [
+            "Miguel de Cervantes",
+            "Dante Alighieri",
+            "William Shakespeare",
+            "Julio Cortázar"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Quién fue el autor de 'El jardín de las delicias'?",
+          "answers": [
+            "Pablo Picasso",
+            "Hieronymus Bosch",
+            "Vincent van Gogh",
+            "Salvador Dalí"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién escribió el famoso libro 'Don Quijote de la Mancha'?",
+          "answers": [
+            "Miguel de Cervantes",
+            "Gabriel García Márquez",
+            "Pablo Picasso",
+            "Leonardo da Vinci"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país nació el pintor Salvador Dalí?",
+          "answers": [
+            "España",
+            "Francia",
+            "Italia",
+            "México"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el autor del 'Guernica'?",
+          "answers": [
+            "Pablo Picasso",
+            "Salvador Dalí",
+            "Diego Rivera",
+            "Vincent van Gogh"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el compositor de la famosa obra 'Las Cuatro Estaciones'?",
+          "answers": [
+            "Antonio Vivaldi",
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart",
+            "Johann Sebastian Bach"
+          ]
+        }
+      }
+    ],
+    "category": "Arte y Literatura",
+    "color": "#F9DED7"
+  },
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Qué planeta es conocido como el planeta rojo?",
+          "answers": [
+            "Marte",
+            "Júpiter",
+            "Venus",
+            "Mercurio"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Cuál es la parte del cuerpo humano encargada de bombear la sangre?",
+          "answers": [
+            "Cerebro",
+            "Pulmón",
+            "Corazón",
+            "Estómago"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+          "answers": [
+            "Oxígeno",
+            "Hierro",
+            "Silicio",
+            "Aluminio"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién descubrió la gravedad al observar una manzana caer de un árbol?",
+          "answers": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿Cuál es el animal terrestre más grande del mundo?",
+          "answers": [
+            "Elefante",
+            "Rinoceronte",
+            "Jirafa",
+            "Oso polar"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
+          "answers": [
+            "Fotosíntesis",
+            "Respiración",
+            "Digestión",
+            "Fermentación"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre de la galaxia en la que se encuentra la Tierra?",
+          "answers": [
+            "Vía Láctea",
+            "Andrómeda",
+            "Centauro",
+            "Sombrero"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la velocidad de la luz en el vacío?",
+          "answers": [
+            "299,792,458 m/s",
+            "300,000,000 m/s",
+            "200,000,000 m/s",
+            "250,000,000 m/s"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la temperatura en la que el agua hierve?",
+          "answers": [
+            "100 grados Celsius",
+            "50 grados Celsius",
+            "0 grados Celsius",
+            "200 grados Celsius"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+          "answers": [
+            "El hígado",
+            "La piel",
+            "El corazón",
+            "Los pulmones"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la capital de España?",
+          "answers": [
+            "Madrid",
+            "Barcelona",
+            "Valencia",
+            "Sevilla"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién fue el primer ser humano en llegar a la Luna?",
+          "answers": [
+            "Neil Armstrong",
+            "Buzz Aldrin",
+            "Michael Collins",
+            "Yuri Gagarin"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la fórmula química del agua?",
+          "answers": [
+            "H2O",
+            "CO2",
+            "NaCl",
+            "O2"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el ave nacional de Estados Unidos?",
+          "answers": [
+            "El águila calva",
+            "El cóndor",
+            "El búho",
+            "El pelícano"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Dónde se encuentra el ADN en las células?",
+          "answers": [
+            "En el núcleo",
+            "En el citoplasma",
+            "En la membrana celular",
+            "En las mitocondrias"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el animal más grande del mundo?",
+          "answers": [
+            "Ballena azul",
+            "Elefante africano",
+            "Abeja reina",
+            "León"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Qué científico propuso la teoría de la relatividad?",
+          "answers": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Stephen Hawking"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la principal causa del cambio climático en la actualidad?",
+          "answers": [
+            "La emisión de gases de efecto invernadero",
+            "La actividad volcánica",
+            "El deshielo de los polos",
+            "La deforestación"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+          "answers": [
+            "Nitrógeno",
+            "Oxígeno",
+            "Dióxido de carbono",
+            "Argón"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Dónde se encuentra el Monte Everest, la montaña más alta del mundo?",
+          "answers": [
+            "En Nepal y China",
+            "En Argentina",
+            "En Australia",
+            "En Estados Unidos"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
+          "answers": [
+            "Fotosíntesis",
+            "Respiración",
+            "Digestión",
+            "Evasión"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
+          "answers": [
+            "Fotosíntesis",
+            "Respiración",
+            "Digestión",
+            "Excreción"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Qué científico propuso la teoría de la relatividad?",
+          "answers": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Marie Curie"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
+          "answers": [
+            "Fotosíntesis",
+            "Respiración",
+            "Digestión",
+            "Transpiración"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
+          "answers": [
+            "Fotosíntesis",
+            "Respiración",
+            "Digestión",
+            "Transpiración"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la principal causa del cambio climático en la actualidad?",
+          "answers": [
+            "Emisiones de gases de efecto invernadero",
+            "Deforestación",
+            "Contaminación del aire",
+            "Uso de combustibles fósiles"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el ave nacional de Estados Unidos?",
+          "answers": [
+            "Águila calva",
+            "Colibrí",
+            "Loro",
+            "Buitre"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el ave nacional de Estados Unidos?",
+          "answers": [
+            "Águila calva",
+            "Colibrí",
+            "Búho",
+            "Pavo real"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el ave nacional de Estados Unidos?",
+          "answers": [
+            "Águila calva",
+            "Colibrí",
+            "Búho",
+            "Pavo"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Dónde se encuentra el río Amazonas, el río más caudaloso del mundo?",
+          "answers": [
+            "América del Sur",
+            "África",
+            "Asia",
+            "Europa"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el ave nacional de Estados Unidos?",
+          "answers": [
+            "Águila calva",
+            "Búho real",
+            "Colibrí",
+            "Cóndor"
+          ]
+        }
+      }
+    ],
+    "category": "Ciencia y Naturaleza",
+    "color": "#F5CDDE"
+  },
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué deporte se utiliza una raqueta para golpear una pelota?",
+          "answers": [
+            "Tenis",
+            "Fútbol",
+            "Baloncesto",
+            "Golf"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién es considerado el mejor jugador de baloncesto de todos los tiempos?",
+          "answers": [
+            "Michael Jordan",
+            "LeBron James",
+            "Kobe Bryant",
+            "Magic Johnson"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+          "answers": [
+            "1896",
+            "1900",
+            "1920",
+            "1860"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se originó el tango, un baile tradicional latinoamericano?",
+          "answers": [
+            "Argentina",
+            "Brasil",
+            "México",
+            "Colombia"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué país se originó el fútbol, el deporte más popular del mundo?",
+          "answers": [
+            "Brasil",
+            "Inglaterra",
+            "Argentina",
+            "España"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del principal personaje de la serie de televisión 'Breaking Bad'?",
+          "answers": [
+            "Walter White",
+            "Jesse Pinkman",
+            "Saul Goodman",
+            "Skyler White"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del famoso mago creado por la escritora J.K. Rowling?",
+          "answers": [
+            "Harry Potter",
+            "Ron Weasley",
+            "Hermione Granger",
+            "Severus Snape"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién escribió la obra 'Cien años de soledad'?",
+          "answers": [
+            "Gabriel García Márquez",
+            "Mario Vargas Llosa",
+            "Carlos Fuentes",
+            "Julio Cortázar"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué ciudad se encuentra el famoso estadio de fútbol Santiago Bernabéu?",
+          "answers": [
+            "Madrid",
+            "Barcelona",
+            "Buenos Aires",
+            "Roma"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué deporte se enfrentan dos luchadores en un ring?",
+          "answers": [
+            "Boxeo",
+            "Tenis",
+            "Baloncesto",
+            "Natación"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se originó el famoso baile de salsa?",
+          "answers": [
+            "Cuba",
+            "Colombia",
+            "Puerto Rico",
+            "República Dominicana"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué deporte se utiliza un bate para golpear una pelota?",
+          "answers": [
+            "Béisbol",
+            "Fútbol",
+            "Baloncesto",
+            "Tenis"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué ciudad se celebran los famosos carnavales de Río de Janeiro?",
+          "answers": [
+            "Río de Janeiro",
+            "São Paulo",
+            "Buenos Aires",
+            "Madrid"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién es el autor de la famosa novela 'Don Quijote de la Mancha'?",
+          "answers": [
+            "Miguel de Cervantes",
+            "William Shakespeare",
+            "Gabriel García Márquez",
+            "Friedrich Nietzsche"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del personaje principal de la serie 'Stranger Things'?",
+          "answers": [
+            "Eleven",
+            "Mike",
+            "Will",
+            "Dustin"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué deporte se utiliza un palo y una pelota para golpearla en un hoyo?",
+          "answers": [
+            "Golf",
+            "Tenis",
+            "Fútbol",
+            "Baloncesto"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿Cuál es el nombre del famoso pintor español conocido por su estilo surrealista?",
+          "answers": [
+            "Pablo Picasso",
+            "Salvador Dalí",
+            "Vincent van Gogh",
+            "Leonardo Da Vinci"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se inauguraron los primeros Juegos Olímpicos de la era moderna?",
+          "answers": [
+            "1896",
+            "1900",
+            "1920",
+            "1940"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre de la famosa cantante colombiana conocida por canciones como 'Hips Don't Lie' y 'La Tortura'?",
+          "answers": [
+            "Shakira",
+            "Beyoncé",
+            "Rihanna",
+            "Adele"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué año se inauguraron los primeros Juegos Olímpicos de la era moderna?",
+          "answers": [
+            "1896",
+            "1900",
+            "1912",
+            "1924"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del personaje principal de la serie de televisión 'The Simpsons'?",
+          "answers": [
+            "Homer",
+            "Bart",
+            "Lisa",
+            "Marge"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el apellido del presidente de Estados Unidos que fue conocido por su famosa frase 'Sí, podemos'?",
+          "answers": [
+            "Obama",
+            "Trump",
+            "Clinton",
+            "Bush"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué deporte se utiliza una raqueta para golpear una pelota?",
+          "answers": [
+            "Tenis",
+            "Fútbol",
+            "Baloncesto",
+            "Golf"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es el nombre del pintor español conocido por su cuadro 'Guernica'?",
+          "answers": [
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Leonardo da Vinci",
+            "Frida Kahlo"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 2,
+          "question": "¿En qué ciudad se encuentra la famosa torre inclinada de Pisa?",
+          "answers": [
+            "Roma",
+            "Florencia",
+            "Pisa",
+            "Milán"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué deporte se utilizan guantes y un casco protector?",
+          "answers": [
+            "Boxeo",
+            "Natación",
+            "Tenis",
+            "Fútbol"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 1,
+          "question": "¿En qué deporte se utiliza un casco protector y guantes?",
+          "answers": [
+            "Fútbol",
+            "Boxeo",
+            "Tenis",
+            "Natación"
+          ]
+        }
+      }
+    ],
+    "category": "Deportes y Ocio",
+    "color": "#E2BEF1"
+  }
+]

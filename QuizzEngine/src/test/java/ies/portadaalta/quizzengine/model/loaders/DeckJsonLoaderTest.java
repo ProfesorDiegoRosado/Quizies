@@ -16,6 +16,7 @@ class DeckJsonLoaderTest {
 
 
     private static final String JSON_FILENAME = "json/ChatGPT_trivial_database.json";
+    private static final String JSON_FILENAME_WITH_COLORS = "json/ChatGPT_trivial_database_with_colors.json";
     private static final String JSON_STRING_EXAMPLE = """
             [
               {
@@ -117,6 +118,26 @@ class DeckJsonLoaderTest {
         );
     }
 
+    @Test
+    void loadFromFilenameWithColors() throws IOException {
+        DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
+        String jsonFileAbsolutePath = new TestUtils().getFileFromResources(JSON_FILENAME_WITH_COLORS).getAbsolutePath();
+        Deck deck = deckJsonLoader.loadFromFilename("Dummy test deck", jsonFileAbsolutePath);
+
+        Set<Category> categories = deck.getCategories();
+
+        assertTrue(!categories.isEmpty());
+        assertTrue(categories.size()==6);
+        List<String> categoryNames = categories.stream().map(c -> c.getName()).toList();
+        categoryNames.containsAll(
+                List.of("Geografía",
+                        "Entretenimiento",
+                        "Historia",
+                        "Ciencia y Naturaleza",
+                        "Deportes y Ocio",
+                        "Arte y Literatura")
+        );
+    }
 
 
 }

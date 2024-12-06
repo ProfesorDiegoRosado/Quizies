@@ -2,6 +2,7 @@ package ies.portadaalta.quizzengine.model.loaders;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import ies.portadaalta.quizzengine.model.Category;
+import ies.portadaalta.quizzengine.model.Color;
 import ies.portadaalta.quizzengine.model.Deck;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import ies.portadaalta.quizzengine.model.Question;
@@ -55,7 +56,14 @@ public class DeckJsonLoader {
 
     private Category getCategoryFrom(JsonNode jsonDeckCategoryNode, int index) {
         String categoryString = jsonDeckCategoryNode.get("category").asText();
-        Category category = new Category(categoryString, categoryString, index);
+        JsonNode colorNode = jsonDeckCategoryNode.get("color");
+        Category category;
+        if (colorNode!=null) {
+            String hexColorString = colorNode.asText();
+            category = new Category(categoryString, categoryString, hexColorString);
+        } else {
+            category = new Category(categoryString, categoryString, index);
+        }
         return category;
     }
 

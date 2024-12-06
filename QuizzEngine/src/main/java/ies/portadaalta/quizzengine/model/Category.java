@@ -23,6 +23,12 @@ public class Category {
         this.color = color;
     }
 
+    public Category(String name, String description, String hexColor) {
+        this.name = name;
+        this.description = description;
+        this.color = new Color(hexColor);
+    }
+
     public Category(String name, String description, int defaultColorIndex) {
         this.name = name;
         this.description = description;
