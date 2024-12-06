@@ -11,7 +11,7 @@ This project will be the server of the system. It's a Spring Boot service with W
 To better understand the system architecture let's show a System Diagram.
 
 <div align='center'>
-  <img alt="QuizzEngine logo" src="../miscellaneous/diagram/system_diagram.png" >
+  <img alt="System Diagram" src="../miscellaneous/diagram/system_diagram.png" >
 </div>
 
 
