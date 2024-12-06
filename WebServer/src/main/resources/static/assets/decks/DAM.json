@@ -242,7 +242,8 @@
         ]
       }}
     ],
-    "category": "Base de Datos SQL"
+    "category": "BBDD",
+    "color": "#CCE1F2"
   },
   {
     "questions": [
@@ -467,7 +468,284 @@
         ]
       }}
     ],
-    "category": "Programación Java"
+    "category": "Java",
+    "color": "#C6F8E5"
+  },
+  {
+    "questions": [
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la función en Python que se utiliza para imprimir texto en la consola?",
+        "answers": [
+          "print()",
+          "echo()",
+          "display()",
+          "write()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el resultado de la operación 10 + 5 * 2 en Python?",
+        "answers": [
+          "20",
+          "30",
+          "15",
+          "10"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el operador utilizado para realizar una comparación de igualdad en Python?",
+        "answers": [
+          "==",
+          "=",
+          "!=",
+          "<>"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Qué tipo de dato es 'True' en Python?",
+        "answers": [
+          "Entero",
+          "Flotante",
+          "Booleano",
+          "Cadena de texto"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la función en Python que se utiliza para leer la entrada del usuario desde la consola?",
+        "answers": [
+          "print()",
+          "input()",
+          "read()",
+          "scan()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la función en Python que se utiliza para abrir un archivo?",
+        "answers": [
+          "open()",
+          "read()",
+          "write()",
+          "close()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es el resultado de la operación 10 // 3 en Python?",
+        "answers": [
+          "3",
+          "3.33",
+          "3.0",
+          "4"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el resultado de la operación 10 % 3 en Python?",
+        "answers": [
+          "3",
+          "1",
+          "0",
+          "10"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el operador utilizado para comentar una sola línea de código en Python?",
+        "answers": [
+          "#",
+          "//",
+          "/* */",
+          "---"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la función en Python que se utiliza para obtener la longitud de una lista?",
+        "answers": [
+          "len()",
+          "length()",
+          "size()",
+          "count()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el operador utilizado para la concatenación de cadenas en Python?",
+        "answers": [
+          "+",
+          "-",
+          "*",
+          "/"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el resultado de la operación 2 ** 3 en Python?",
+        "answers": [
+          "6",
+          "8",
+          "9",
+          "10"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el método utilizado para agregar un elemento al final de una lista en Python?",
+        "answers": [
+          "append",
+          "add",
+          "insert",
+          "extend"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la función en Python que se utiliza para convertir una cadena a mayúsculas?",
+        "answers": [
+          "lower()",
+          "upper()",
+          "capitalize()",
+          "title()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es el tipo de dato que se utiliza para almacenar números enteros en Python?",
+        "answers": [
+          "float",
+          "int",
+          "str",
+          "bool"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 2,
+        "question": "¿Cuál es la palabra clave utilizada para definir una función en Python?",
+        "answers": [
+          "definir",
+          "funcion",
+          "def",
+          "crear"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la función en Python que se utiliza para convertir una cadena a un número entero?",
+        "answers": [
+          "str()",
+          "int()",
+          "float()",
+          "char()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el método utilizado para eliminar un elemento de una lista en Python?",
+        "answers": [
+          "remove()",
+          "pop()",
+          "delete()",
+          "clear()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la palabra clave utilizada para iniciar un bucle 'for' en Python?",
+        "answers": [
+          "while",
+          "for",
+          "loop",
+          "iterate"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 3,
+        "question": "¿Cuál es la palabra clave utilizada para iniciar un bucle 'while' en Python?",
+        "answers": [
+          "para",
+          "mientras",
+          "bucle",
+          "while"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es el método utilizado para ordenar una lista en Python?",
+        "answers": [
+          "sort()",
+          "order()",
+          "arrange()",
+          "organize()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la palabra clave utilizada para definir una función en Python?",
+        "answers": [
+          "definir",
+          "def",
+          "funcion",
+          "crear"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la palabra clave utilizada para importar un módulo en Python?",
+        "answers": [
+          "include",
+          "import",
+          "require",
+          "using"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la palabra clave utilizada para salir de un bucle en Python?",
+        "answers": [
+          "continue",
+          "break",
+          "return",
+          "pass"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la palabra clave utilizada para manejar excepciones en Python?",
+        "answers": [
+          "try",
+          "except",
+          "catch",
+          "handle"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 0,
+        "question": "¿Cuál es la función en Python que se utiliza para obtener el valor absoluto de un número?",
+        "answers": [
+          "abs()",
+          "value()",
+          "absolute()",
+          "positive()"
+        ]
+      }},
+      {"question": {
+        "rightAnswer": 1,
+        "question": "¿Cuál es la función en Python que se utiliza para obtener la fecha y hora actuales?",
+        "answers": [
+          "date.now()",
+          "datetime.now()",
+          "time.now()",
+          "current_time()"
+        ]
+      }}
+    ],
+    "category": "Python",
+    "color": "#FBF7D5"
   },
   {
     "questions": [
@@ -782,7 +1060,8 @@
         ]
       }}
     ],
-    "category": "Programación Android"
+    "category": "Android",
+    "color": "#F9DED7"
   },
   {
     "questions": [
@@ -1077,7 +1356,8 @@
         ]
       }}
     ],
-    "category": "Sistema Operativo Linux"
+    "category": "Linux",
+    "color": "#F5CDDE"
   },
   {
     "questions": [
@@ -1352,6 +1632,7 @@
         ]
       }}
     ],
-    "category": "Fundamentos de Redes"
+    "category": "Redes",
+    "color": "#E2BEF1"
   }
 ]
