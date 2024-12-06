@@ -2,9 +2,6 @@
 
 The main goal of this project is to create a database of `Question`s using some generative AI tools, starting with ChatGPT.
 
-<div align='center'>
-  <img alt="QuizzEngine logo" src="readme/QuizzEngine_logo.svg" width="250">
-</div>
 
 ## Description
 
