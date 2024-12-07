@@ -13,12 +13,12 @@ It's been thought to be a Trivial like question game. It also has in mind to be 
 As commented, this project wants to be modular and flexible. That's why is built with subprojects.
 
 There are several projects:
- * QuizzEngine: library to load questions from backend.
- * GameEngine: The engine to run the game. It's flexible enough to allow diferent kind of games but still pretty inmature.
- * chatGPTQuestions: this project was build to create the first batch of questions to work with. It's uploaded for educational purposes but it's not needed to run the game.
- * WebServer: Spring Boot web server with STOMP protocol on top of web sockets.
-   * WebServer -> Web client: Inside the WebServer project we have a small web client to start with and testing STOMP.
- * AndroidClient: Android client on kotlin an using jetpack compose for the UI.
+ * **QuizzEngine**: library to load questions from backend. Persistency options so far are: json (main/default option), csv, sqlite and xml files).
+ * **GameEngine**: The engine to run the game. It's flexible enough to allow diferent kind of games but still pretty inmature.
+ * **chatGPTQuestions**: this project was build to create the first batch of questions to work with. It's uploaded for educational purposes but it's not needed to run the game.
+ * **WebServer**: Spring Boot web server with STOMP protocol on top of web sockets.
+   * **WebServer** -> Web client: Inside the WebServer project we have a small web client to start with and testing STOMP.
+ * **AndroidClient**: Android client on kotlin an using jetpack compose for the UI.
 
 
 ## System Diagram
