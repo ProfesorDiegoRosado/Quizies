@@ -3,8 +3,6 @@ package ies.portadata.WebServer.stomp.messages;
 import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Question;
 
-import java.util.Collection;
-import java.util.List;
 import java.util.Set;
 
 public class GameEventOutputMessage {

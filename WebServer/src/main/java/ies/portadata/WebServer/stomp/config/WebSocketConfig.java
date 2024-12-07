@@ -7,7 +7,6 @@ import ies.portadaalta.quizzengine.model.loaders.DeckJsonLoader;
 import ies.portadata.WebServer.WebServerApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.env.Environment;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
 import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
@@ -46,12 +45,12 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     }
 
     @Bean
-    public Deck getDeck() throws IOException {
+    public Deck getDeck() {
         return deck;
     }
 
     @Bean
-    public GameEngine getGameEngine() throws IOException {
+    public GameEngine getGameEngine() {
         Player player = new Player("Player1", deck.getCategories());
         GameEngine gameEngine = new GameEngine("Test Game", deck, List.of(player));
         return gameEngine;
@@ -59,7 +58,6 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
 
     private static File getFileFromResources(String filename) {
-        //ClassLoader classLoader = getClass().getClassLoader();
         ClassLoader classLoader = WebServerApplication.class.getClassLoader();
         File file = new File(classLoader.getResource(filename).getFile());
         return file;

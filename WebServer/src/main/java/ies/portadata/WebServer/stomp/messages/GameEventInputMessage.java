@@ -5,8 +5,6 @@ import java.util.List;
 
 public class GameEventInputMessage {
 
-    //private List<String> categories;
-
     private String event;
     private List<String> arguments;
 
