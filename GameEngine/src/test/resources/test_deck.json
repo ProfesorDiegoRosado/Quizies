@@ -1,0 +1,60 @@
+[
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál es la capital de España?",
+          "answers": [
+            "Madrid",
+            "Barcelona",
+            "Valencia",
+            "Sevilla"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿En qué país se encuentra la Torre Eiffel?",
+          "answers": [
+            "Francia",
+            "Italia",
+            "Alemania",
+            "España"
+          ]
+        }
+      }
+    ],
+    "category": "Geografía"
+  },
+  {
+    "questions": [
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Cuál de las siguientes películas de Pixar se estrenó primero?",
+          "answers": [
+            "Toy Story",
+            "Buscando a Nemo",
+            "Los Increíbles",
+            "Up"
+          ]
+        }
+      },
+      {
+        "question": {
+          "rightAnswer": 0,
+          "question": "¿Quién es el protagonista de la serie de TV 'Breaking Bad'?",
+          "answers": [
+            "Walter White",
+            "Jesse Pinkman",
+            "Saul Goodman",
+            "Skyler White"
+          ]
+        }
+      }
+    ],
+    "category": "Entretenimiento"
+  }
+]

@@ -5,7 +5,6 @@ import ies.portadaalta.quizzengine.model.Deck;
 import ies.portadaalta.quizzengine.model.Question;
 
 import java.util.List;
-import java.util.Scanner;
 
 public class GameEngine extends GameEnginePublisher {
 

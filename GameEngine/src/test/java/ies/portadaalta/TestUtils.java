@@ -1,4 +1,4 @@
-package ies.portadaalta.quizzengine;
+package ies.portadaalta;
 
 import java.io.File;
 
@@ -11,5 +11,6 @@ public class TestUtils {
         File file = new File(classLoader.getResource(filename).getFile());
         return file;
     }
+
 
 }
