@@ -488,6 +488,11 @@ fun Copyright(modifier: Modifier = Modifier) {
             modifier.fillMaxWidth(),
             textAlign = TextAlign.Center
         )
+        Text(
+            text = "Logo Designed by Freepik",
+            modifier.fillMaxWidth(),
+            textAlign = TextAlign.Center
+        )
     }
 }
 
