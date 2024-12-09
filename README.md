@@ -7,6 +7,8 @@ It's been thought to be a Trivial like question game. It also has in mind to be 
   <img alt="Quizies logo" src="miscellaneous/logo/logo.png" width="250">
 </div>
 
+Note: Designed by Freepik
+
 
 ## Description
 
