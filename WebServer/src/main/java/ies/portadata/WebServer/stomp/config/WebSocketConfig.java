@@ -12,8 +12,7 @@ import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBr
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.List;
 
 @Configuration
@@ -26,10 +25,11 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         String jsonDeckPath = "static/assets/decks/";
         String jsonFilename = System.getenv("JSON_DECK_FILENAME");
         String fullPathName = jsonDeckPath + jsonFilename;
-        File deckFile = getFileFromResources(fullPathName);
+        BufferedReader deckBufferedReader = getFileFromResources(fullPathName);
 
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
-        Deck deck = deckJsonLoader.loadFromFile("Deck de prueba", deckFile);;
+        String fileContent = String.join("\n",deckBufferedReader.lines().toList());
+        Deck deck = deckJsonLoader.loadFromString("Deck de prueba", fileContent);
         this.deck = deck;
 
     }
@@ -57,9 +57,11 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     }
 
 
-    private static File getFileFromResources(String filename) {
+    private static BufferedReader getFileFromResources(String filename) {
         ClassLoader classLoader = WebServerApplication.class.getClassLoader();
-        File file = new File(classLoader.getResource(filename).getFile());
-        return file;
+        InputStream inputStream = classLoader.getResourceAsStream(filename);
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+        return bufferedReader;
     }
+
 }
