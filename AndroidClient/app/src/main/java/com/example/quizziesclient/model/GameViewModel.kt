@@ -12,6 +12,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import okhttp3.ConnectionSpec
+import okhttp3.OkHttpClient
 import ua.naiksoftware.stomp.Stomp
 import ua.naiksoftware.stomp.StompClient
 import ua.naiksoftware.stomp.dto.StompMessage
@@ -22,15 +24,29 @@ private const val QUESTION_EVENT_NAME_TYPE = "Question"
 
 class GameViewModel: ViewModel() {
 
+    //val SERVER = "alumnoportada.com.es"
+    val SERVER = "10.0.2.2"
+
     val TAG: String = "MainActivity"
     val compositeDisposable: CompositeDisposable = CompositeDisposable()
     private val _uiState = MutableStateFlow( GameUiState() )
     // Backing property to avoid state updates from other classes
     val uiState: StateFlow<GameUiState> = _uiState.asStateFlow() // export as read-only variable
 
+
+    /*
+    val okHttpClient: OkHttpClient = OkHttpClient.Builder()
+        .connectionSpecs(listOf(ConnectionSpec.CLEARTEXT))
+        .build()
+     */
+
+    //val okHttpClient: OkHttpClient = OkHttpClient(builder)
+
     var mStompClient: StompClient = Stomp.over(
         Stomp.ConnectionProvider.OKHTTP,
-        "ws://10.0.2.2:8080/quizies"
+        "ws://$SERVER:8080/quizies" //,
+        //null, // headers
+        //okHttpClient
     )
 
     init {
